@@ -1,258 +1,404 @@
-# Energy & Clean-Water Control — Image & View Generation Authority
+# Energy & Clean-Water Control — IMAGE.md
+## Image & Multi-Angle Generation Authority
 
-## 1. Purpose
+This file tells an AI, designer, architect, renderer, or human exactly how **Energy & Clean-Water Control** must look from every useful direction while remaining the same physical space in the approved 5.5-hectare farm.
 
-This file is the image-generation authority for **Energy & Clean-Water Control**. Use it whenever creating a top view, blueprint-style image, aerial oblique, side view, eye-level view, close detail, night/emergency view, or a later image from another angle.
+# 1. READ BEFORE GENERATING
 
-The goal is that every image looks like the **same physical space**, only viewed from a different camera position.
+Read these linked files **before making any image**.
 
-## 2. Space identity
+## Space-specific documents
+- [Space README](README.md)
+- [Architecture](ARCHITECTURE.md)
+- [Space & L1 Coordinates](SPACE.md)
+- [Design Rules](DESIGN.md)
+- [Detailed Description](DETAILS.md)
+- [Utilities & Infrastructure](UTILITIES.md)
+- [Operations](OPERATIONS.md)
+- [Capacity](CAPACITY.md)
+- [Production / Service Output](PRODUCTION.md)
+- [Inputs & Outputs](INPUTS_OUTPUTS.md)
+- [Costs](COSTS.md)
+- [Economics](ECONOMICS.md)
+- [Business / Value Strategy](BUSINESS.md)
 
+## Farm-wide spatial/image authorities
+- [Root Farm SPACE.md](../../SPACE.md)
+- [L1 Coordinate Master Plan](../../docs/COORDINATE_MASTER_PLAN_L1.md)
+- [Space Registry](../../docs/SPACE_REGISTRY.md)
+- [Spatial Design Standard](../../docs/SPATIAL_DESIGN_STANDARD.md)
+- [Image & Blueprint Standard](../../docs/IMAGE_BLUEPRINT_STANDARD.md)
+- [Master Decisions](../../docs/DECISIONS.md)
+- [Farm Master Plan Summary](../../docs/MASTER_PLAN_SUMMARY.md)
+
+## Relevant agent skills
+- [`eco-farm-energy-water-control-space`](../../.agents/skills/eco-farm-energy-water-control-space/SKILL.md)
+- [`eco-farm-energy-electrical`](../../.agents/skills/eco-farm-energy-electrical/SKILL.md)
+- [`eco-farm-electrical-lighting-cctv`](../../.agents/skills/eco-farm-electrical-lighting-cctv/SKILL.md)
+- [`eco-farm-water-treatment-space`](../../.agents/skills/eco-farm-water-treatment-space/SKILL.md)
+
+If any image instruction conflicts with a higher authority above, follow the higher authority and correct the image.
+
+# 2. SPACE IDENTITY
+
+- **Space:** Energy & Clean-Water Control
 - **Parent area:** 800 m²
-- **L1 spatial authority:** South service block, X 84.467–99.549 m; Y 12.828–65.871 m.
-- **Neighbors:** processing west; quarantine east; perimeter service road south; vegetables north
-- **Visual character:** a compact, raised and protected farm utility hub for electricity, control, pumping and clean-water treatment
+- **L1 authority:** south service block, X 84.467–99.549 m; Y 12.828–65.871 m
+- **North context:** vegetable zone north
+- **South context:** perimeter service road south
+- **East context:** quarantine/emergency zone east
+- **West context:** processing/storage hub west
 
-Read before generating:
-- `../../docs/COORDINATE_MASTER_PLAN_L1.md`
-- `../../docs/IMAGE_BLUEPRINT_STANDARD.md`
-- `SPACE.md`
-- `ARCHITECTURE.md`
-- `DESIGN.md`
-- `DETAILS.md`
-- linked skills in this folder's `README.md`
+## Visual identity — what makes this space recognizable
+- compact protected utility building/compound
+- battery/inverter/control section
+- water-treatment/pump section physically separated from live electrical area
+- main distribution/control character
+- monitoring/CCTV/network interfaces
+- raised flood-safe technical installation
 
-## 3. Global continuity rules
+## Never show
+- loose electrical equipment in fields
+- wet water equipment mixed with live switchgear
+- residential look
+- low/flood-prone electrical cabinets
+- random solar panels occupying prime crops
+
+# 3. GLOBAL CONTINUITY RULES
 
 - Preserve the accepted 5.5 ha master plan and L1 topology.
 - One image = one angle/view unless a composite sheet is explicitly requested.
 - Rotate the camera, never the farm plan, when a different angle is requested.
-- Keep roads, buildings, crop rows, water edges, yards, utility areas and neighboring zones in the same positions across all images.
-- Use realistic Bangladesh rural/agro-industrial materials, vegetation, weather and scale.
+- Keep roads, buildings, crop rows, water edges, yards, utilities and neighboring zones in the same positions across all images.
+- Use realistic Bangladesh rural/agro-industrial materials, vegetation, climate and scale.
 - Show operational logic first: access, drainage, safety, biosecurity, maintenance and utility relationships.
 - Do not invent extra land, ponds, buildings, roads or decorative features.
 
-## 4. Required visual elements
+## Coordinate orientation rule
+- North, south, east and west always mean the farm's real L1 orientation.
+- "Left/right" is relative only to the current camera; never use left/right to relocate a zone.
+- If an earlier generated image conflicts with the L1 plan, fix the new image toward the L1 plan.
 
-- utility building/compound
-- solar/inverter/battery control character
-- water-treatment/pump side visibly separated from electrical side
-- organized switchgear/control appearance
-- service access and monitoring/security
+# 4. TRUE TOP-DOWN VIEW
 
-## 5. Prohibited visual errors
+## Camera
+- true vertical or near-orthographic
+- north up
+- show the full parent space boundary
+- show at least a small strip of each relevant neighboring edge so orientation is obvious
 
-- random solar/electrical equipment thrown into fields
-- wet treatment equipment mixed unsafely with live electrical panels
-- residential appearance
-- low flooded equipment
+## Must show in this specific top view
+- compact protected utility building/compound
+- battery/inverter/control section
+- water-treatment/pump section physically separated from live electrical area
+- main distribution/control character
+- monitoring/CCTV/network interfaces
+- raised flood-safe technical installation
+- north edge context: vegetable zone north
+- south edge context: perimeter service road south
+- east edge context: quarantine/emergency zone east
+- west edge context: processing/storage hub west
+- all main paths/roads/service lines that define internal organization
+- drainage/water/yard/crop-row structure relevant to the space
+- no perspective distortion that makes the zone appear larger/smaller than neighboring blocks
 
-# 6. Core image set
+## Detailed top-view prompt
+> Generate a **true top-down, north-up** image of **Energy & Clean-Water Control** within the 5.5-hectare Self-Sufficient Eco Farm. Use the approved L1 parent space: south service block, X 84.467–99.549 m; Y 12.828–65.871 m. Show the complete zone boundary and enough surrounding context to identify all four sides. North: vegetable zone north. South: perimeter service road south. East: quarantine/emergency zone east. West: processing/storage hub west. Inside the space, clearly show compact protected utility building/compound; battery/inverter/control section; water-treatment/pump section physically separated from live electrical area; main distribution/control character; monitoring/CCTV/network interfaces; raised flood-safe technical installation. Show realistic paths, maintenance access, drainage and utility logic. Do not show loose electrical equipment in fields; wet water equipment mixed with live switchgear; residential look; low/flood-prone electrical cabinets; random solar panels occupying prime crops. The result must look like the same physical place that can later be rendered from NW, NE, SE, SW and ground-level views.
 
-A complete visual study of this space should be able to generate the following independent images.
+# 5. BLUEPRINT / TECHNICAL TOP VIEW
 
-## 6.1 True top-down view
+## Use for
+- architectural plan
+- farm-space blueprint
+- measured diagram
+- drainage/water overlay
+- electrical/CCTV overlay
+- production-layout diagram
+- access/biosecurity plan
+
+## Must include
+- north arrow
+- parent-space label and area
+- L1 coordinate limits or control references
+- internal functional subareas
+- entrances/access paths
+- utility/drainage interfaces where relevant
+- neighboring-zone labels on visible edges
+- legend
+- revision/status: **PROVISIONAL L1**
+- approved dimensions only; all new detailed dimensions marked **PROVISIONAL**
+
+## Blueprint prompt
+> Draw a clean technical top-view blueprint of **Energy & Clean-Water Control** using the accepted L1 parent boundary (south service block, X 84.467–99.549 m; Y 12.828–65.871 m). North must be up. Show each internal function, access path, drainage/utility interface and neighboring edge. Use readable symbols and a legend. Mark all unapproved detail dimensions PROVISIONAL. Do not invent new buildings, ponds, roads or land outside the approved parent area.
+
+# 6. FOUR AERIAL OBLIQUE ANGLES
+
+### North-West aerial oblique
 
 **Camera**
-- directly above or near-orthographic
-- north up whenever practical
-- full parent space visible
-- enough neighboring context to identify the correct block/ring
+- elevated camera above the north-west side/corner of the parent space
+- look south-east
+- approximately 25°–45° downward
+- wide enough to include the whole space or at least 80–90% plus the two relevant neighboring edges
 
-**Image must prove**
-- parent-space boundary and proportions
-- internal organization
-- service/access paths
-- water/drainage or yard/crop/building pattern relevant to this space
-- correct neighboring systems: processing west; quarantine east; perimeter service road south; vegetables north
+**Must show**
+- vegetable zone north
+- processing/storage hub west
+- the complete main internal organization of **Energy & Clean-Water Control**
+- compact protected utility building/compound
+- battery/inverter/control section
+- water-treatment/pump section physically separated from live electrical area
+- main distribution/control character
+- visible access/service logic
+- believable height differences, roof/canopy/yard/field depth
+- correct far-side background so the image can be matched to the other angles
 
-**Top-view prompt**
-> Create a true top-down, north-up image of **Energy & Clean-Water Control** inside the 5.5-hectare Self-Sufficient Eco Farm. Preserve the accepted L1 layout and neighboring relationships. Show the complete parent area and its internal organization. The space must read as a compact, raised and protected farm utility hub for electricity, control, pumping and clean-water treatment. Include: utility building/compound; solar/inverter/battery control character; water-treatment/pump side visibly separated from electrical side; organized switchgear/control appearance. Do not add: random solar/electrical equipment thrown into fields; wet treatment equipment mixed unsafely with live electrical panels; residential appearance.
+**Prompt**
+> Generate a photorealistic **North-West aerial oblique** of **Energy & Clean-Water Control**, camera above the north-west side looking south-east. Preserve the exact same L1 space arrangement used in all other views. Near edge: vegetable zone north. Adjacent edge: processing/storage hub west. Clearly show compact protected utility building/compound; battery/inverter/control section; water-treatment/pump section physically separated from live electrical area; main distribution/control character; monitoring/CCTV/network interfaces. Include realistic access, drainage, maintenance and safety details. Do not show loose electrical equipment in fields; wet water equipment mixed with live switchgear; residential look; low/flood-prone electrical cabinets.
 
-## 6.2 Blueprint / technical top view
+### North-East aerial oblique
 
-Use when the user asks for a blueprint, plan, technical map, measured diagram, drainage/electrical overlay or labeled spatial image.
+**Camera**
+- elevated camera above the north-east side/corner of the parent space
+- look south-west
+- approximately 25°–45° downward
+- wide enough to include the whole space or at least 80–90% plus the two relevant neighboring edges
 
-**Requirements**
-- north arrow
-- L1 boundary/coordinate reference
-- parent area
-- roads/access edges
-- important subspaces
-- clean vs dirty/service flows where relevant
-- approved dimensions only
-- mark unapproved detail dimensions **PROVISIONAL**
-- use symbols/legend for systems rather than photorealistic ambiguity
+**Must show**
+- vegetable zone north
+- quarantine/emergency zone east
+- the complete main internal organization of **Energy & Clean-Water Control**
+- compact protected utility building/compound
+- battery/inverter/control section
+- water-treatment/pump section physically separated from live electrical area
+- main distribution/control character
+- visible access/service logic
+- believable height differences, roof/canopy/yard/field depth
+- correct far-side background so the image can be matched to the other angles
 
-## 6.3 North-West aerial oblique
+**Prompt**
+> Generate a photorealistic **North-East aerial oblique** of **Energy & Clean-Water Control**, camera above the north-east side looking south-west. Preserve the exact same L1 space arrangement used in all other views. Near edge: vegetable zone north. Adjacent edge: quarantine/emergency zone east. Clearly show compact protected utility building/compound; battery/inverter/control section; water-treatment/pump section physically separated from live electrical area; main distribution/control character; monitoring/CCTV/network interfaces. Include realistic access, drainage, maintenance and safety details. Do not show loose electrical equipment in fields; wet water equipment mixed with live switchgear; residential look; low/flood-prone electrical cabinets.
 
-**Camera:** elevated at the north-west, looking south-east, approximately 25°–45° downward.
+### South-East aerial oblique
 
-**Use it to show**
-- north and west boundaries
-- internal depth
-- massing/row pattern
-- access/circulation
-- relationship to north/west neighbors
+**Camera**
+- elevated camera above the south-east side/corner of the parent space
+- look north-west
+- approximately 25°–45° downward
+- wide enough to include the whole space or at least 80–90% plus the two relevant neighboring edges
 
-**Prompt addition**
-> View from the north-west corner looking south-east. Keep the full geometry unchanged and make the north and west relationships easy to understand.
+**Must show**
+- perimeter service road south
+- quarantine/emergency zone east
+- the complete main internal organization of **Energy & Clean-Water Control**
+- compact protected utility building/compound
+- battery/inverter/control section
+- water-treatment/pump section physically separated from live electrical area
+- main distribution/control character
+- visible access/service logic
+- believable height differences, roof/canopy/yard/field depth
+- correct far-side background so the image can be matched to the other angles
 
-## 6.4 North-East aerial oblique
+**Prompt**
+> Generate a photorealistic **South-East aerial oblique** of **Energy & Clean-Water Control**, camera above the south-east side looking north-west. Preserve the exact same L1 space arrangement used in all other views. Near edge: perimeter service road south. Adjacent edge: quarantine/emergency zone east. Clearly show compact protected utility building/compound; battery/inverter/control section; water-treatment/pump section physically separated from live electrical area; main distribution/control character; monitoring/CCTV/network interfaces. Include realistic access, drainage, maintenance and safety details. Do not show loose electrical equipment in fields; wet water equipment mixed with live switchgear; residential look; low/flood-prone electrical cabinets.
 
-**Camera:** elevated at the north-east, looking south-west.
+### South-West aerial oblique
 
-**Use it to show**
-- east and north boundaries
-- rear/service massing or orchard/perimeter relationships where applicable
-- depth toward west/south
+**Camera**
+- elevated camera above the south-west side/corner of the parent space
+- look north-east
+- approximately 25°–45° downward
+- wide enough to include the whole space or at least 80–90% plus the two relevant neighboring edges
 
-**Prompt addition**
-> View from the north-east looking south-west. Preserve all object locations from the master layout and reveal the north/east edge relationships.
+**Must show**
+- perimeter service road south
+- processing/storage hub west
+- the complete main internal organization of **Energy & Clean-Water Control**
+- compact protected utility building/compound
+- battery/inverter/control section
+- water-treatment/pump section physically separated from live electrical area
+- main distribution/control character
+- visible access/service logic
+- believable height differences, roof/canopy/yard/field depth
+- correct far-side background so the image can be matched to the other angles
 
-## 6.5 South-East aerial oblique
+**Prompt**
+> Generate a photorealistic **South-West aerial oblique** of **Energy & Clean-Water Control**, camera above the south-west side looking north-east. Preserve the exact same L1 space arrangement used in all other views. Near edge: perimeter service road south. Adjacent edge: processing/storage hub west. Clearly show compact protected utility building/compound; battery/inverter/control section; water-treatment/pump section physically separated from live electrical area; main distribution/control character; monitoring/CCTV/network interfaces. Include realistic access, drainage, maintenance and safety details. Do not show loose electrical equipment in fields; wet water equipment mixed with live switchgear; residential look; low/flood-prone electrical cabinets.
 
-**Camera:** elevated at the south-east, looking north-west.
+# 7. FOUR CARDINAL SIDE / GROUND VIEWS
 
-**Use it to show**
-- southern operational/service frontage
-- east-side adjacency
-- route toward internal production zones
+### North-side view — camera north, looking south
 
-**Prompt addition**
-> View from the south-east looking north-west. Emphasize the correct southern/eastern working edges without relocating any structures or fields.
+**Camera**
+- place camera just north of the parent space
+- look toward the opposite cardinal direction
+- human eye-level or slightly elevated 2–6 m if needed to read the whole frontage
+- do not rotate/mirror the farm geometry
 
-## 6.6 South-West aerial oblique
+**This angle must show**
+- vegetable zone north
+- the near-side boundary and access condition
+- at least 3–5 of the space's permanent/functional identity elements
+- believable depth through the space toward the far-side neighbor
+- drainage/utility/service clues where visible
+- scale cues such as people, farm equipment, crop rows, doors, fences or roads appropriate to the space
 
-**Camera:** elevated at the south-west, looking north-east.
+**Side-view prompt**
+> Create the **north-side view — camera north, looking south** of **Energy & Clean-Water Control** in the 5.5-hectare Self-Sufficient Eco Farm. Preserve the accepted L1 layout. vegetable zone north. Show the parent space as compact protected utility building/compound with these core features: battery/inverter/control section; water-treatment/pump section physically separated from live electrical area; main distribution/control character; monitoring/CCTV/network interfaces. Keep neighboring zones and access in their correct positions. Avoid loose electrical equipment in fields; wet water equipment mixed with live switchgear; residential look. Use realistic Bangladesh farm materials, scale, drainage, safety and working conditions.
 
-**Use it to show**
-- arrival/clean access when relevant
-- western internal access/buffer
-- relationship toward north/east
+### South-side view — camera south, looking north
 
-**Prompt addition**
-> View from the south-west looking north-east. Preserve the exact same space arrangement and show the west/south access logic clearly.
+**Camera**
+- place camera just south of the parent space
+- look toward the opposite cardinal direction
+- human eye-level or slightly elevated 2–6 m if needed to read the whole frontage
+- do not rotate/mirror the farm geometry
 
-# 7. Cardinal ground/side views
+**This angle must show**
+- perimeter service road south
+- the near-side boundary and access condition
+- at least 3–5 of the space's permanent/functional identity elements
+- believable depth through the space toward the far-side neighbor
+- drainage/utility/service clues where visible
+- scale cues such as people, farm equipment, crop rows, doors, fences or roads appropriate to the space
 
-These views make "show me the other side" deterministic.
+**Side-view prompt**
+> Create the **south-side view — camera south, looking north** of **Energy & Clean-Water Control** in the 5.5-hectare Self-Sufficient Eco Farm. Preserve the accepted L1 layout. perimeter service road south. Show the parent space as compact protected utility building/compound with these core features: battery/inverter/control section; water-treatment/pump section physically separated from live electrical area; main distribution/control character; monitoring/CCTV/network interfaces. Keep neighboring zones and access in their correct positions. Avoid loose electrical equipment in fields; wet water equipment mixed with live switchgear; residential look. Use realistic Bangladesh farm materials, scale, drainage, safety and working conditions.
 
-## 7.1 North-side view — camera on north side looking south
+### East-side view — camera east, looking west
 
-look south from vegetable side, showing compact utility mass and no encroachment into clean crops
+**Camera**
+- place camera just east of the parent space
+- look toward the opposite cardinal direction
+- human eye-level or slightly elevated 2–6 m if needed to read the whole frontage
+- do not rotate/mirror the farm geometry
 
-**Prompt addition**
-> Ground-level or slightly elevated camera on the north side, looking south across **Energy & Clean-Water Control**. Preserve the L1 arrangement and show the north-facing edge correctly.
+**This angle must show**
+- quarantine/emergency zone east
+- the near-side boundary and access condition
+- at least 3–5 of the space's permanent/functional identity elements
+- believable depth through the space toward the far-side neighbor
+- drainage/utility/service clues where visible
+- scale cues such as people, farm equipment, crop rows, doors, fences or roads appropriate to the space
 
-## 7.2 South-side view — camera on south side looking north
+**Side-view prompt**
+> Create the **east-side view — camera east, looking west** of **Energy & Clean-Water Control** in the 5.5-hectare Self-Sufficient Eco Farm. Preserve the accepted L1 layout. quarantine/emergency zone east. Show the parent space as compact protected utility building/compound with these core features: battery/inverter/control section; water-treatment/pump section physically separated from live electrical area; main distribution/control character; monitoring/CCTV/network interfaces. Keep neighboring zones and access in their correct positions. Avoid loose electrical equipment in fields; wet water equipment mixed with live switchgear; residential look. Use realistic Bangladesh farm materials, scale, drainage, safety and working conditions.
 
-look north from service-road side, emphasizing protected service access and raised critical equipment
+### West-side view — camera west, looking east
 
-**Prompt addition**
-> Ground-level or slightly elevated camera on the south side, looking north across **Energy & Clean-Water Control**. Show the working/arrival edge appropriate to this space without changing its layout.
+**Camera**
+- place camera just west of the parent space
+- look toward the opposite cardinal direction
+- human eye-level or slightly elevated 2–6 m if needed to read the whole frontage
+- do not rotate/mirror the farm geometry
 
-## 7.3 East-side view — camera on east side looking west
+**This angle must show**
+- processing/storage hub west
+- the near-side boundary and access condition
+- at least 3–5 of the space's permanent/functional identity elements
+- believable depth through the space toward the far-side neighbor
+- drainage/utility/service clues where visible
+- scale cues such as people, farm equipment, crop rows, doors, fences or roads appropriate to the space
 
-show controlled boundary to quarantine, with no public/random access
+**Side-view prompt**
+> Create the **west-side view — camera west, looking east** of **Energy & Clean-Water Control** in the 5.5-hectare Self-Sufficient Eco Farm. Preserve the accepted L1 layout. processing/storage hub west. Show the parent space as compact protected utility building/compound with these core features: battery/inverter/control section; water-treatment/pump section physically separated from live electrical area; main distribution/control character; monitoring/CCTV/network interfaces. Keep neighboring zones and access in their correct positions. Avoid loose electrical equipment in fields; wet water equipment mixed with live switchgear; residential look. Use realistic Bangladesh farm materials, scale, drainage, safety and working conditions.
 
-**Prompt addition**
-> Ground-level camera on the east side looking west. Keep all neighboring relationships and internal object positions unchanged.
+# 8. PRIMARY AND SECONDARY HUMAN-EYE VIEWS
 
-## 7.4 West-side view — camera on west side looking east
+## Primary working view
+**Best subject:** south service frontage showing raised protected utility compound and maintenance access
 
-show connection to processing hub and utility distribution without obstructing service circulation
+**Must show**
+- main operational face
+- entrance/service relationship
+- at least one clear scale reference
+- realistic working surfaces/materials
+- safety and maintenance access
+- enough background context to identify which side of the zone the viewer is standing on
 
-**Prompt addition**
-> Ground-level camera on the west side looking east. Use the same geometry as every previous image of this space.
+**Prompt**
+> Create a realistic human eye-level primary working view of **Energy & Clean-Water Control**. Show south service frontage showing raised protected utility compound and maintenance access. Preserve all permanent object positions from the L1 layout and previously approved images. Use a practical working-farm atmosphere, not a staged decorative scene.
 
-# 8. Human eye-level working views
+## Secondary working view
+**Best subject:** west/north side showing controlled links to processing and water/power distribution without encroaching vegetables
 
-## 8.1 Primary eye-level view
+**Prompt**
+> Create a second eye-level view of **Energy & Clean-Water Control** from the complementary working side. Show west/north side showing controlled links to processing and water/power distribution without encroaching vegetables. Keep the same structures, rows, roads, yards, water edges and materials as the primary view; only move the camera.
 
-Choose the side that best explains the main function of the space. Use a realistic human eye height and show the principal working face, access, materiality and scale.
+# 9. FUNCTIONAL CLOSE-DETAIL IMAGES
 
-## 8.2 Secondary eye-level view
-
-Use the opposite or complementary operational side. If the primary view shows the clean/public face, the secondary view should usually show the working/service face.
-
-## 8.3 Walk-through sequence
-
-When the user asks for multiple interior/ground views, use a logical sequence:
-1. approach/entry
-2. first working zone
-3. central working area
-4. service/back side
-5. technical/detail feature
-
-Each image remains a **separate image**, not multiple angles combined into one frame.
-
-# 9. Functional close-detail images
-
-Recommended close-detail subjects:
-
+Generate close-detail images for:
 - utility compound overview
-- water-treatment/tank/pump side
-- electrical/battery/inverter/CCTV-network control side
+- water-treatment/pump/tank side
+- battery/inverter/MDB/CCTV-network control side
 
-For close-ups:
-- keep a small amount of surrounding context so the feature is recognizably part of **Energy & Clean-Water Control**
-- show realistic materials, maintenance access and safety
-- avoid generic stock-photo composition
+For every close-detail:
+- keep some local context so it is clearly part of **Energy & Clean-Water Control**
+- show realistic maintenance clearance
+- show drainage/containment/safety where applicable
+- show working wear/cleanliness appropriate to the system
+- never turn a technical detail into an unrelated generic stock image
 
-# 10. Optional special views
+# 10. WALK-THROUGH / MULTIPLE-IMAGE SEQUENCE
 
-## 10.1 Night/security view
-Use only when useful. Show practical low-glare lighting, CCTV/security coverage and critical operations — never entertainment lighting.
+When the user asks for a full visual tour, generate separate images in this order:
+1. approach/entry side
+2. wide overview from primary working side
+3. central operational view
+4. opposite/service side
+5. one or more technical close details
+6. optional exit/back view
 
-## 10.2 Monsoon/heavy-rain view
-Use to verify drainage, roof runoff, swales, flood-safe levels and working access. Do not depict uncontrolled flooding unless the user asks for a failure scenario.
+**Important:** every frame is a separate image. Do not put eight angles inside one single image unless explicitly requested.
 
-## 10.3 Cyclone/high-wind readiness view
-Use to show robust roof forms, secured equipment, trimmed trees and emergency access. It is a preparedness image, not structural certification.
+# 11. SPECIAL CONDITION VIEWS
 
-## 10.4 Operations-in-action view
-Show realistic work: harvesting, feeding, loading, maintenance, monitoring or processing appropriate to the space. Keep worker/vehicle scale believable.
+## Night / security
+- practical road/security lighting only
+- visible CCTV/gate/security logic where relevant
+- critical operations illuminated, not entertainment lighting
+- preserve dark areas where lighting is unnecessary for animals/pollinators
 
-# 11. Angle continuity protocol
+## Monsoon / heavy rain
+- show drains/swales/roof runoff/water containment working
+- access should remain functional unless a failure scenario is requested
+- no random floodwater in clean/critical spaces
 
-When generating another angle after an earlier image:
+## Cyclone / high-wind readiness
+- secured roofs/equipment
+- trimmed/managed vegetation
+- clear emergency/service routes
+- no implication that an image alone proves structural certification
 
-1. Treat the earlier approved image and this IMAGE.md as the same scene.
-2. Keep all permanent objects in the same relative positions.
-3. Keep crop rows, paths, sheds, tanks, roads, gates, water edges and tree rows consistent.
-4. Keep material palette and building design consistent.
-5. Change only camera position, focal length/perspective and what side is visible.
-6. Do not "improve" the layout by moving objects.
-7. If the earlier image conflicts with the L1 plan, correct the geometry toward the L1 plan rather than copying the error.
+## Operations-in-action
+Show real work relevant to this space: feeding, harvesting, loading, washing, checking water, inspecting equipment, packing, maintaining or monitoring.
 
-# 12. Universal prompt builder
+# 12. "ANOTHER SIDE" BEHAVIOR
 
-Use this pattern for any new image:
+If the user asks:
+- **another side** → choose the next cardinal side not yet shown
+- **opposite side** → move camera 180° around the space
+- **back side** → show the operational/rear side opposite the primary frontage
+- **left side/right side** → translate to a cardinal direction from the current approved camera, then state that direction
+- **top view** → true vertical top-down
+- **3D top view** → high aerial oblique, not orthographic
+- **front view** → south service frontage showing raised protected utility compound and maintenance access
+- **all angles** → generate separate NW, NE, SE, SW, north, south, east and west images
 
-> Create a **[TOP-DOWN / BLUEPRINT / NW OBLIQUE / NE OBLIQUE / SE OBLIQUE / SW OBLIQUE / NORTH-SIDE / SOUTH-SIDE / EAST-SIDE / WEST-SIDE / EYE-LEVEL / CLOSE-DETAIL]** image of **Energy & Clean-Water Control** within the 5.5-hectare Self-Sufficient Eco Farm. Preserve the accepted L1 master layout. This space is a compact, raised and protected farm utility hub for electricity, control, pumping and clean-water treatment. Its neighboring context is processing west; quarantine east; perimeter service road south; vegetables north. Show: utility building/compound; solar/inverter/battery control character; water-treatment/pump side visibly separated from electrical side; organized switchgear/control appearance; service access and monitoring/security. Avoid: random solar/electrical equipment thrown into fields; wet treatment equipment mixed unsafely with live electrical panels; residential appearance; low flooded equipment. Keep realistic Bangladesh farm scale, climate-appropriate materials, drainage, access, safety and working logic. One image should show one clear angle.
+# 13. MASTER PROMPT TEMPLATE
 
-# 13. "Another side" quick mapping
+> Create a **[VIEW TYPE]** image of **Energy & Clean-Water Control** in the 5.5-hectare Self-Sufficient Eco Farm. Read and follow this space's linked README, ARCHITECTURE, SPACE, DESIGN, DETAILS, UTILITIES and the farm L1 Coordinate Master Plan before generating. The accepted parent space is south service block, X 84.467–99.549 m; Y 12.828–65.871 m. North context: vegetable zone north. South context: perimeter service road south. East context: quarantine/emergency zone east. West context: processing/storage hub west. The space must visibly contain compact protected utility building/compound; battery/inverter/control section; water-treatment/pump section physically separated from live electrical area; main distribution/control character; monitoring/CCTV/network interfaces; raised flood-safe technical installation. The image must not contain loose electrical equipment in fields; wet water equipment mixed with live switchgear; residential look; low/flood-prone electrical cabinets; random solar panels occupying prime crops. Preserve identical permanent geometry across every angle. Show realistic Bangladesh farm materials, climate, scale, drainage, service access, biosecurity and maintenance logic. One image = one angle.
 
-If the user says:
-- **"show another side"** → choose the next cardinal side not shown yet
-- **"back side"** → show the operational/rear side, usually opposite the main arrival face
-- **"left side" / "right side"** → translate relative to the currently approved camera and state the new cardinal direction
-- **"top view"** → true top-down
-- **"3D top view"** → high oblique aerial, not direct orthographic
-- **"front view"** → use the principal arrival/working frontage defined by this space
-- **"all angles"** → generate separate images for NW, NE, SE, SW, north, south, east, west; never combine unless explicitly requested
+# 14. FINAL IMAGE VALIDATION
 
-# 14. Final validation checklist
-
-Before accepting an image:
-
-- [ ] Correct space and parent area represented
-- [ ] Correct L1 neighborhood/context
-- [ ] Requested camera direction is clear
-- [ ] Permanent objects remain consistent with other approved views
-- [ ] Required functional features are visible
-- [ ] Prohibited features are absent
-- [ ] Access/drainage/safety logic is believable
-- [ ] No extra pond, road, building or ornamental space was invented
-- [ ] Image is useful for the requested purpose, not merely attractive
+- [ ] Correct parent space and L1 placement
+- [ ] Correct requested camera direction
+- [ ] All four edge relationships remain believable
+- [ ] Permanent geometry matches previous approved views
+- [ ] Main identity elements are visible
+- [ ] Access/service path is plausible
+- [ ] Drainage/water logic is plausible
+- [ ] Utilities/safety are represented appropriately
+- [ ] No prohibited element was introduced
+- [ ] No extra pond/building/road/land was invented
+- [ ] The image can be matched to the top view and other angles as the same real place
