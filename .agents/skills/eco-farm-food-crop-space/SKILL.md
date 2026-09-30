@@ -44,3 +44,10 @@ Map every by-product to food, feed, bedding, compost, biogas, or approved biomas
 ## Image/blueprint rules
 
 Show large uninterrupted open crop blocks; do not add decorative trees between rows unless specifically an approved low-impact windbreak.
+
+## L1 coordinate block
+
+**Status: PROVISIONAL L1**  
+X 63.384–166.077 m; Y 143.877–207.172 m; L1 block 102.693 × 63.296 m; area 6,500 m².
+
+Use `docs/COORDINATE_MASTER_PLAN_L1.md` for neighboring zones, gate/access relationships, and ring control lines. Do not move this zone in blueprints or generated images without an approved master-plan decision.

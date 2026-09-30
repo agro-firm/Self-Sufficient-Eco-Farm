@@ -37,3 +37,10 @@ Base capacity:
 - wastewater goes to treatment
 - egg collection uses clean route
 - biosecurity entry/boot/tool control required
+
+## L1 coordinate block
+
+**Status: PROVISIONAL L1**  
+X 118.402–146.680 m; Y 12.828–65.871 m; L1 block 28.279 × 53.043 m; area 1,500 m².
+
+Use `docs/COORDINATE_MASTER_PLAN_L1.md` for neighboring zones, gate/access relationships, and ring control lines. Do not move this zone in blueprints or generated images without an approved master-plan decision.

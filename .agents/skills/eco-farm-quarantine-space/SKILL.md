@@ -32,3 +32,10 @@ Use `docs/SPATIAL_DESIGN_STANDARD.md` and `docs/SPACE_REGISTRY.md`.
 ## Rule
 
 New or suspect animals never enter main herds/flocks before health clearance.
+
+## L1 coordinate block
+
+**Status: PROVISIONAL L1**  
+X 99.549–118.402 m; Y 12.828–65.871 m; L1 block 18.852 × 53.043 m; area 1,000 m².
+
+Use `docs/COORDINATE_MASTER_PLAN_L1.md` for neighboring zones, gate/access relationships, and ring control lines. Do not move this zone in blueprints or generated images without an approved master-plan decision.

@@ -36,3 +36,10 @@ manure/suitable organics → separation/equalization → digester → gas + dige
 - digestate nutrient-tested before application
 - poultry litter dosing controlled
 - compost leachate contained
+
+## L1 coordinate block
+
+**Status: PROVISIONAL L1**  
+X 207.008–237.172 m; Y 12.828–65.871 m; L1 block 30.164 × 53.043 m; area 1,600 m².
+
+Use `docs/COORDINATE_MASTER_PLAN_L1.md` for neighboring zones, gate/access relationships, and ring control lines. Do not move this zone in blueprints or generated images without an approved master-plan decision.

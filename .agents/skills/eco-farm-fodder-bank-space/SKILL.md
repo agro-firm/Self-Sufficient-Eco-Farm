@@ -40,3 +40,10 @@ Animal numbers may increase only after measured annual dry-matter production + s
 ## Image rules
 
 The fodder bank must visually remain the largest productive internal block. Do not shrink it to make space for decorative or nonessential facilities.
+
+## L1 coordinate block
+
+**Status: PROVISIONAL L1**  
+X 83.336–237.172 m; Y 65.871–143.877 m; L1 block 153.836 × 78.005 m; area 12,000 m².
+
+Use `docs/COORDINATE_MASTER_PLAN_L1.md` for neighboring zones, gate/access relationships, and ring control lines. Do not move this zone in blueprints or generated images without an approved master-plan decision.

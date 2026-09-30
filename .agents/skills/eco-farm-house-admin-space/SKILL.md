@@ -54,3 +54,10 @@ Keep away from:
 ## Image/blueprint rules
 
 The house must read as a functional farm residence/control center, not a luxury resort centerpiece. Do not consume agricultural land with oversized ornamental landscaping.
+
+## L1 coordinate block
+
+**Status: PROVISIONAL L1**  
+X 28.627–63.384 m; Y 143.877–207.172 m; L1 block 34.758 × 63.296 m; area 2,200 m².
+
+Use `docs/COORDINATE_MASTER_PLAN_L1.md` for neighboring zones, gate/access relationships, and ring control lines. Do not move this zone in blueprints or generated images without an approved master-plan decision.

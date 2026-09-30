@@ -40,3 +40,10 @@ Example modules: 10×30 m or 12×24 m; ridge ~4–5 m concept. Final structural/
 ## Image rules
 
 Show greenhouse and nursery as compact production structures, not decorative glasshouses.
+
+## L1 coordinate block
+
+**Status: PROVISIONAL L1**  
+X 25.648–83.336 m; Y 65.871–143.877 m; L1 block 57.689 × 78.005 m; area 4,500 m².
+
+Use `docs/COORDINATE_MASTER_PLAN_L1.md` for neighboring zones, gate/access relationships, and ring control lines. Do not move this zone in blueprints or generated images without an approved master-plan decision.

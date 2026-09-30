@@ -49,3 +49,10 @@ These areas must not share uncontrolled airflow/drainage/fire exposure.
 
 Crop receiving and heavy service access from service/harvest routes.
 Clean packed-food dispatch must not cross manure handling.
+
+## L1 coordinate block
+
+**Status: PROVISIONAL L1**  
+X 31.680–84.467 m; Y 12.828–65.871 m; L1 block 52.787 × 53.043 m; area 2,800 m².
+
+Use `docs/COORDINATE_MASTER_PLAN_L1.md` for neighboring zones, gate/access relationships, and ring control lines. Do not move this zone in blueprints or generated images without an approved master-plan decision.

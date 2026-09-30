@@ -36,3 +36,10 @@ Concept split:
 ## Blueprint rules
 
 Show species zones, tree grid/spacing status, mature-canopy exclusion lines, beehive zone, paths, and irrigation/drainage.
+
+## L1 coordinate block
+
+**Status: PROVISIONAL L1**  
+X 166.077–237.172 m; Y 143.877–207.172 m; L1 block 71.095 × 63.296 m; area 4,500 m².
+
+Use `docs/COORDINATE_MASTER_PLAN_L1.md` for neighboring zones, gate/access relationships, and ring control lines. Do not move this zone in blueprints or generated images without an approved master-plan decision.

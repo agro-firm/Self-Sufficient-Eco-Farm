@@ -43,3 +43,10 @@ No manure vehicle crosses packhouse/playground routes.
 ## Image rules
 
 Show realistic working livestock sheds and paddocks, not open mixed animals wandering across the whole farm.
+
+## L1 coordinate block
+
+**Status: PROVISIONAL L1**  
+X 146.680–207.008 m; Y 12.828–65.871 m; L1 block 60.328 × 53.043 m; area 3,200 m².
+
+Use `docs/COORDINATE_MASTER_PLAN_L1.md` for neighboring zones, gate/access relationships, and ring control lines. Do not move this zone in blueprints or generated images without an approved master-plan decision.
