@@ -18,6 +18,26 @@ It explains how much space each major farm section receives, what the space cont
 
 > Dimensions in this file are master-planning envelopes. Exact coordinates and construction dimensions remain **PROVISIONAL** until approved by survey/CAD/engineering authorities.
 
+## Detailed per-space folders
+
+Every major farm area now has a dedicated documentation folder under [`spaces/`](spaces/README.md):
+
+- [Perimeter Canal](spaces/01-perimeter-canal/README.md)
+- [Security Wall, Inspection & Privacy Band](spaces/02-security-perimeter/README.md)
+- [Perimeter Roads, Gates & Fire Access](spaces/03-roads-gates-fire-access/README.md)
+- [House, Admin, Playground & Kitchen Garden](spaces/04-house-admin-playground/README.md)
+- [Human Food Crop Zone](spaces/05-human-food-crops/README.md)
+- [Dedicated Fodder Bank](spaces/06-fodder-bank/README.md)
+- [Vegetables, Greenhouse & Nursery](spaces/07-vegetables-greenhouse-nursery/README.md)
+- [Orchard & Pollinator Zone](spaces/08-orchard-pollinators/README.md)
+- [Cattle, Goat & Sheep District](spaces/09-ruminants/README.md)
+- [Poultry & Duck District](spaces/10-poultry-duck/README.md)
+- [Agro-Processing & Storage Hub](spaces/11-processing-storage/README.md)
+- [Biogas, Compost & Wastewater Treatment](spaces/12-biogas-compost-wastewater/README.md)
+- [Energy & Clean-Water Control](spaces/13-energy-water-control/README.md)
+- [Quarantine & Emergency Reserve](spaces/14-quarantine-emergency/README.md)
+- [Internal Access Spines, Biosecurity Buffers, Headlands & Swales](spaces/15-internal-access-buffers/README.md)
+
 ## Whole-farm diagram
 
 ```mermaid

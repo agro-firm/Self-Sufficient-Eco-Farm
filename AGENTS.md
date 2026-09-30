@@ -35,3 +35,13 @@ Before any blueprint, dimensioned plan, 3D model, or farm image:
 ## L1 coordinate authority
 
 Before any farm-wide layout, blueprint, rendering, or space-placement task, read `docs/COORDINATE_MASTER_PLAN_L1.md`. Use its zone rectangles and gate positions consistently. Do not move zones merely to improve image composition.
+
+## Per-space documentation rule
+
+Before designing or modifying a physical farm area:
+1. Read `spaces/README.md`.
+2. Read that space folder's `README.md`.
+3. Read its `ARCHITECTURE.md`, `SPACE.md`, `DESIGN.md`, `UTILITIES.md`, and `DETAILS.md`.
+4. For images/blueprints, also read `IMAGE.md`.
+5. For operational changes, also read `OPERATIONS.md`.
+6. Then load the linked agent skill(s) and finish with `eco-farm-quality-gate`.

@@ -16,6 +16,10 @@ The project combines food crops, fodder, vegetables, greenhouse production, orch
 - Rooftop solar + battery + biogas backup
 - On-site rice/feed processing, grain storage, cold chain, workshop, seed bank, silage and hay reserves
 
+## Detailed space folders
+
+- **[spaces/README.md](spaces/README.md)** — folder-by-folder architecture, space, design, image, details, utilities and operations documentation for every farm zone
+
 ## Repository guides
 
 - **[SPACE.md](SPACE.md)** — every farm space, area, dimensions, adjacency, utilities and diagrams

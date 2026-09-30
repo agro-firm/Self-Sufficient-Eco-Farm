@@ -157,3 +157,7 @@ L1 does **not** approve:
 - final gate/bridge structural design
 
 Those require survey and L2/L3 engineering.
+
+## 8. Per-space documentation
+
+Detailed architecture/design/utility/image/operation documents are maintained under [`../spaces/`](../spaces/README.md). Those folders inherit these L1 coordinates and may not move their parent zone without a new master-plan decision.

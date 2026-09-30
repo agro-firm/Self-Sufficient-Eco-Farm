@@ -4,6 +4,10 @@ This is the **single skill index and routing page** for the Self-Sufficient Eco 
 
 The old `docs/SKILL_INDEX.md` is retained only as a redirect. All agents should use this file as the current skill directory.
 
+## Space documentation folders
+
+For physical design work, use [`../spaces/README.md`](../spaces/README.md) as the folder-level documentation index. Every major space has its own README plus architecture, space, design, image, details, utilities and operations files.
+
 ## Required workflow
 
 1. Start with [`eco-farm-context`](skills/eco-farm-context/SKILL.md).
