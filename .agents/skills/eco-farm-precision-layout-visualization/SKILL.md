@@ -7,7 +7,7 @@ description: Control centimeter/mm-accurate layout work, coordinate authority, b
 
 ## Precision authority
 
-Use `docs/SPATIAL_DESIGN_STANDARD.md` and `docs/SPACE_REGISTRY.md`.
+Use `docs/SPATIAL_DESIGN_STANDARD.md`, `docs/SPACE_REGISTRY.md`, and `docs/COORDINATE_MASTER_PLAN_L1.md`.
 - Plot basis: 250,000 mm × 220,000 mm.
 - Exact centimeter/mm values are allowed only when approved in the coordinate registry or an approved engineering drawing.
 - Otherwise mark dimensions/coordinates `PROVISIONAL`.
@@ -17,8 +17,8 @@ Use `docs/SPATIAL_DESIGN_STANDARD.md` and `docs/SPACE_REGISTRY.md`.
 
 1. Identify precision level L0/L1/L2/L3 from `docs/SPATIAL_DESIGN_STANDARD.md`.
 2. Read authoritative zone area and adjacency.
-3. If exact coordinates exist, use them without deviation.
-4. If exact coordinates do not exist, create a provisional coordinate proposal and label every exact-looking number `PROVISIONAL`.
+3. For farm-wide topology and zone placement, use the accepted PROVISIONAL L1 coordinates in `docs/COORDINATE_MASTER_PLAN_L1.md` without deviation.
+4. For details not yet placed inside an L1 zone (buildings, trees, equipment, drains), create a provisional sub-coordinate proposal and label every exact-looking number `PROVISIONAL`.
 5. Validate zone polygons, roads, canal, buffers, and total plot closure.
 6. For a blueprint, show north, scale, plot dimensions, relevant dimensions, revision, and status.
 7. For photorealistic images, preserve topology and suppress text unless requested.

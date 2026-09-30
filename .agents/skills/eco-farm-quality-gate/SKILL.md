@@ -8,7 +8,7 @@ description: Review farm plans, calculations, images, BOQs, and implementation c
 Before accepting significant work, check:
 
 1. Authority and 5.5 ha decisions
-2. Land totals and physical plausibility, including perimeter-ring closure and parent-zone subspace sums
+2. Land totals and physical plausibility, including perimeter-ring closure, parent-zone subspace sums, and conformity with `docs/COORDINATE_MASTER_PLAN_L1.md`
 3. Crop sunlight
 4. Clean/dirty water separation
 5. Flood retention/overflow/backflow/elevation

@@ -21,3 +21,6 @@ description: Coordinate farm-wide zoning, resource loops, dependencies, phasing,
 - No zone may block emergency access.
 - Do not solve one subsystem by exporting harm to another.
 
+## L1 layout authority
+
+Use `docs/COORDINATE_MASTER_PLAN_L1.md` as the current zone-placement authority. A proposal that moves a zone outside its L1 rectangle is a master-plan change and must update `docs/DECISIONS.md`, the area budget, adjacency review, and quality gate.

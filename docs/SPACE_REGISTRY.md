@@ -66,3 +66,24 @@ Any skill asked for exact coordinates before Step 5 must return a provisional la
 - Internal primary/secondary access spines are therefore part of the 3,000 m² internal-access/buffer allocation, not additional uncounted land.
 - Continuous tall-tree privacy belts are not assumed inside the 1,800 m² ring; tall windbreak/privacy trees use approved orchard/buffer land on non-shading edges or additional land outside the 5.5 ha authority.
 
+## L1 coordinate authority
+
+The repository now has a provisional L1 coordinate master plan: [`COORDINATE_MASTER_PLAN_L1.md`](COORDINATE_MASTER_PLAN_L1.md).
+
+The following internal rectangles supersede the earlier generic envelope shapes for **drawing/image placement**:
+
+| Zone | L1 planning rectangle |
+|---|---|
+| Processing/storage | X 31.680–84.467; Y 12.828–65.871 m |
+| Energy/water | X 84.467–99.549; Y 12.828–65.871 m |
+| Quarantine | X 99.549–118.402; Y 12.828–65.871 m |
+| Poultry/duck | X 118.402–146.680; Y 12.828–65.871 m |
+| Ruminants | X 146.680–207.008; Y 12.828–65.871 m |
+| Biogas/treatment | X 207.008–237.172; Y 12.828–65.871 m |
+| Vegetables/greenhouse | X 25.648–83.336; Y 65.871–143.877 m |
+| Fodder | X 83.336–237.172; Y 65.871–143.877 m |
+| House/admin/playground | X 28.627–63.384; Y 143.877–207.172 m |
+| Food crops | X 63.384–166.077; Y 143.877–207.172 m |
+| Orchard | X 166.077–237.172; Y 143.877–207.172 m |
+
+The three west access/buffer strips are 1,000 m² each and together form the 3,000 m² internal-access/buffer authority.

@@ -31,3 +31,7 @@ Before any blueprint, dimensioned plan, 3D model, or farm image:
 4. Read the relevant individual space skill(s).
 5. Never invent centimeter/mm precision that is not yet approved.
 6. Preserve the same farm geometry across all image angles.
+
+## L1 coordinate authority
+
+Before any farm-wide layout, blueprint, rendering, or space-placement task, read `docs/COORDINATE_MASTER_PLAN_L1.md`. Use its zone rectangles and gate positions consistently. Do not move zones merely to improve image composition.

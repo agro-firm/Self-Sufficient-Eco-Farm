@@ -14,7 +14,8 @@ Use before any non-trivial planning, engineering, production, procurement, opera
 3. `SPACE.md`
 4. `docs/SPATIAL_DESIGN_STANDARD.md`
 5. `docs/SPACE_REGISTRY.md`
-6. Relevant specialized skills
+6. `docs/COORDINATE_MASTER_PLAN_L1.md`
+7. Relevant specialized skills
 
 ## Workflow
 1. Identify the requested system and affected zones.

@@ -20,7 +20,7 @@ This standard controls every future site plan, blueprint, CAD drawing, dimension
 Use meters and planning envelopes. Suitable for ideas, zoning, narratives, and early images.
 
 ### L1 — Coordinated master plan
-Use coordinates and dimensions to the nearest 0.10 m where verified. All zones must close geometrically and total land must reconcile.
+Use the repository's approved **PROVISIONAL L1 coordinate registry** to the nearest 0.001 m for consistent drawings/images. All zones must close geometrically and total land must reconcile. L1 coordinates are planning authority, not legal survey/construction coordinates.
 
 ### L2 — Detailed design
 Use millimeters for buildings, roads, utilities, drains, openings, equipment pads, and setbacks. Requires approved survey/engineering inputs.
@@ -92,3 +92,7 @@ For visualization:
 
 For construction:
 - tolerances come from the relevant engineer/specification, not from this document.
+
+## Current L1 authority
+
+For repository drawings and image generation, read [`COORDINATE_MASTER_PLAN_L1.md`](COORDINATE_MASTER_PLAN_L1.md) after this standard. Its X/Y rectangles are the current topology authority until a surveyed L2 plan supersedes them.

@@ -6,7 +6,7 @@ description: Design land zoning, roads, walls, canal interfaces, levels, buffers
 # Land, Civil and Zoning
 
 ## Workflow
-1. Preserve 250 m × 220 m planning basis unless an approved survey replaces it.
+1. Preserve 250 m × 220 m planning basis and the current L1 control rectangles in `docs/COORDINATE_MASTER_PLAN_L1.md` unless an approved surveyed plan replaces them.
 2. Reserve wall, inspection strip, canal, fire/service road, and biosecurity buffer first.
 3. Maintain main clean gate and service/emergency gate.
 4. Reserve 5 m primary roads, 3.5 m secondary roads, and 4.5–5 m fire/service routes as concepts.

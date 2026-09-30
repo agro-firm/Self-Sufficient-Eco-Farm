@@ -43,3 +43,8 @@ All processing/storage subspaces must sum to no more than 2,800 m² including ci
 ## D-011 — Biogas generator must follow gas mass balance
 **Status:** Accepted after full-space audit  
 Do not treat 25–40 kW as guaranteed base capacity. Use 10–20 kW as an initial planning envelope for the conservative herd, and procure/size only after measured manure/organic feedstock, gas yield, storage, and runtime analysis. A 25–40 kW unit is a future option only if the mass balance supports it.
+
+## D-012 — L1 coordinate master plan
+
+**Status:** Accepted as PROVISIONAL L1 planning authority  
+The repository uses `docs/COORDINATE_MASTER_PLAN_L1.md` for consistent zone placement, drawings, blueprints and generated images. The plan preserves the exact 55,000 m² area allocation and clean/dirty adjacency. It is not a legal survey or construction-staking authority. Surveyed L2 coordinates may supersede it without changing land allocations unless a new decision explicitly reallocates space.

@@ -17,6 +17,7 @@ The old `docs/SKILL_INDEX.md` is retained only as a redirect. All agents should 
 
 - [Spatial Design Standard](../docs/SPATIAL_DESIGN_STANDARD.md)
 - [Space Registry](../docs/SPACE_REGISTRY.md)
+- [L1 Coordinate Master Plan](../docs/COORDINATE_MASTER_PLAN_L1.md)
 - [Image & Blueprint Standard](../docs/IMAGE_BLUEPRINT_STANDARD.md)
 - [SPACE.md](../SPACE.md)
 

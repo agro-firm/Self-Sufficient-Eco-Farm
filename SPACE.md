@@ -64,17 +64,17 @@ flowchart TB
 | 1 | Perimeter Canal | 5,400 | 58,125 | Distributed around perimeter; ~6 m clear-water width | [skill](.agents/skills/eco-farm-perimeter-canal-space/SKILL.md) |
 | 2 | Security Wall + Inspection/Privacy Strip | 1,800 | 19,375 | Equivalent gross perimeter band ~1.93 m average; locally widened inspection/service bays | [skill](.agents/skills/eco-farm-perimeter-wall-security-space/SKILL.md) |
 | 3 | Perimeter Fire/Service Road + Edge Drains + Gates | 4,200 | 45,208 | Equivalent continuous perimeter road ring ~4.9 m average; gate/bridge approaches included | [skill](.agents/skills/eco-farm-roads-gates-traffic-space/SKILL.md) |
-| 4 | House + Admin + Playground + Kitchen Garden | 2,200 | 23,681 | Combined clean-family zone | [skill](.agents/skills/eco-farm-house-admin-space/SKILL.md) |
-| 5 | Human Food Crops | 6,500 | 69,965 | Planning envelope ~65 m × 100 m | [skill](.agents/skills/eco-farm-food-crop-space/SKILL.md) |
-| 6 | Fodder Bank | 12,000 | 129,167 | Planning envelope ~100 m × 120 m | [skill](.agents/skills/eco-farm-fodder-bank-space/SKILL.md) |
-| 7 | Vegetables + Greenhouse + Nursery | 4,500 | 48,438 | Planning envelope ~60 m × 75 m | [skill](.agents/skills/eco-farm-vegetable-greenhouse-nursery-space/SKILL.md) |
-| 8 | Orchard + Pollinator Zone | 4,500 | 48,438 | Planning envelope ~60 m × 75 m | [skill](.agents/skills/eco-farm-orchard-pollinator-space/SKILL.md) |
-| 9 | Cattle + Goat + Sheep District | 3,200 | 34,445 | Planning envelope ~40 m × 80 m | [skill](.agents/skills/eco-farm-ruminant-space/SKILL.md) |
-| 10 | Poultry + Duck District | 1,500 | 16,146 | PROVISIONAL envelope ~30 m × 50 m | [skill](.agents/skills/eco-farm-poultry-duck-space/SKILL.md) |
-| 11 | Agro-Processing + Storage Hub | 2,800 | 30,139 | Planning envelope ~40 m × 70 m | [skill](.agents/skills/eco-farm-processing-storage-space/SKILL.md) |
-| 12 | Biogas + Compost + Wastewater Treatment | 1,600 | 17,222 | Planning envelope ~40 m × 40 m | [skill](.agents/skills/eco-farm-biogas-compost-space/SKILL.md) |
-| 13 | Energy + Clean-Water Control | 800 | 8,611 | Planning envelope ~20 m × 40 m | [skill](.agents/skills/eco-farm-energy-water-control-space/SKILL.md) |
-| 14 | Quarantine + Emergency Reserve | 1,000 | 10,764 | Planning envelope ~20 m × 50 m | [skill](.agents/skills/eco-farm-quarantine-space/SKILL.md) |
+| 4 | House + Admin + Playground + Kitchen Garden | 2,200 | 23,681 | **L1:** 34.758 m × 63.296 m | [skill](.agents/skills/eco-farm-house-admin-space/SKILL.md) |
+| 5 | Human Food Crops | 6,500 | 69,965 | **L1:** 102.693 m × 63.296 m | [skill](.agents/skills/eco-farm-food-crop-space/SKILL.md) |
+| 6 | Fodder Bank | 12,000 | 129,167 | **L1:** 153.836 m × 78.005 m | [skill](.agents/skills/eco-farm-fodder-bank-space/SKILL.md) |
+| 7 | Vegetables + Greenhouse + Nursery | 4,500 | 48,438 | **L1:** 57.689 m × 78.005 m | [skill](.agents/skills/eco-farm-vegetable-greenhouse-nursery-space/SKILL.md) |
+| 8 | Orchard + Pollinator Zone | 4,500 | 48,438 | **L1:** 71.095 m × 63.296 m | [skill](.agents/skills/eco-farm-orchard-pollinator-space/SKILL.md) |
+| 9 | Cattle + Goat + Sheep District | 3,200 | 34,445 | **L1:** 60.328 m × 53.043 m | [skill](.agents/skills/eco-farm-ruminant-space/SKILL.md) |
+| 10 | Poultry + Duck District | 1,500 | 16,146 | **L1:** 28.279 m × 53.043 m | [skill](.agents/skills/eco-farm-poultry-duck-space/SKILL.md) |
+| 11 | Agro-Processing + Storage Hub | 2,800 | 30,139 | **L1:** 52.787 m × 53.043 m | [skill](.agents/skills/eco-farm-processing-storage-space/SKILL.md) |
+| 12 | Biogas + Compost + Wastewater Treatment | 1,600 | 17,222 | **L1:** 30.164 m × 53.043 m | [skill](.agents/skills/eco-farm-biogas-compost-space/SKILL.md) |
+| 13 | Energy + Clean-Water Control | 800 | 8,611 | **L1:** 15.082 m × 53.043 m | [skill](.agents/skills/eco-farm-energy-water-control-space/SKILL.md) |
+| 14 | Quarantine + Emergency Reserve | 1,000 | 10,764 | **L1:** 18.852 m × 53.043 m | [skill](.agents/skills/eco-farm-quarantine-space/SKILL.md) |
 | 15 | Internal Access Spines + Biosecurity Buffers + Headlands + Swales | 3,000 | 32,292 | Distributed internal circulation/safety reserve | [skill](.agents/skills/eco-farm-master-planning/SKILL.md) |
 
 **Total: 55,000 m² ≈ 592,016 ft².**
@@ -258,7 +258,7 @@ flowchart LR
 # 5. Human Food Crop Zone
 
 **Area:** 6,500 m² ≈ 69,965 ft²  
-**Planning envelope:** ~65 m × 100 m = 6,500 m²  
+**L1 planning block:** 102.693 m × 63.296 m = 6,500 m²  
 **Approx. dimensions:** ~213 ft × 328 ft  
 **Skill:** [`eco-farm-food-crop-space`](.agents/skills/eco-farm-food-crop-space/SKILL.md)
 
@@ -299,7 +299,7 @@ flowchart TB
 # 6. Fodder Bank
 
 **Area:** 12,000 m² ≈ 129,167 ft²  
-**Planning envelope:** ~100 m × 120 m  
+**L1 planning block:** 153.836 m × 78.005 m  
 **Approx. dimensions:** ~328 ft × 394 ft  
 **Skill:** [`eco-farm-fodder-bank-space`](.agents/skills/eco-farm-fodder-bank-space/SKILL.md)
 
@@ -345,7 +345,7 @@ flowchart LR
 # 7. Vegetables + Greenhouse + Nursery
 
 **Area:** 4,500 m² ≈ 48,438 ft²  
-**Planning envelope:** ~60 m × 75 m  
+**L1 planning block:** 57.689 m × 78.005 m  
 **Approx. dimensions:** ~197 ft × 246 ft  
 **Skill:** [`eco-farm-vegetable-greenhouse-nursery-space`](.agents/skills/eco-farm-vegetable-greenhouse-nursery-space/SKILL.md)
 
@@ -386,7 +386,7 @@ flowchart LR
 # 8. Orchard + Pollinator Zone
 
 **Area:** 4,500 m² ≈ 48,438 ft²  
-**Planning envelope:** ~60 m × 75 m  
+**L1 planning block:** 71.095 m × 63.296 m  
 **Approx. dimensions:** ~197 ft × 246 ft  
 **Skill:** [`eco-farm-orchard-pollinator-space`](.agents/skills/eco-farm-orchard-pollinator-space/SKILL.md)
 
@@ -428,7 +428,7 @@ flowchart TB
 # 9. Cattle + Goat + Sheep District
 
 **Area:** 3,200 m² ≈ 34,445 ft²  
-**Planning envelope:** ~40 m × 80 m  
+**L1 planning block:** 60.328 m × 53.043 m  
 **Approx. dimensions:** ~131 ft × 262 ft  
 **Skill:** [`eco-farm-ruminant-space`](.agents/skills/eco-farm-ruminant-space/SKILL.md)
 
@@ -473,7 +473,7 @@ flowchart LR
 # 10. Poultry + Duck District
 
 **Area:** 1,500 m² ≈ 16,146 ft²  
-**PROVISIONAL envelope:** ~30 m × 50 m  
+**L1 planning block:** 28.279 m × 53.043 m  
 **Approx. dimensions:** ~98 ft × 164 ft  
 **Skill:** [`eco-farm-poultry-duck-space`](.agents/skills/eco-farm-poultry-duck-space/SKILL.md)
 
@@ -521,7 +521,7 @@ flowchart LR
 # 11. Agro-Processing + Storage Hub
 
 **Area:** 2,800 m² ≈ 30,139 ft²  
-**Planning envelope:** ~40 m × 70 m  
+**L1 planning block:** 52.787 m × 53.043 m  
 **Approx. dimensions:** ~131 ft × 230 ft  
 **Skill:** [`eco-farm-processing-storage-space`](.agents/skills/eco-farm-processing-storage-space/SKILL.md)
 
@@ -570,7 +570,7 @@ flowchart LR
 # 12. Biogas + Compost + Wastewater Treatment
 
 **Area:** 1,600 m² ≈ 17,222 ft²  
-**Planning envelope:** ~40 m × 40 m  
+**L1 planning block:** 30.164 m × 53.043 m  
 **Approx. dimensions:** ~131 ft × 131 ft  
 **Skills:** [biogas/compost](.agents/skills/eco-farm-biogas-compost-space/SKILL.md) · [wastewater](.agents/skills/eco-farm-wastewater-treatment-space/SKILL.md)
 
@@ -611,7 +611,7 @@ flowchart LR
 # 13. Energy + Clean-Water Control
 
 **Area:** 800 m² ≈ 8,611 ft²  
-**Planning envelope:** ~20 m × 40 m  
+**L1 planning block:** 15.082 m × 53.043 m  
 **Approx. dimensions:** ~66 ft × 131 ft  
 **Skills:** [energy/water control](.agents/skills/eco-farm-energy-water-control-space/SKILL.md) · [water treatment](.agents/skills/eco-farm-water-treatment-space/SKILL.md) · [electrical/CCTV](.agents/skills/eco-farm-electrical-lighting-cctv/SKILL.md)
 
@@ -657,7 +657,7 @@ flowchart LR
 # 14. Quarantine + Emergency Reserve
 
 **Area:** 1,000 m² ≈ 10,764 ft²  
-**Planning envelope:** ~20 m × 50 m  
+**L1 planning block:** 18.852 m × 53.043 m  
 **Approx. dimensions:** ~66 ft × 164 ft  
 **Skill:** [`eco-farm-quarantine-space`](.agents/skills/eco-farm-quarantine-space/SKILL.md)
 
@@ -828,3 +828,19 @@ The 55,000 m² allocation has been checked as nested geometry rather than only a
 - Rice milling should be compact: roughly **100–200 kg paddy/hour** base capacity; up to 300 kg/hour only if external/custom milling is planned.
 - Biogas generator nameplate must follow measured gas production. For the current conservative herd, treat **10–20 kW as the initial planning envelope**; 25–40 kW is only a future envelope if manure/organic-feedstock mass balance proves it.
 
+# 21. L1 Coordinate Master Plan
+
+The approved **planning-coordinate authority** is now [`docs/COORDINATE_MASTER_PLAN_L1.md`](docs/COORDINATE_MASTER_PLAN_L1.md).
+
+Status: **PROVISIONAL L1 — authoritative for repository blueprints, diagrams, and image-generation topology; not a legal/survey construction boundary.**
+
+Key control coordinates:
+- Security-band inner control line: inset **1.931 m**
+- Canal inner control line: inset **7.927 m**
+- Internal-core / fire-road inner line: inset **12.828 m**
+- Internal core: **X 12.828–237.172 m**, **Y 12.828–207.172 m**
+- Main clean gate: **X 15.000–21.000 m** on the south boundary
+- Service/emergency gate: **X 222.000–227.000 m** on the south boundary
+- West clean internal spine: concept **X 16.000–21.000 m** through the internal core, contained entirely inside the 3,000 m² internal-access/buffer allocation
+
+The detailed zone X/Y rectangles are maintained in the L1 coordinate file and in `docs/SPACE_REGISTRY.md`.
