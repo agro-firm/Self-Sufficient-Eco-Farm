@@ -6,54 +6,41 @@ This folder is the detailed documentation authority for the **Dedicated Fodder B
 
 | Item | Value |
 |---|---|
-| Farm area allocation | **12,000 m² / 129,167 ft²** |
-| L1 geometry | Largest middle/east productive rectangle. |
-| L1 coordinate authority | X 83.336–237.172 m; Y 65.871–143.877 m. L1 block ≈153.836 × 78.005 m. |
-| Status | **PROVISIONAL L1** — authoritative for repository drawings/images, not legal/construction staking |
+| Parent area | **12,000 m²** |
+| Business role | **internal-value** |
+| Planning status | L1 / master planning |
 
-## Purpose
+## Core design documentation
 
-- Napier
-- fodder maize/sorghum
-- legume forage
-- seasonal fodder
-- silage production
-- animal feed security
+- [Architecture](ARCHITECTURE.md)
+- [Space](SPACE.md)
+- [Design](DESIGN.md)
+- [Image & Blueprint](IMAGE.md)
+- [Details](DETAILS.md)
+- [Utilities](UTILITIES.md)
+- [Operations](OPERATIONS.md)
 
-## Required skills
+## Capacity, production and business documentation
 
-- [`eco-farm-fodder-bank-space`](../../.agents/skills/eco-farm-fodder-bank-space/SKILL.md)
-- [`eco-farm-fodder-feed`](../../.agents/skills/eco-farm-fodder-feed/SKILL.md)
-- [`eco-farm-ruminant-livestock`](../../.agents/skills/eco-farm-ruminant-livestock/SKILL.md)
+- [Capacity](CAPACITY.md)
+- [Production / Service Output](PRODUCTION.md)
+- [Inputs & Outputs](INPUTS_OUTPUTS.md)
+- [Costs](COSTS.md)
+- [Economics](ECONOMICS.md)
+- [Business & Value Strategy](BUSINESS.md)
 
-## Folder documents
+## Main capacity/output snapshot
 
-- [Architecture](ARCHITECTURE.md) — physical organization, adjacency and internal architecture
-- [Space](SPACE.md) — area, coordinates, dimensions and subspace budget
-- [Design](DESIGN.md) — design rules, safety, environmental and material concepts
-- [Image](IMAGE.md) — blueprint/render/image-generation rules
-- [Details](DETAILS.md) — complete component/interface description
-- [Utilities](UTILITIES.md) — power, water, drainage, data, fire and waste interfaces
-- [Operations](OPERATIONS.md) — operating routines, records and KPIs
+- Fresh fodder target: about 80–110 t/year planning range
+- Largest internal productive block
+- Supports cattle/goat/sheep base herd plus 60–90 day reserve target
+- Fresh fodder: 80–110 t/year
+- Monthly equivalent: about 6.7–9.2 t fresh
+- Silage/hay reserve produced from seasonal surplus
+- Crop mix: Napier, fodder maize/sorghum, legumes, seasonal fodder
 
+## Required rule
 
-## Neighbor relationship
+Do not judge this space only by cash income. Some zones create direct sales, some create internal replacement value, and some protect the rest of the farm by reducing risk or operating cost.
 
-```mermaid
-flowchart LR
-    A["Vegetables west"]
-    S["Dedicated Fodder Bank"]
-    B["Ruminants/poultry/biogas south"]
-    A --- S --- B
-```
-
-## Must stay compatible with
-
-- [`../../SPACE.md`](../../SPACE.md)
-- [`../../docs/COORDINATE_MASTER_PLAN_L1.md`](../../docs/COORDINATE_MASTER_PLAN_L1.md)
-- [`../../docs/SPACE_REGISTRY.md`](../../docs/SPACE_REGISTRY.md)
-- [`../../docs/SPATIAL_DESIGN_STANDARD.md`](../../docs/SPATIAL_DESIGN_STANDARD.md)
-- [`../../docs/IMAGE_BLUEPRINT_STANDARD.md`](../../docs/IMAGE_BLUEPRINT_STANDARD.md)
-- [`../../docs/DECISIONS.md`](../../docs/DECISIONS.md)
-
-Do not change this space's outer L1 authority without a master-plan decision and a full area/adjoining-system recheck.
+See [farm-wide economic assumptions](../../docs/ECONOMIC_ASSUMPTIONS.md).

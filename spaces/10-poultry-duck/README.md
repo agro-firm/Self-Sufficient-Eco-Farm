@@ -6,54 +6,42 @@ This folder is the detailed documentation authority for the **Poultry & Duck Dis
 
 | Item | Value |
 |---|---|
-| Farm area allocation | **1,500 m² / 16,146 ft²** |
-| L1 geometry | South service rectangle between quarantine and ruminants. |
-| L1 coordinate authority | X 118.402–146.680 m; Y 12.828–65.871 m. L1 block ≈28.279 × 53.043 m. |
-| Status | **PROVISIONAL L1** — authoritative for repository drawings/images, not legal/construction staking |
+| Parent area | **1,500 m²** |
+| Business role | **productive** |
+| Planning status | L1 / master planning |
 
-## Purpose
+## Core design documentation
 
-- layer house
-- broiler house
-- duck house
-- duck wet pad
-- egg handling
-- bird isolation
+- [Architecture](ARCHITECTURE.md)
+- [Space](SPACE.md)
+- [Design](DESIGN.md)
+- [Image & Blueprint](IMAGE.md)
+- [Details](DETAILS.md)
+- [Utilities](UTILITIES.md)
+- [Operations](OPERATIONS.md)
 
-## Required skills
+## Capacity, production and business documentation
 
-- [`eco-farm-poultry-duck-space`](../../.agents/skills/eco-farm-poultry-duck-space/SKILL.md)
-- [`eco-farm-poultry-duck`](../../.agents/skills/eco-farm-poultry-duck/SKILL.md)
-- [`eco-farm-biosecurity-animal-health`](../../.agents/skills/eco-farm-biosecurity-animal-health/SKILL.md)
+- [Capacity](CAPACITY.md)
+- [Production / Service Output](PRODUCTION.md)
+- [Inputs & Outputs](INPUTS_OUTPUTS.md)
+- [Costs](COSTS.md)
+- [Economics](ECONOMICS.md)
+- [Business & Value Strategy](BUSINESS.md)
 
-## Folder documents
+## Main capacity/output snapshot
 
-- [Architecture](ARCHITECTURE.md) — physical organization, adjacency and internal architecture
-- [Space](SPACE.md) — area, coordinates, dimensions and subspace budget
-- [Design](DESIGN.md) — design rules, safety, environmental and material concepts
-- [Image](IMAGE.md) — blueprint/render/image-generation rules
-- [Details](DETAILS.md) — complete component/interface description
-- [Utilities](UTILITIES.md) — power, water, drainage, data, fire and waste interfaces
-- [Operations](OPERATIONS.md) — operating routines, records and KPIs
+- Layers 120–150
+- Broilers 80–120 birds/batch
+- Broiler concept 4–5 batches/year
+- Ducks 60–80
+- Layer eggs: 32,400–46,500/year
+- Broiler sales: about 300–570 birds/year
+- Duck eggs: about 10,800–19,200/year
+- Litter/manure routed to controlled compost/biogas system
 
+## Required rule
 
-## Neighbor relationship
+Do not judge this space only by cash income. Some zones create direct sales, some create internal replacement value, and some protect the rest of the farm by reducing risk or operating cost.
 
-```mermaid
-flowchart LR
-    A["Quarantine west"]
-    S["Poultry & Duck District"]
-    B["Ruminants east"]
-    A --- S --- B
-```
-
-## Must stay compatible with
-
-- [`../../SPACE.md`](../../SPACE.md)
-- [`../../docs/COORDINATE_MASTER_PLAN_L1.md`](../../docs/COORDINATE_MASTER_PLAN_L1.md)
-- [`../../docs/SPACE_REGISTRY.md`](../../docs/SPACE_REGISTRY.md)
-- [`../../docs/SPATIAL_DESIGN_STANDARD.md`](../../docs/SPATIAL_DESIGN_STANDARD.md)
-- [`../../docs/IMAGE_BLUEPRINT_STANDARD.md`](../../docs/IMAGE_BLUEPRINT_STANDARD.md)
-- [`../../docs/DECISIONS.md`](../../docs/DECISIONS.md)
-
-Do not change this space's outer L1 authority without a master-plan decision and a full area/adjoining-system recheck.
+See [farm-wide economic assumptions](../../docs/ECONOMIC_ASSUMPTIONS.md).

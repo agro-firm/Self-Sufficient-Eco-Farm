@@ -6,56 +6,43 @@ This folder is the detailed documentation authority for the **Energy & Clean-Wat
 
 | Item | Value |
 |---|---|
-| Farm area allocation | **800 m² / 8,611 ft²** |
-| L1 geometry | South service rectangle between processing and quarantine. |
-| L1 coordinate authority | X 84.467–99.549 m; Y 12.828–65.871 m. L1 block ≈15.082 × 53.043 m. |
-| Status | **PROVISIONAL L1** — authoritative for repository drawings/images, not legal/construction staking |
+| Parent area | **800 m²** |
+| Business role | **utility-value** |
+| Planning status | L1 / master planning |
 
-## Purpose
+## Core design documentation
 
-- battery/inverter
-- main electrical distribution
-- water treatment
-- pump controls
-- monitoring
-- critical utilities
+- [Architecture](ARCHITECTURE.md)
+- [Space](SPACE.md)
+- [Design](DESIGN.md)
+- [Image & Blueprint](IMAGE.md)
+- [Details](DETAILS.md)
+- [Utilities](UTILITIES.md)
+- [Operations](OPERATIONS.md)
 
-## Required skills
+## Capacity, production and business documentation
 
-- [`eco-farm-energy-water-control-space`](../../.agents/skills/eco-farm-energy-water-control-space/SKILL.md)
-- [`eco-farm-energy-electrical`](../../.agents/skills/eco-farm-energy-electrical/SKILL.md)
-- [`eco-farm-electrical-lighting-cctv`](../../.agents/skills/eco-farm-electrical-lighting-cctv/SKILL.md)
-- [`eco-farm-water-treatment-space`](../../.agents/skills/eco-farm-water-treatment-space/SKILL.md)
+- [Capacity](CAPACITY.md)
+- [Production / Service Output](PRODUCTION.md)
+- [Inputs & Outputs](INPUTS_OUTPUTS.md)
+- [Costs](COSTS.md)
+- [Economics](ECONOMICS.md)
+- [Business & Value Strategy](BUSINESS.md)
 
-## Folder documents
+## Main capacity/output snapshot
 
-- [Architecture](ARCHITECTURE.md) — physical organization, adjacency and internal architecture
-- [Space](SPACE.md) — area, coordinates, dimensions and subspace budget
-- [Design](DESIGN.md) — design rules, safety, environmental and material concepts
-- [Image](IMAGE.md) — blueprint/render/image-generation rules
-- [Details](DETAILS.md) — complete component/interface description
-- [Utilities](UTILITIES.md) — power, water, drainage, data, fire and waste interfaces
-- [Operations](OPERATIONS.md) — operating routines, records and KPIs
-- [WATER TREATMENT](WATER_TREATMENT.md) — dedicated subspace detail
-- [ELECTRICAL CCTV](ELECTRICAL_CCTV.md) — dedicated subspace detail
+- Rooftop solar feasibility concept 120–160 kWp
+- Usable LFP battery feasibility concept 300–500 kWh
+- Biogas generator initial planning 10–20 kW
+- Water treatment sized by source quality and demand
+- Critical/noncritical load management
+- Solar electricity planning resource: roughly 107–154 MWh/year screening range from earlier master-plan assumptions
+- Treated potable/food/animal/service water
+- Backup power and critical load continuity
+- CCTV/network uptime
 
-## Neighbor relationship
+## Required rule
 
-```mermaid
-flowchart LR
-    A["Processing west"]
-    S["Energy & Clean-Water Control"]
-    B["Quarantine east"]
-    A --- S --- B
-```
+Do not judge this space only by cash income. Some zones create direct sales, some create internal replacement value, and some protect the rest of the farm by reducing risk or operating cost.
 
-## Must stay compatible with
-
-- [`../../SPACE.md`](../../SPACE.md)
-- [`../../docs/COORDINATE_MASTER_PLAN_L1.md`](../../docs/COORDINATE_MASTER_PLAN_L1.md)
-- [`../../docs/SPACE_REGISTRY.md`](../../docs/SPACE_REGISTRY.md)
-- [`../../docs/SPATIAL_DESIGN_STANDARD.md`](../../docs/SPATIAL_DESIGN_STANDARD.md)
-- [`../../docs/IMAGE_BLUEPRINT_STANDARD.md`](../../docs/IMAGE_BLUEPRINT_STANDARD.md)
-- [`../../docs/DECISIONS.md`](../../docs/DECISIONS.md)
-
-Do not change this space's outer L1 authority without a master-plan decision and a full area/adjoining-system recheck.
+See [farm-wide economic assumptions](../../docs/ECONOMIC_ASSUMPTIONS.md).

@@ -6,55 +6,41 @@ This folder is the detailed documentation authority for the **House, Admin, Play
 
 | Item | Value |
 |---|---|
-| Farm area allocation | **2,200 m² / 23,681 ft²** |
-| L1 geometry | North-west clean/family rectangle. |
-| L1 coordinate authority | X 28.627–63.384 m; Y 143.877–207.172 m. L1 block ≈34.758 × 63.296 m. |
-| Status | **PROVISIONAL L1** — authoritative for repository drawings/images, not legal/construction staking |
+| Parent area | **2,200 m²** |
+| Business role | **support-household** |
+| Planning status | L1 / master planning |
 
-## Purpose
+## Core design documentation
 
-- residence
-- farm administration
-- CCTV/NVR control
-- first aid/emergency shelter
-- play/recreation
-- household kitchen garden
+- [Architecture](ARCHITECTURE.md)
+- [Space](SPACE.md)
+- [Design](DESIGN.md)
+- [Image & Blueprint](IMAGE.md)
+- [Details](DETAILS.md)
+- [Utilities](UTILITIES.md)
+- [Operations](OPERATIONS.md)
 
-## Required skills
+## Capacity, production and business documentation
 
-- [`eco-farm-house-admin-space`](../../.agents/skills/eco-farm-house-admin-space/SKILL.md)
-- [`eco-farm-playground-space`](../../.agents/skills/eco-farm-playground-space/SKILL.md)
-- [`eco-farm-electrical-lighting-cctv`](../../.agents/skills/eco-farm-electrical-lighting-cctv/SKILL.md)
-- [`eco-farm-water-treatment-space`](../../.agents/skills/eco-farm-water-treatment-space/SKILL.md)
+- [Capacity](CAPACITY.md)
+- [Production / Service Output](PRODUCTION.md)
+- [Inputs & Outputs](INPUTS_OUTPUTS.md)
+- [Costs](COSTS.md)
+- [Economics](ECONOMICS.md)
+- [Business & Value Strategy](BUSINESS.md)
 
-## Folder documents
+## Main capacity/output snapshot
 
-- [Architecture](ARCHITECTURE.md) — physical organization, adjacency and internal architecture
-- [Space](SPACE.md) — area, coordinates, dimensions and subspace budget
-- [Design](DESIGN.md) — design rules, safety, environmental and material concepts
-- [Image](IMAGE.md) — blueprint/render/image-generation rules
-- [Details](DETAILS.md) — complete component/interface description
-- [Utilities](UTILITIES.md) — power, water, drainage, data, fire and waste interfaces
-- [Operations](OPERATIONS.md) — operating routines, records and KPIs
-- [PLAYGROUND](PLAYGROUND.md) — dedicated subspace detail
+- House/admin envelope ~480 m² concept
+- Playground fixed 600 m²
+- Kitchen/herb garden fixed 200 m²
+- Remaining ~920 m² for parking, paths, admin yard and buffers
+- Kitchen garden: roughly 0.5–1.5 t/year mixed household vegetables/herbs planning range
+- Administrative output: records, CCTV control, farm coordination
+- Playground/emergency assembly has no sale output
 
-## Neighbor relationship
+## Required rule
 
-```mermaid
-flowchart LR
-    A["West clean access/buffer strip"]
-    S["House, Admin, Playground & Kitchen Garden"]
-    B["Food-crop zone east"]
-    A --- S --- B
-```
+Do not judge this space only by cash income. Some zones create direct sales, some create internal replacement value, and some protect the rest of the farm by reducing risk or operating cost.
 
-## Must stay compatible with
-
-- [`../../SPACE.md`](../../SPACE.md)
-- [`../../docs/COORDINATE_MASTER_PLAN_L1.md`](../../docs/COORDINATE_MASTER_PLAN_L1.md)
-- [`../../docs/SPACE_REGISTRY.md`](../../docs/SPACE_REGISTRY.md)
-- [`../../docs/SPATIAL_DESIGN_STANDARD.md`](../../docs/SPATIAL_DESIGN_STANDARD.md)
-- [`../../docs/IMAGE_BLUEPRINT_STANDARD.md`](../../docs/IMAGE_BLUEPRINT_STANDARD.md)
-- [`../../docs/DECISIONS.md`](../../docs/DECISIONS.md)
-
-Do not change this space's outer L1 authority without a master-plan decision and a full area/adjoining-system recheck.
+See [farm-wide economic assumptions](../../docs/ECONOMIC_ASSUMPTIONS.md).

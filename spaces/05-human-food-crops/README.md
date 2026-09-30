@@ -6,53 +6,44 @@ This folder is the detailed documentation authority for the **Human Food Crop Zo
 
 | Item | Value |
 |---|---|
-| Farm area allocation | **6,500 m² / 69,965 ft²** |
-| L1 geometry | North-central open-sun rectangle. |
-| L1 coordinate authority | X 63.384–166.077 m; Y 143.877–207.172 m. L1 block ≈102.693 × 63.296 m. |
-| Status | **PROVISIONAL L1** — authoritative for repository drawings/images, not legal/construction staking |
+| Parent area | **6,500 m²** |
+| Business role | **productive** |
+| Planning status | L1 / master planning |
 
-## Purpose
+## Core design documentation
 
-- rice
-- maize
-- pulses/legumes
-- mustard/sesame
-- human food and feed by-products
+- [Architecture](ARCHITECTURE.md)
+- [Space](SPACE.md)
+- [Design](DESIGN.md)
+- [Image & Blueprint](IMAGE.md)
+- [Details](DETAILS.md)
+- [Utilities](UTILITIES.md)
+- [Operations](OPERATIONS.md)
 
-## Required skills
+## Capacity, production and business documentation
 
-- [`eco-farm-food-crop-space`](../../.agents/skills/eco-farm-food-crop-space/SKILL.md)
-- [`eco-farm-crops-horticulture`](../../.agents/skills/eco-farm-crops-horticulture/SKILL.md)
-- [`eco-farm-water-drainage-wastewater`](../../.agents/skills/eco-farm-water-drainage-wastewater/SKILL.md)
+- [Capacity](CAPACITY.md)
+- [Production / Service Output](PRODUCTION.md)
+- [Inputs & Outputs](INPUTS_OUTPUTS.md)
+- [Costs](COSTS.md)
+- [Economics](ECONOMICS.md)
+- [Business & Value Strategy](BUSINESS.md)
 
-## Folder documents
+## Main capacity/output snapshot
 
-- [Architecture](ARCHITECTURE.md) — physical organization, adjacency and internal architecture
-- [Space](SPACE.md) — area, coordinates, dimensions and subspace budget
-- [Design](DESIGN.md) — design rules, safety, environmental and material concepts
-- [Image](IMAGE.md) — blueprint/render/image-generation rules
-- [Details](DETAILS.md) — complete component/interface description
-- [Utilities](UTILITIES.md) — power, water, drainage, data, fire and waste interfaces
-- [Operations](OPERATIONS.md) — operating routines, records and KPIs
+- Rice effective area ~0.30 ha
+- Maize ~0.15 ha
+- Pulses ~0.10 ha
+- Mustard/sesame ~0.10 ha
+- Seasonal rotations may reassign sub-areas
+- Rice: 3.0–3.9 t/year
+- Maize: 1.0–1.4 t/year
+- Pulses: 0.12–0.18 t/year
+- Oilseed: 0.10–0.15 t/year
+- By-products: straw, bran, stover, haulm, oil cake
 
+## Required rule
 
-## Neighbor relationship
+Do not judge this space only by cash income. Some zones create direct sales, some create internal replacement value, and some protect the rest of the farm by reducing risk or operating cost.
 
-```mermaid
-flowchart LR
-    A["House/admin west"]
-    S["Human Food Crop Zone"]
-    B["Orchard east"]
-    A --- S --- B
-```
-
-## Must stay compatible with
-
-- [`../../SPACE.md`](../../SPACE.md)
-- [`../../docs/COORDINATE_MASTER_PLAN_L1.md`](../../docs/COORDINATE_MASTER_PLAN_L1.md)
-- [`../../docs/SPACE_REGISTRY.md`](../../docs/SPACE_REGISTRY.md)
-- [`../../docs/SPATIAL_DESIGN_STANDARD.md`](../../docs/SPATIAL_DESIGN_STANDARD.md)
-- [`../../docs/IMAGE_BLUEPRINT_STANDARD.md`](../../docs/IMAGE_BLUEPRINT_STANDARD.md)
-- [`../../docs/DECISIONS.md`](../../docs/DECISIONS.md)
-
-Do not change this space's outer L1 authority without a master-plan decision and a full area/adjoining-system recheck.
+See [farm-wide economic assumptions](../../docs/ECONOMIC_ASSUMPTIONS.md).

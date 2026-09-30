@@ -6,64 +6,46 @@ This folder is the detailed documentation authority for the **Agro-Processing & 
 
 | Item | Value |
 |---|---|
-| Farm area allocation | **2,800 m² / 30,139 ft²** |
-| L1 geometry | South-west service rectangle east of the access strip. |
-| L1 coordinate authority | X 31.680–84.467 m; Y 12.828–65.871 m. L1 block ≈52.787 × 53.043 m. |
-| Status | **PROVISIONAL L1** — authoritative for repository drawings/images, not legal/construction staking |
+| Parent area | **2,800 m²** |
+| Business role | **value-add** |
+| Planning status | L1 / master planning |
 
-## Purpose
+## Core design documentation
 
-- crop receiving/drying
-- grain storage
-- rice milling
-- feed milling
-- oil pressing
-- seed bank
-- cold chain
-- clean food handling
-- workshop
-- feed logistics
+- [Architecture](ARCHITECTURE.md)
+- [Space](SPACE.md)
+- [Design](DESIGN.md)
+- [Image & Blueprint](IMAGE.md)
+- [Details](DETAILS.md)
+- [Utilities](UTILITIES.md)
+- [Operations](OPERATIONS.md)
 
-## Required skills
+## Capacity, production and business documentation
 
-- [`eco-farm-processing-storage-space`](../../.agents/skills/eco-farm-processing-storage-space/SKILL.md)
-- [`eco-farm-processing-storage`](../../.agents/skills/eco-farm-processing-storage/SKILL.md)
-- [`eco-farm-grain-rice-mill-space`](../../.agents/skills/eco-farm-grain-rice-mill-space/SKILL.md)
-- [`eco-farm-feed-silage-hay-space`](../../.agents/skills/eco-farm-feed-silage-hay-space/SKILL.md)
-- [`eco-farm-cold-chain-packhouse-space`](../../.agents/skills/eco-farm-cold-chain-packhouse-space/SKILL.md)
-- [`eco-farm-workshop-garage-space`](../../.agents/skills/eco-farm-workshop-garage-space/SKILL.md)
+- [Capacity](CAPACITY.md)
+- [Production / Service Output](PRODUCTION.md)
+- [Inputs & Outputs](INPUTS_OUTPUTS.md)
+- [Costs](COSTS.md)
+- [Economics](ECONOMICS.md)
+- [Business & Value Strategy](BUSINESS.md)
 
-## Folder documents
+## Main capacity/output snapshot
 
-- [Architecture](ARCHITECTURE.md) — physical organization, adjacency and internal architecture
-- [Space](SPACE.md) — area, coordinates, dimensions and subspace budget
-- [Design](DESIGN.md) — design rules, safety, environmental and material concepts
-- [Image](IMAGE.md) — blueprint/render/image-generation rules
-- [Details](DETAILS.md) — complete component/interface description
-- [Utilities](UTILITIES.md) — power, water, drainage, data, fire and waste interfaces
-- [Operations](OPERATIONS.md) — operating routines, records and KPIs
-- [GRAIN RICE MILL](GRAIN_RICE_MILL.md) — dedicated subspace detail
-- [FEED SILAGE HAY](FEED_SILAGE_HAY.md) — dedicated subspace detail
-- [COLD CHAIN PACKHOUSE](COLD_CHAIN_PACKHOUSE.md) — dedicated subspace detail
-- [WORKSHOP GARAGE](WORKSHOP_GARAGE.md) — dedicated subspace detail
+- Grain store 400 m²; base 10–20 t dry grain capacity
+- Rice mill 200 m²; ~100–200 kg paddy/hour base
+- Feed mill 270 m²
+- Cold room + packhouse 300 m²
+- Clean milk/egg/fish handling 170 m²
+- Workshop/spares 260 m²
+- Rice milling for own farm first
+- Feed grinding/mixing for own animals
+- Drying and grain/seed storage
+- Cold-chain and packhouse services
+- Optional oil pressing
+- Optional custom processing for nearby farms if spare capacity exists
 
-## Neighbor relationship
+## Required rule
 
-```mermaid
-flowchart LR
-    A["West access/service strip"]
-    S["Agro-Processing & Storage Hub"]
-    B["Energy/water east"]
-    A --- S --- B
-```
+Do not judge this space only by cash income. Some zones create direct sales, some create internal replacement value, and some protect the rest of the farm by reducing risk or operating cost.
 
-## Must stay compatible with
-
-- [`../../SPACE.md`](../../SPACE.md)
-- [`../../docs/COORDINATE_MASTER_PLAN_L1.md`](../../docs/COORDINATE_MASTER_PLAN_L1.md)
-- [`../../docs/SPACE_REGISTRY.md`](../../docs/SPACE_REGISTRY.md)
-- [`../../docs/SPATIAL_DESIGN_STANDARD.md`](../../docs/SPATIAL_DESIGN_STANDARD.md)
-- [`../../docs/IMAGE_BLUEPRINT_STANDARD.md`](../../docs/IMAGE_BLUEPRINT_STANDARD.md)
-- [`../../docs/DECISIONS.md`](../../docs/DECISIONS.md)
-
-Do not change this space's outer L1 authority without a master-plan decision and a full area/adjoining-system recheck.
+See [farm-wide economic assumptions](../../docs/ECONOMIC_ASSUMPTIONS.md).

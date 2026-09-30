@@ -23,6 +23,8 @@ The project combines food crops, fodder, vegetables, greenhouse production, orch
 ## Repository guides
 
 - **[SPACE.md](SPACE.md)** — every farm space, area, dimensions, adjacency, utilities and diagrams
+- **[Farm Economics Summary](docs/FARM_ECONOMICS_SUMMARY.md)** — production/value/cost model across the farm
+- **[Economic Assumptions](docs/ECONOMIC_ASSUMPTIONS.md)** — editable BDT prices and accounting rules
 - **[Agent Skills](.agents/README.md)** — complete linked index of all farm skills
 - **[Full Master Plan — English](docs/FULL_MASTER_PLAN_V6_ENGLISH.md)**
 - **[Full Master Plan — Bangla](docs/FULL_MASTER_PLAN_V6_BANGLA.md)**

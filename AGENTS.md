@@ -45,3 +45,16 @@ Before designing or modifying a physical farm area:
 4. For images/blueprints, also read `IMAGE.md`.
 5. For operational changes, also read `OPERATIONS.md`.
 6. Then load the linked agent skill(s) and finish with `eco-farm-quality-gate`.
+
+## Capacity, production and economics rule
+
+For any question about what a space can produce, how many animals/crops it can support, cost, revenue, savings or business use:
+1. Read that space's `CAPACITY.md`.
+2. Read `PRODUCTION.md`.
+3. Read `INPUTS_OUTPUTS.md`.
+4. Read `COSTS.md`.
+5. Read `ECONOMICS.md`.
+6. Read `BUSINESS.md`.
+7. Read `docs/ECONOMIC_ASSUMPTIONS.md`.
+8. Keep cash revenue, internal replacement value and avoided-loss value separate.
+9. Do not call scenario gross value "profit".

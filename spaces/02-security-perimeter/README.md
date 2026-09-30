@@ -6,53 +6,39 @@ This folder is the detailed documentation authority for the **Security Wall, Ins
 
 | Item | Value |
 |---|---|
-| Farm area allocation | **1,800 m² / 19,375 ft²** |
-| L1 geometry | Continuous outer security ring. |
-| L1 coordinate authority | Plot edge to inner control at 1.931 m average gross inset. Local service/CCTV bays may widen. |
-| Status | **PROVISIONAL L1** — authoritative for repository drawings/images, not legal/construction staking |
+| Parent area | **1,800 m²** |
+| Business role | **support** |
+| Planning status | L1 / master planning |
 
-## Purpose
+## Core design documentation
 
-- physical security
-- privacy
-- inspection/patrol
-- CCTV/light support
-- boundary maintenance
+- [Architecture](ARCHITECTURE.md)
+- [Space](SPACE.md)
+- [Design](DESIGN.md)
+- [Image & Blueprint](IMAGE.md)
+- [Details](DETAILS.md)
+- [Utilities](UTILITIES.md)
+- [Operations](OPERATIONS.md)
 
-## Required skills
+## Capacity, production and business documentation
 
-- [`eco-farm-perimeter-wall-security-space`](../../.agents/skills/eco-farm-perimeter-wall-security-space/SKILL.md)
-- [`eco-farm-security-resilience`](../../.agents/skills/eco-farm-security-resilience/SKILL.md)
-- [`eco-farm-electrical-lighting-cctv`](../../.agents/skills/eco-farm-electrical-lighting-cctv/SKILL.md)
+- [Capacity](CAPACITY.md)
+- [Production / Service Output](PRODUCTION.md)
+- [Inputs & Outputs](INPUTS_OUTPUTS.md)
+- [Costs](COSTS.md)
+- [Economics](ECONOMICS.md)
+- [Business & Value Strategy](BUSINESS.md)
 
-## Folder documents
+## Main capacity/output snapshot
 
-- [Architecture](ARCHITECTURE.md) — physical organization, adjacency and internal architecture
-- [Space](SPACE.md) — area, coordinates, dimensions and subspace budget
-- [Design](DESIGN.md) — design rules, safety, environmental and material concepts
-- [Image](IMAGE.md) — blueprint/render/image-generation rules
-- [Details](DETAILS.md) — complete component/interface description
-- [Utilities](UTILITIES.md) — power, water, drainage, data, fire and waste interfaces
-- [Operations](OPERATIONS.md) — operating routines, records and KPIs
+- Protects the full ~940 m plot perimeter
+- Supports two controlled gate systems
+- Supports CCTV/security lighting interfaces and patrol/inspection access
+- No agricultural sale output
+- Service output: theft/intrusion deterrence, controlled access, privacy, perimeter inspection
 
+## Required rule
 
-## Neighbor relationship
+Do not judge this space only by cash income. Some zones create direct sales, some create internal replacement value, and some protect the rest of the farm by reducing risk or operating cost.
 
-```mermaid
-flowchart LR
-    A["Legal/planning boundary outside"]
-    S["Security Wall, Inspection & Privacy Band"]
-    B["Perimeter canal inside"]
-    A --- S --- B
-```
-
-## Must stay compatible with
-
-- [`../../SPACE.md`](../../SPACE.md)
-- [`../../docs/COORDINATE_MASTER_PLAN_L1.md`](../../docs/COORDINATE_MASTER_PLAN_L1.md)
-- [`../../docs/SPACE_REGISTRY.md`](../../docs/SPACE_REGISTRY.md)
-- [`../../docs/SPATIAL_DESIGN_STANDARD.md`](../../docs/SPATIAL_DESIGN_STANDARD.md)
-- [`../../docs/IMAGE_BLUEPRINT_STANDARD.md`](../../docs/IMAGE_BLUEPRINT_STANDARD.md)
-- [`../../docs/DECISIONS.md`](../../docs/DECISIONS.md)
-
-Do not change this space's outer L1 authority without a master-plan decision and a full area/adjoining-system recheck.
+See [farm-wide economic assumptions](../../docs/ECONOMIC_ASSUMPTIONS.md).

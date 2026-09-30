@@ -6,56 +6,43 @@ This folder is the detailed documentation authority for the **Biogas, Compost & 
 
 | Item | Value |
 |---|---|
-| Farm area allocation | **1,600 m² / 17,222 ft²** |
-| L1 geometry | Far south-east service rectangle. |
-| L1 coordinate authority | X 207.008–237.172 m; Y 12.828–65.871 m. L1 block ≈30.164 × 53.043 m. |
-| Status | **PROVISIONAL L1** — authoritative for repository drawings/images, not legal/construction staking |
+| Parent area | **1,600 m²** |
+| Business role | **utility-value** |
+| Planning status | L1 / master planning |
 
-## Purpose
+## Core design documentation
 
-- manure receiving
-- solid separation
-- digester
-- gas handling
-- digestate
-- composting
-- wastewater treatment
+- [Architecture](ARCHITECTURE.md)
+- [Space](SPACE.md)
+- [Design](DESIGN.md)
+- [Image & Blueprint](IMAGE.md)
+- [Details](DETAILS.md)
+- [Utilities](UTILITIES.md)
+- [Operations](OPERATIONS.md)
 
-## Required skills
+## Capacity, production and business documentation
 
-- [`eco-farm-biogas-compost-space`](../../.agents/skills/eco-farm-biogas-compost-space/SKILL.md)
-- [`eco-farm-biogas-compost-nutrients`](../../.agents/skills/eco-farm-biogas-compost-nutrients/SKILL.md)
-- [`eco-farm-wastewater-treatment-space`](../../.agents/skills/eco-farm-wastewater-treatment-space/SKILL.md)
-- [`eco-farm-water-drainage-wastewater`](../../.agents/skills/eco-farm-water-drainage-wastewater/SKILL.md)
+- [Capacity](CAPACITY.md)
+- [Production / Service Output](PRODUCTION.md)
+- [Inputs & Outputs](INPUTS_OUTPUTS.md)
+- [Costs](COSTS.md)
+- [Economics](ECONOMICS.md)
+- [Business & Value Strategy](BUSINESS.md)
 
-## Folder documents
+## Main capacity/output snapshot
 
-- [Architecture](ARCHITECTURE.md) — physical organization, adjacency and internal architecture
-- [Space](SPACE.md) — area, coordinates, dimensions and subspace budget
-- [Design](DESIGN.md) — design rules, safety, environmental and material concepts
-- [Image](IMAGE.md) — blueprint/render/image-generation rules
-- [Details](DETAILS.md) — complete component/interface description
-- [Utilities](UTILITIES.md) — power, water, drainage, data, fire and waste interfaces
-- [Operations](OPERATIONS.md) — operating routines, records and KPIs
-- [WASTEWATER TREATMENT](WASTEWATER_TREATMENT.md) — dedicated subspace detail
+- Digester/gas capacity must be sized from measured manure/feedstock
+- Initial generator planning envelope 10–20 kW; larger only after gas mass balance
+- Compost/digestate system sized to animal/crop organic flows
+- Wastewater modules sized to measured source flows
+- Biogas for cooking/heat/generator
+- Digestate/compost fertilizer
+- Treated wastewater for approved non-potable reuse
+- Reduced manure odor/pollution
+- Avoided methane release
 
-## Neighbor relationship
+## Required rule
 
-```mermaid
-flowchart LR
-    A["Ruminants west"]
-    S["Biogas, Compost & Wastewater Treatment"]
-    B["Fodder north"]
-    A --- S --- B
-```
+Do not judge this space only by cash income. Some zones create direct sales, some create internal replacement value, and some protect the rest of the farm by reducing risk or operating cost.
 
-## Must stay compatible with
-
-- [`../../SPACE.md`](../../SPACE.md)
-- [`../../docs/COORDINATE_MASTER_PLAN_L1.md`](../../docs/COORDINATE_MASTER_PLAN_L1.md)
-- [`../../docs/SPACE_REGISTRY.md`](../../docs/SPACE_REGISTRY.md)
-- [`../../docs/SPATIAL_DESIGN_STANDARD.md`](../../docs/SPATIAL_DESIGN_STANDARD.md)
-- [`../../docs/IMAGE_BLUEPRINT_STANDARD.md`](../../docs/IMAGE_BLUEPRINT_STANDARD.md)
-- [`../../docs/DECISIONS.md`](../../docs/DECISIONS.md)
-
-Do not change this space's outer L1 authority without a master-plan decision and a full area/adjoining-system recheck.
+See [farm-wide economic assumptions](../../docs/ECONOMIC_ASSUMPTIONS.md).
