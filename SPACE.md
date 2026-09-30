@@ -62,8 +62,8 @@ flowchart TB
 | No. | Farm section | Area m² | Area ft² | Planning dimension / form | Main skill |
 |---:|---|---:|---:|---|---|
 | 1 | Perimeter Canal | 5,400 | 58,125 | Distributed around perimeter; ~6 m clear-water width | [skill](.agents/skills/eco-farm-perimeter-canal-space/SKILL.md) |
-| 2 | Security Wall + Inspection/Privacy Strip | 1,800 | 19,375 | Perimeter strip; ~2.5–3 m inspection width + wall | [skill](.agents/skills/eco-farm-perimeter-wall-security-space/SKILL.md) |
-| 3 | Roads + Drains + Fire Lanes + Gates | 4,200 | 45,208 | Network; primary ~5 m, secondary ~3.5 m, fire road ~4.5–5 m | [skill](.agents/skills/eco-farm-roads-gates-traffic-space/SKILL.md) |
+| 2 | Security Wall + Inspection/Privacy Strip | 1,800 | 19,375 | Equivalent gross perimeter band ~1.93 m average; locally widened inspection/service bays | [skill](.agents/skills/eco-farm-perimeter-wall-security-space/SKILL.md) |
+| 3 | Perimeter Fire/Service Road + Edge Drains + Gates | 4,200 | 45,208 | Equivalent continuous perimeter road ring ~4.9 m average; gate/bridge approaches included | [skill](.agents/skills/eco-farm-roads-gates-traffic-space/SKILL.md) |
 | 4 | House + Admin + Playground + Kitchen Garden | 2,200 | 23,681 | Combined clean-family zone | [skill](.agents/skills/eco-farm-house-admin-space/SKILL.md) |
 | 5 | Human Food Crops | 6,500 | 69,965 | Planning envelope ~65 m × 100 m | [skill](.agents/skills/eco-farm-food-crop-space/SKILL.md) |
 | 6 | Fodder Bank | 12,000 | 129,167 | Planning envelope ~100 m × 120 m | [skill](.agents/skills/eco-farm-fodder-bank-space/SKILL.md) |
@@ -75,7 +75,7 @@ flowchart TB
 | 12 | Biogas + Compost + Wastewater Treatment | 1,600 | 17,222 | Planning envelope ~40 m × 40 m | [skill](.agents/skills/eco-farm-biogas-compost-space/SKILL.md) |
 | 13 | Energy + Clean-Water Control | 800 | 8,611 | Planning envelope ~20 m × 40 m | [skill](.agents/skills/eco-farm-energy-water-control-space/SKILL.md) |
 | 14 | Quarantine + Emergency Reserve | 1,000 | 10,764 | Planning envelope ~20 m × 50 m | [skill](.agents/skills/eco-farm-quarantine-space/SKILL.md) |
-| 15 | Biosecurity Buffers + Headlands + Swales | 3,000 | 32,292 | Distributed/irregular reserve | [skill](.agents/skills/eco-farm-master-planning/SKILL.md) |
+| 15 | Internal Access Spines + Biosecurity Buffers + Headlands + Swales | 3,000 | 32,292 | Distributed internal circulation/safety reserve | [skill](.agents/skills/eco-farm-master-planning/SKILL.md) |
 
 **Total: 55,000 m² ≈ 592,016 ft².**
 
@@ -130,7 +130,7 @@ flowchart LR
 **Area:** 1,800 m² ≈ 19,375 ft²  
 **Form:** Distributed perimeter strip  
 **Wall height concept:** ~3 m  
-**Inspection strip:** ~2.5–3.0 m  
+**Inspection/security gross band:** equivalent average ~1.93 m; clear walking width may widen locally to ~2.5–3.0 m at gates, CCTV and maintenance bays  
 **Skill:** [`eco-farm-perimeter-wall-security-space`](.agents/skills/eco-farm-perimeter-wall-security-space/SKILL.md)
 
 ## Purpose
@@ -143,8 +143,9 @@ flowchart LR
 ## Required elements
 - legal boundary control
 - wall/gate piers
-- patrol strip
-- privacy vegetation
+- patrol/inspection strip
+- low/medium privacy vegetation within the 5.5 ha allocation
+- tall privacy/windbreak trees only on non-shading edges using orchard/buffer allocation, or on additional land outside the 5.5 ha authority
 - CCTV coverage
 - security lighting
 - maintenance access
@@ -172,10 +173,9 @@ flowchart LR
 # 3. Roads + Drains + Fire Lanes + Gates
 
 **Area:** 4,200 m² ≈ 45,208 ft²  
-**Form:** Distributed circulation network  
-**Primary road:** ~5.0 m  
-**Secondary road:** ~3.5 m  
-**Fire/service road:** ~4.5–5.0 m  
+**Primary role:** continuous perimeter fire/service road + gate/bridge approaches + edge drains  
+**Equivalent perimeter road width:** ~4.9 m average after the security band and canal  
+**Internal access spines:** drawn from the separate 3,000 m² internal-access/buffer allocation; primary spine ~5.0 m and secondary access ~3.5 m concepts  
 **Pedestrian path:** ~1.2–1.5 m  
 **Main gate:** ~6 m clear concept  
 **Service/emergency gate:** ~5 m clear concept  
@@ -529,18 +529,19 @@ flowchart LR
 
 | Facility | Area m² | Approx. ft² |
 |---|---:|---:|
-| Crop receiving/weighing | 150–200 | 1,615–2,153 |
-| Covered drying | 200–250 | 2,153–2,691 |
-| Solar dryer | 50–80 | 538–861 |
-| Grain store | 350–450 | 3,767–4,844 |
-| Rice mill | 180–250 | 1,938–2,691 |
-| Feed mill | 250–300 | 2,691–3,229 |
-| Oil press | 80–120 | 861–1,292 |
-| Seed bank | 80–100 | 861–1,076 |
-| Cold room + packhouse | 250–350 | 2,691–3,767 |
-| Milk/egg/fish clean handling | 150–200 | 1,615–2,153 |
-| Workshop + spares | 250–300 | 2,691–3,229 |
-| Silage/hay/feed logistics | 250–350 | 2,691–3,767 |
+| Crop receiving/weighing | 160 | 1,722 |
+| Covered drying | 220 | 2,368 |
+| Solar dryer | 60 | 646 |
+| Grain store | 400 | 4,306 |
+| Rice mill | 200 | 2,153 |
+| Feed mill | 270 | 2,906 |
+| Oil press | 90 | 969 |
+| Seed bank | 90 | 969 |
+| Cold room + packhouse | 300 | 3,229 |
+| Milk/egg/fish clean handling | 170 | 1,830 |
+| Workshop + spares | 260 | 2,799 |
+| Silage/hay/feed logistics | 280 | 3,014 |
+| Internal circulation / fire separation / utilities | 300 | 3,229 |
 
 ## Separation
 Dusty milling, clean food handling, wet processing, cold rooms, hot-work workshop, and dry fire-load storage must be separated.
@@ -689,15 +690,16 @@ flowchart LR
 
 ---
 
-# 15. Biosecurity Buffers + Headlands + Swales
+# 15. Internal Access Spines + Biosecurity Buffers + Headlands + Swales
 
 **Area:** 3,000 m² ≈ 32,292 ft²  
-**Form:** Distributed and irregular  
+**Form:** Distributed and irregular; this allocation also carries the internal primary/secondary access spines that cannot fit inside the 4,200 m² perimeter-road ring  
 **Skill:** [`eco-farm-master-planning`](.agents/skills/eco-farm-master-planning/SKILL.md)
 
 This allocation is deliberately not one rectangle. It is spread through the farm to keep incompatible zones apart and provide operational room.
 
 ## Uses
+- internal primary/secondary access spines
 - biosecurity setbacks
 - equipment headlands
 - turning space
@@ -804,3 +806,25 @@ This file defines **area and planning envelopes**, not final coordinates. The ne
 - north arrow and survey levels
 
 Only after that should agents claim centimeter- or millimeter-accurate placement.
+
+# 20. Spatial Feasibility Audit
+
+The 55,000 m² allocation has been checked as nested geometry rather than only as a percentage table.
+
+1. **Whole plot:** 250 m × 220 m = 55,000 m².
+2. **Security wall + inspection/privacy allocation:** 1,800 m² corresponds to an equivalent average perimeter band of about **1.93 m**. This is why the clear inspection path is not treated as a continuous 2.5–3.0 m strip; wider bays are local.
+3. **Canal:** after that band, a ~6.0 m continuous canal ring occupies about **5,403 m²**, effectively matching the 5,400 m² allocation at master-plan precision.
+4. **Perimeter fire/service road:** the remaining outer rectangle can accept a continuous road ring averaging about **4.90 m**, occupying approximately the 4,200 m² road allocation.
+5. **Internal core:** after those three perimeter systems, the usable internal core is approximately **224.34 m × 194.34 m = 43,597 m²**.
+6. **All internal farm zones, including the 3,000 m² internal-access/buffer reserve:** total **43,600 m²**. The ~3 m² difference is rounding only.
+
+**Conclusion:** the 5.5 ha allocation closes correctly at master-plan level. The important correction is that internal access spines must be counted inside the 3,000 m² internal-access/buffer allocation rather than assumed to fit inside the 4,200 m² perimeter-road allocation.
+
+## Space-efficiency corrections
+
+- Continuous tall-tree privacy belts are **not** included around the entire perimeter because they would consume extra land and can shade crops. Use low/medium privacy planting in the perimeter band and tall trees only on approved non-shading edges using orchard/buffer land, or on additional land outside the 5.5 ha plan.
+- The processing hub uses a reconciled **2,800 m²** schedule; its previous independent maximum ranges could exceed the hub area.
+- Base grain storage should be **10–20 t** for this farm. A 25–40 t store is an expansion/custom-processing option, not the base requirement.
+- Rice milling should be compact: roughly **100–200 kg paddy/hour** base capacity; up to 300 kg/hour only if external/custom milling is planned.
+- Biogas generator nameplate must follow measured gas production. For the current conservative herd, treat **10–20 kW as the initial planning envelope**; 25–40 kW is only a future envelope if manure/organic-feedstock mass balance proves it.
+

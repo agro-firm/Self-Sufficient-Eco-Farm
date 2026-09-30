@@ -11,7 +11,10 @@ Use before any non-trivial planning, engineering, production, procurement, opera
 ## Authorities
 1. `docs/MASTER_PLAN_SUMMARY.md`
 2. `docs/DECISIONS.md`
-3. Relevant specialized skills
+3. `SPACE.md`
+4. `docs/SPATIAL_DESIGN_STANDARD.md`
+5. `docs/SPACE_REGISTRY.md`
+6. Relevant specialized skills
 
 ## Workflow
 1. Identify the requested system and affected zones.

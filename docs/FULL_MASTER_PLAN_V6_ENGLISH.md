@@ -132,7 +132,7 @@ PRODUCTION ZONES
 | Whole Site | 250 m × 220 m | 55,000 m² | N/A | Authoritative planning footprint |
 | Security Wall | Entire perimeter | Site perimeter-based | About 3 m concept height | Final footing/thickness by engineer |
 | Perimeter Canal | About 6 m clear-water width | Perimeter-based | About 1.5–2.0 m operating depth concept | Final section by geotech + aquaculture design |
-| Inspection Strip | About 2.5–3.0 m wide | Perimeter strip | Open | Between wall and canal |
+| Inspection Strip | Equivalent average ~1.93 m gross perimeter band; local service bays may widen to ~2.5–3.0 m | Perimeter strip | Open | Between wall and canal |
 | Inner Fire/Service Road | About 4.5–5.0 m wide | Perimeter loop | Open | Emergency and maintenance access |
 | House/Admin Block | About 24 m × 20 m envelope | About 480 m² | 1–2 storeys | Residence, office, control and first aid |
 | Playground | 20 m × 30 m | 600 m² | Open | Play + emergency assembly |
@@ -194,9 +194,9 @@ PRODUCTION ZONES
 
 ## 6.1 Road Widths
 
-- Primary internal road: **5.0 m**
-- Secondary farm road: **3.5 m**
-- Inner fire/service road: **4.5–5.0 m**
+- Primary internal access spine: **5.0 m concept**, counted inside the 3,000 m² internal-access/buffer allocation
+- Secondary internal access: **3.5 m concept**, counted inside the same allocation
+- Perimeter fire/service road: **about 4.9 m average planning ring**
 - Pedestrian path: **1.2–1.5 m**
 - Main gate: **about 6 m clear width concept**
 - Service/emergency gate: **about 5 m clear width concept**
@@ -432,7 +432,7 @@ Management tools:
 | Crop Receiving Area | 150–200 m² | Harvest intake, weighing and first sorting |
 | Covered Drying Floor | 200–250 m² | Paddy, maize, seed and spice drying |
 | Solar Dryer | 50–80 m² | Chili, turmeric, seeds and selected produce |
-| Grain Store | 350–450 m² | 25–40 t dry-grain-equivalent concept |
+| Grain Store | 350–450 m² | 10–20 t base dry-grain capacity; 25–40 t only for expansion/custom processing |
 | Rice Mill Room | 180–250 m² | Paddy → rice + bran + husk |
 | Feed Mill Room | 250–300 m² | Grinding, mixing and optional pelletizing |
 | Oil Press Room | 80–120 m² | Mustard/sesame oil + oil cake |
@@ -479,7 +479,7 @@ Human emergency reserve target:
 # 17. Small Rice Mill
 
 Concept:
-- **150–300 kg paddy/hour**
+- **100–200 kg paddy/hour base; up to 300 kg/hour only with justified external/custom throughput**
 - cleaner
 - dehusker
 - separator
@@ -716,7 +716,7 @@ May still require external replacement:
 |---|---:|---|---|
 | Rooftop Solar PV | 120–160 kWp concept | Processing roofs + animal sheds + admin/energy roofs | Final after hourly load, shading and wind study |
 | Battery Bank | 300–500 kWh usable concept | Energy hub | Critical-load backup and night operation |
-| Biogas Generator | 25–40 kW concept | Near biogas zone with fire/electrical separation | Dispatchable backup; runtime depends on gas production |
+| Biogas Generator | 10–20 kW initial planning envelope; 25–40 kW only if measured gas mass balance supports it | Near biogas zone with fire/electrical separation | Dispatchable backup; runtime depends on gas production |
 | Main Distribution Board | Site-wide | Energy/control room | Critical and noncritical split |
 | Critical Circuits | Cold store, CCTV, water, medicine refrigerator, communications, aeration | Priority circuits | Keep backed whenever practical |
 | Noncritical Circuits | Mills, workshop, optional loads | Sheddable circuits | Operate when power margin is available |

@@ -69,12 +69,12 @@ Every dimensioned plan must show, as applicable:
 
 Until detailed engineering replaces them:
 - security wall: ~3 m high concept
-- inspection strip: ~2.5–3.0 m
+- security wall + inspection/privacy gross band: equivalent ~1.93 m average; local clear inspection/service bays may widen to ~2.5–3.0 m
 - perimeter canal clear-water width: ~6 m
 - perimeter canal operating depth: ~1.5–2.0 m concept
-- inner fire/service road: ~4.5–5.0 m
-- primary internal road: ~5.0 m
-- secondary internal road: ~3.5 m
+- perimeter fire/service road: ~4.9 m average planning ring within the 4,200 m² allocation
+- primary internal access spine: ~5.0 m concept, counted inside the 3,000 m² internal-access/buffer allocation
+- secondary internal access: ~3.5 m concept, counted inside the same 3,000 m² allocation
 - pedestrian path: ~1.2–1.5 m
 - main gate: ~6 m clear concept
 - service/emergency gate: ~5 m clear concept

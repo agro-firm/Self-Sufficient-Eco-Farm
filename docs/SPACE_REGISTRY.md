@@ -20,7 +20,7 @@ This registry defines authoritative **planning envelopes and fixed relationships
 |---|---:|
 | Perimeter canal | 5,400 m² |
 | Wall + inspection/privacy | 1,800 m² |
-| Roads/drains/fire lanes/gates | 4,200 m² |
+| Perimeter fire/service road + edge drains + gates | 4,200 m² |
 | House/admin/control/playground/kitchen garden | 2,200 m² |
 | Human food crops | 6,500 m² |
 | Fodder bank | 12,000 m² |
@@ -32,7 +32,7 @@ This registry defines authoritative **planning envelopes and fixed relationships
 | Biogas/compost/wastewater | 1,600 m² |
 | Energy/water control | 800 m² |
 | Quarantine/emergency reserve | 1,000 m² |
-| Biosecurity buffers/headlands/swales | 3,000 m² |
+| Internal access spines + biosecurity buffers + headlands + swales | 3,000 m² |
 
 ## Fixed adjacency rules
 
@@ -57,3 +57,12 @@ Before exact CAD/image coordinates are declared:
 6. Only then allow centimeter/mm-accurate building and utility placement.
 
 Any skill asked for exact coordinates before Step 5 must return a provisional layout clearly marked `PROVISIONAL`.
+
+## Perimeter geometry reconciliation
+
+- The 1,800 m² security/inspection/privacy allocation is equivalent to an average perimeter band of about 1.93 m around a 250 m × 220 m plot. Local inspection/service bays may be wider.
+- A ~6 m canal ring immediately inside that band occupies approximately 5,400 m².
+- A continuous perimeter fire/service road ring immediately inside the canal averages about 4.9 m and occupies approximately 4,200 m².
+- Internal primary/secondary access spines are therefore part of the 3,000 m² internal-access/buffer allocation, not additional uncounted land.
+- Continuous tall-tree privacy belts are not assumed inside the 1,800 m² ring; tall windbreak/privacy trees use approved orchard/buffer land on non-shading edges or additional land outside the 5.5 ha authority.
+

@@ -113,8 +113,8 @@ Biosecurity Buffer
 | পুরো জমি | Whole Site | ২৫০ মি × ২২০ মি | ৫৫,০০০ মি² | N/A | আধিকারিক planning size |
 | Boundary Wall | নিরাপত্তা দেয়াল | পুরো perimeter | site perimeter অনুযায়ী | ধারণাগত ৩ মি | geotech + structural design required |
 | Canal | চারপাশের খাল | clear water width ~৬ মি | পরিমিতি অনুযায়ী | গভীরতা ~১.৫–২.০ মি concept | চূড়ান্ত গভীরতা engineer + aquaculture design-এ |
-| Inspection Strip | পাহারা/রক্ষণাবেক্ষণ স্ট্রিপ | ~২.৫–৩.০ মি চওড়া | perimeter strip | open | wall ও canal-এর মাঝে |
-| Inner Fire Road | ভিতরের fire/service road | ~৪.৫–৫.০ মি চওড়া | perimeter loop | open | emergency vehicle access |
+| Inspection Strip | পাহারা/রক্ষণাবেক্ষণ স্ট্রিপ | সমতুল্য গড় gross perimeter band ~১.৯৩ মি; gate/CCTV/maintenance bay-এ স্থানীয়ভাবে ~২.৫–৩.০ মি পর্যন্ত প্রশস্ত | perimeter strip | open | wall ও canal-এর মাঝে |
+| Inner Fire Road | ভিতরের fire/service road | ~৪.৯ মি average planning perimeter ring | perimeter loop | open | emergency vehicle access |
 | House/Admin Block | বাড়ি + অফিস | ~২৪ মি × ২০ মি envelope | ~৪৮০ মি² | ১–২ তলা | বাসা, office, control, first aid |
 | Playground | খেলার মাঠ | ২০ মি × ৩০ মি | ৬০০ মি² | open | mini football/badminton/play |
 | Kitchen Garden | পরিবারের kitchen garden | ১০ মি × ২০ মি | ২০০ মি² | open | herbs/leafy/daily use |
@@ -1114,7 +1114,7 @@ Cold Room → Reduced Post-Harvest Loss
 ### Concept microgrid
 - Solar PV: **120–160 kWp**
 - Usable LFP battery: **300–500 kWh**
-- Biogas generator: **25–40 kW**
+- Biogas generator: **base planning 10–20 kW; measured gas mass-balance support করলে future 25–40 kW**
 - Main inverter: final diversified load study অনুযায়ী
 
 ---

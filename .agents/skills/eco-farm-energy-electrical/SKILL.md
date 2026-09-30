@@ -6,7 +6,7 @@ description: Plan rooftop solar, battery, biogas backup, critical loads, distrib
 # Renewable Energy and Electrical
 
 ## Current concept
-Solar 120–160 kWp; usable LFP battery 300–500 kWh; biogas generator 25–40 kW dispatchable backup.
+Solar 120–160 kWp and usable LFP battery 300–500 kWh remain feasibility concepts. Biogas-generator nameplate is **not fixed**: use 10–20 kW as the initial planning envelope for the conservative herd, and consider 25–40 kW only if measured feedstock/gas production and storage prove adequate runtime.
 
 ## Workflow
 1. Build hourly/seasonal load schedules.
@@ -15,7 +15,8 @@ Solar 120–160 kWp; usable LFP battery 300–500 kWh; biogas generator 25–40 
 4. Schedule mills, workshop, and irrigation around solar surplus.
 5. Keep critical electrical rooms above flood level.
 6. Plan underground corridors, surge protection, earthing, lightning protection, isolation, ATS, and load shedding.
-7. Run shade and wind-uplift studies for PV.
+7. Match generator nameplate and runtime to measured biogas mass balance; do not size from desired electrical load alone.
+8. Run shade and wind-uplift studies for PV.
 
 ## Stop conditions
 Final cables, breakers, earthing, PV anchors, battery fire design, and synchronization require licensed engineering.

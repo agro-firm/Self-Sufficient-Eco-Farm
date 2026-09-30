@@ -15,8 +15,8 @@ Use `docs/SPATIAL_DESIGN_STANDARD.md` and `docs/SPACE_REGISTRY.md`.
 
 ## Capacity concepts
 
-- grain store: 25–40 t dry-grain equivalent
-- rice mill: 150–300 kg paddy/hour
+- grain store: 10–20 t dry-grain equivalent base capacity; 25–40 t only for expansion/custom processing
+- rice mill: ~100–200 kg paddy/hour base capacity; up to ~300 kg/hour only with justified external/custom throughput
 
 ## Required zones
 

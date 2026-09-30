@@ -17,19 +17,22 @@ Use `docs/SPATIAL_DESIGN_STANDARD.md` and `docs/SPACE_REGISTRY.md`.
 
 **2,800 m²**.
 
-Subspaces:
-- receiving/weighing 150–200 m²
-- covered drying 200–250 m²
-- solar dryer 50–80 m²
-- grain store 350–450 m²
-- rice mill 180–250 m²
-- feed mill 250–300 m²
-- oil press 80–120 m²
-- seed bank 80–100 m²
-- cold room/packhouse 250–350 m²
-- clean milk/egg/fish handling 150–200 m²
-- workshop/spares 250–300 m²
-- silage/hay/feed logistics 250–350 m²
+Reconciled base subspace schedule (sums to 2,800 m²):
+- receiving/weighing 160 m²
+- covered drying 220 m²
+- solar dryer 60 m²
+- grain store 400 m²
+- rice mill 200 m²
+- feed mill 270 m²
+- oil press 90 m²
+- seed bank 90 m²
+- cold room/packhouse 300 m²
+- clean milk/egg/fish handling 170 m²
+- workshop/spares 260 m²
+- silage/hay/feed logistics 280 m²
+- internal circulation/fire separation/utilities 300 m²
+
+These are base planning values, not construction dimensions. Any change must keep the hub total at or below 2,800 m² unless the master land allocation is formally changed.
 
 ## Separation matrix
 

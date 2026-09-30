@@ -22,7 +22,8 @@ outside vegetation → wall → inspection strip → canal.
 
 Concept values:
 - wall height ~3.0 m
-- inspection strip ~2.5–3.0 m
+- 1,800 m² gross allocation = equivalent ~1.93 m average perimeter band including wall/inspection/privacy functions
+- clear inspection/service width may widen locally to ~2.5–3.0 m at gates, CCTV and maintenance bays; it is not a continuous 3 m strip
 - final wall thickness/footing not fixed
 
 ## Required components
@@ -30,7 +31,8 @@ Concept values:
 - legal boundary control markers
 - reinforced wall/gate piers as engineered
 - inspection/patrol strip
-- low/medium privacy vegetation
+- low/medium privacy vegetation within the perimeter allocation
+- tall privacy/windbreak trees only on approved non-shading edges using orchard/buffer allocation, or on additional land outside the 5.5 ha authority
 - CCTV sight lines
 - security lighting
 - gatehouse interfaces

@@ -17,9 +17,9 @@ Use `docs/SPATIAL_DESIGN_STANDARD.md` and `docs/SPACE_REGISTRY.md`.
 
 - main clean gate ~6.0 m clear
 - service/emergency gate ~5.0 m clear
-- primary road ~5.0 m
-- secondary road ~3.5 m
-- perimeter fire/service road ~4.5–5.0 m
+- perimeter fire/service road ~4.9 m average planning ring inside the 4,200 m² road allocation
+- primary internal access spine ~5.0 m concept, counted inside the 3,000 m² internal-access/buffer allocation
+- secondary internal access ~3.5 m concept, counted inside the same 3,000 m² allocation
 - pedestrian path ~1.2–1.5 m
 
 ## Required traffic networks
@@ -40,3 +40,8 @@ Emergency: either gate → fire road → every critical zone.
 ## Blueprint rules
 
 Dimension every road width, gate opening, junction, turning bay, pedestrian crossing, and bridge/culvert. Mark route classes distinctly.
+
+## Land-budget rule
+
+The 4,200 m² road allocation is effectively consumed by the continuous perimeter fire/service ring plus gates, bridge approaches and edge drains. Do not add uncounted internal roads. Internal cross-farm access must be drawn from the 3,000 m² internal-access/buffer/headland/swale allocation or from explicitly defined within-zone headlands.
+
