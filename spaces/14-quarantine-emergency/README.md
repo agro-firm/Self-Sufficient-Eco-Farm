@@ -20,6 +20,17 @@ This folder is the detailed documentation authority for the **Quarantine & Emerg
 - [Utilities](UTILITIES.md)
 - [Operations](OPERATIONS.md)
 
+## Space systems / engineering
+
+- [Blueprint Set](BLUEPRINT.md)
+- [Space Management](SPACE_MANAGEMENT.md)
+- [Drainage & Stormwater](DRAINAGE.md)
+- [Water System](WATER_SYSTEM.md)
+- [Electrical System](ELECTRICAL.md)
+- [CCTV & Security](CCTV_SECURITY.md)
+- [Daylight & Lighting](LIGHTING.md)
+- [Safety & Emergency](SAFETY.md)
+
 ## Capacity, production and business documentation
 
 - [Capacity](CAPACITY.md)

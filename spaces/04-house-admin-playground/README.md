@@ -49,3 +49,14 @@ X 28.627–63.384 m; Y 143.877–207.172 m.
 - [Business / Value Strategy](BUSINESS.md)
 
 All internal positions remain PROVISIONAL until an L2 site/floor plan is approved.
+
+## Space systems / engineering
+
+- [Blueprint Set](BLUEPRINT.md)
+- [Space Management](SPACE_MANAGEMENT.md)
+- [Drainage & Stormwater](DRAINAGE.md)
+- [Water System](WATER_SYSTEM.md)
+- [Electrical System](ELECTRICAL.md)
+- [CCTV & Security](CCTV_SECURITY.md)
+- [Daylight & Lighting](LIGHTING.md)
+- [Safety & Emergency](SAFETY.md)
