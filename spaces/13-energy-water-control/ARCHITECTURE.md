@@ -2,49 +2,83 @@
 
 ## Architectural intent
 
-Raised critical utility hub with physical separation between wet water-process spaces and electrical/battery spaces.
+Raised critical utility hub with wet water systems physically separated from electrical/battery rooms.
 
-## L1 placement
+## Parent space authority
 
-X 84.467–99.549 m; Y 12.828–65.871 m. L1 block ≈15.082 × 53.043 m.
+- **Area:** 800 m² / 8,611 ft²
+- **Geometry:** south service utility rectangle
+- **L1 authority:** X 84.467–99.549 m; Y 12.828–65.871 m
+- **Status:** parent placement is PROVISIONAL L1; internal partitions/coordinates remain PROVISIONAL until approved in a detailed plan
 
-## Adjacency
+## Four-side context
 
-- Processing west
-- Quarantine east
-- Perimeter service road south
-- Vegetables north
+| Side | What is beside this space |
+|---|---|
+| North | fodder bank (not the vegetable zone) |
+| South | perimeter fire/service road |
+| East | quarantine/emergency reserve |
+| West | processing/storage hub |
 
-## Spaces / functions inside this zone
+## Internal architectural area schedule
 
-- battery/inverter
-- main electrical distribution
-- water treatment
-- pump controls
-- monitoring
-- critical utilities
+The following is the current **non-overlapping internal planning budget**. It sums to the full parent area.
+
+| Section / part | Area m² | Area ft² | Architectural purpose |
+|---|---:|---:|---|
+| Battery / inverter room | 150 | 1,615 | electrical storage/conversion |
+| Water treatment | 150 | 1,615 | clean-water processing |
+| Pump / control area | 100 | 1,076 | water and utility control |
+| Raw + treated water tanks | 120 | 1,292 | buffer storage |
+| MDB / communications / monitoring | 80 | 861 | distribution and controls |
+| Service / fire / maintenance buffer | 200 | 2,153 | clearances and safe access |
+| **Total** | **800** | **8,611** | **parent space** |
+
+
+
+## Architectural organization
+
+1. **Solar/Generator**
+2. **Battery/Inverter**
+3. **MDB/Comms**
+4. **Water Treatment**
+5. **Pumps/Tanks**
+6. **Farm Loads**
+
+## Simple architecture diagram — not to scale
+
+```mermaid
+flowchart TB
+    N["North: fodder bank (not the vegetable zone)"]
+    subgraph ROW["Energy & Clean-Water Control"]
+      direction LR
+      W["West: processing/storage hub"]
+      C["Solar/Generator • Battery/Inverter • MDB/Comms • Water Treatment • Pumps/Tanks • Farm Loads"]
+      E["East: quarantine/emergency reserve"]
+      W --- C --- E
+    end
+    S["South: perimeter fire/service road"]
+    N --- C
+    C --- S
+```
 
 ## Architecture rules
 
-- Keep the parent area at **800 m²**.
-- Preserve clean/dirty traffic separation appropriate to this zone.
-- Reserve maintenance and emergency access before adding decorative elements.
-- Building footprints, internal partitions and exact equipment positions are **PROVISIONAL** until L2/L3 design.
-- Any structure must respect flood, cyclone, fire, biosecurity and drainage requirements.
+- All internal parts must fit inside the parent area; no "free" uncounted space.
+- Access, drainage, maintenance, fire/biosecurity separation and utility clearances are part of architecture.
+- Four-side neighboring context must stay correct in drawings and images.
+- Permanent architecture must not move simply to improve an image composition.
+- Structural dimensions, foundations, exact room/equipment positions and code-required clearances remain subject to L2/L3 engineering.
 
-## Section relationship
+## Related files
 
-```mermaid
-flowchart LR
-    A["Processing west"]
-    S["Energy & Clean-Water Control"]
-    B["Quarantine east"]
-    A --- S --- B
-```
-
-## Cross references
-
-- [Space budget](SPACE.md)
-- [Design rules](DESIGN.md)
-- [Utilities](UTILITIES.md)
-- [Image rules](IMAGE.md)
+- [Space & Coordinates](SPACE.md)
+- [Blueprint](BLUEPRINT.md)
+- [Design](DESIGN.md)
+- [Image](IMAGE.md)
+- [Drainage](DRAINAGE.md)
+- [Water](WATER_SYSTEM.md)
+- [Electrical](ELECTRICAL.md)
+- [CCTV/Security](CCTV_SECURITY.md)
+- [Lighting](LIGHTING.md)
+- [Safety](SAFETY.md)
