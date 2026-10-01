@@ -1,24 +1,10 @@
-# House, Admin, Playground, Garage & Swimming Pool — Blueprint Set
+# Dedicated Fodder Bank — Daylight & Lighting
 
 ## Purpose
-This document defines the blueprint set requirements for this specific farm space. It must be read with `SPACE.md`, `DESIGN.md`, `UTILITIES.md`, `IMAGE.md`, the L1 coordinate plan, and the relevant skills.
+This document defines the daylight & lighting requirements for this specific farm space. It must be read with `SPACE.md`, `DESIGN.md`, `UTILITIES.md`, `IMAGE.md`, the L1 coordinate plan, and the relevant skills.
 
 ## Required / planned elements
-- site plan
-- ground floor
-- first floor
-- roof/solar
-- four elevations
-- sections
-- garage/parking
-- pool layout/plant/barrier
-- drainage
-- water/plumbing
-- electrical
-- lighting
-- CCTV/data/access
-- fire/life safety
-- playground/hardscape
+- no broad night lighting; task lights only at loading/access if needed
 
 ## Integration rules
 - stay inside the parent land allocation and L1 topology

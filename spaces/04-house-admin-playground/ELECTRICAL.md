@@ -1,21 +1,27 @@
-# Electrical System
+# House, Admin, Playground, Garage & Swimming Pool — Electrical System
 
-## Supply
-Dedicated residential/admin sub-main from farm electrical distribution.
+## Purpose
+This document defines the electrical system requirements for this specific farm space. It must be read with `SPACE.md`, `DESIGN.md`, `UTILITIES.md`, `IMAGE.md`, the L1 coordinate plan, and the relevant skills.
 
-## Circuit groups
-- critical house/admin
-- CCTV/NVR/network
-- emergency/egress lighting
-- normal lighting/socket circuits
-- HVAC/fans
-- kitchen/laundry
-- pool pump/plant
+## Required / planned elements
+- residential/admin sub-main
+- critical/noncritical split
+- roof PV
+- pool plant dedicated protected circuit
 - garage/EV optional
-- outdoor/security
-- rooftop solar interface
+- NVR/network UPS
+- earthing/lightning/SPD
 
-## Protection
-Earthing, lightning, surge protection, appropriate residual-current protection, pool bonding/equipotential requirements and outdoor IP-rated equipment.
+## Integration rules
+- stay inside the parent land allocation and L1 topology
+- do not export hazards or drainage problems into neighboring zones
+- keep clean, dirty, wet, electrical and public/service interfaces separated as appropriate
+- provide maintenance access
+- mark exact unengineered sizes/ratings/coordinates PROVISIONAL
+- coordinate with farm-wide systems before construction
 
-Exact cables, breakers, fault levels and selectivity require licensed electrical engineering.
+## Drawing / image requirement
+Any blueprint or image that represents this system must show its route, equipment/space, access and neighbor interfaces consistently across angles.
+
+## Engineering boundary
+Final structural, hydraulic, electrical, fire, public-health, veterinary or other regulated values require qualified design/approval where applicable.

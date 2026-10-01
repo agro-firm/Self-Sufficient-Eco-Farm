@@ -1,24 +1,12 @@
-# House, Admin, Playground, Garage & Swimming Pool — Blueprint Set
+# Security Wall, Inspection & Privacy Band — Space Management
 
 ## Purpose
-This document defines the blueprint set requirements for this specific farm space. It must be read with `SPACE.md`, `DESIGN.md`, `UTILITIES.md`, `IMAGE.md`, the L1 coordinate plan, and the relevant skills.
+This document defines the space management requirements for this specific farm space. It must be read with `SPACE.md`, `DESIGN.md`, `UTILITIES.md`, `IMAGE.md`, the L1 coordinate plan, and the relevant skills.
 
 ## Required / planned elements
-- site plan
-- ground floor
-- first floor
-- roof/solar
-- four elevations
-- sections
-- garage/parking
-- pool layout/plant/barrier
-- drainage
-- water/plumbing
-- electrical
-- lighting
-- CCTV/data/access
-- fire/life safety
-- playground/hardscape
+- keep patrol/inspection path continuous where possible
+- reserve wider service bays at gates/cameras
+- do not let roots, storage or ad-hoc buildings consume the security band
 
 ## Integration rules
 - stay inside the parent land allocation and L1 topology

@@ -1,19 +1,23 @@
-# CCTV, Access Control & Security
+# House, Admin, Playground, Garage & Swimming Pool — CCTV & Security
 
-## Concept coverage
-Planning allowance: roughly **6–8 fixed cameras plus optional 1 PTZ** subject to blind-spot study and farm-wide camera budget.
+## Purpose
+This document defines the cctv & security requirements for this specific farm space. It must be read with `SPACE.md`, `DESIGN.md`, `UTILITIES.md`, `IMAGE.md`, the L1 coordinate plan, and the relevant skills.
 
-Priority views:
-- clean arrival/garage
-- house/admin entrance
-- playground approach
-- pool perimeter/approach
-- north/rear exterior
-- east crop-edge exterior
-- utility/service area
+## Required / planned elements
+- arrival/garage, entrances, playground approach, pool perimeter, rear/east exterior, utility area
+- privacy-respecting placement
+- 6–8 fixed + optional PTZ planning range
 
-## Privacy
-Do not place routine CCTV inside bedrooms/bathrooms/private family interiors. Pool cameras cover safety/perimeter, not intrusive private angles.
+## Integration rules
+- stay inside the parent land allocation and L1 topology
+- do not export hazards or drainage problems into neighboring zones
+- keep clean, dirty, wet, electrical and public/service interfaces separated as appropriate
+- provide maintenance access
+- mark exact unengineered sizes/ratings/coordinates PROVISIONAL
+- coordinate with farm-wide systems before construction
 
-## Access
-Intercom/doorbell, admin reception, secure NVR/network cabinet and backed critical power.
+## Drawing / image requirement
+Any blueprint or image that represents this system must show its route, equipment/space, access and neighbor interfaces consistently across angles.
+
+## Engineering boundary
+Final structural, hydraulic, electrical, fire, public-health, veterinary or other regulated values require qualified design/approval where applicable.

@@ -1,20 +1,25 @@
-# Drainage & Stormwater
+# House, Admin, Playground, Garage & Swimming Pool — Drainage & Stormwater
 
-## Separate streams
-1. clean roof rainwater
-2. paved/driveway runoff
-3. pool deck runoff
-4. garage potentially contaminated runoff
-5. blackwater
-6. greywater
-7. pool backwash/drain-down
+## Purpose
+This document defines the drainage & stormwater requirements for this specific farm space. It must be read with `SPACE.md`, `DESIGN.md`, `UTILITIES.md`, `IMAGE.md`, the L1 coordinate plan, and the relevant skills.
 
-## Concept
-- roof gutters/downpipes → first-flush/filter → rainwater storage or clean stormwater swale
-- pervious paving/rain gardens reduce peak runoff
-- driveway/garage drains use silt/oil control as needed
-- pool deck slopes away from building; backwash never to canal/crop drain
-- sanitary wastewater goes to approved treatment
-- backflow protection for flood events
+## Required / planned elements
+- roof rainwater harvesting/clean stormwater
+- driveway/garage runoff with silt/oil control
+- pool deck drainage
+- blackwater/greywater separation
+- pool backwash to controlled treatment/disposal
 
-Exact slopes, pipe sizes, inverts and detention volumes require hydraulic design.
+## Integration rules
+- stay inside the parent land allocation and L1 topology
+- do not export hazards or drainage problems into neighboring zones
+- keep clean, dirty, wet, electrical and public/service interfaces separated as appropriate
+- provide maintenance access
+- mark exact unengineered sizes/ratings/coordinates PROVISIONAL
+- coordinate with farm-wide systems before construction
+
+## Drawing / image requirement
+Any blueprint or image that represents this system must show its route, equipment/space, access and neighbor interfaces consistently across angles.
+
+## Engineering boundary
+Final structural, hydraulic, electrical, fire, public-health, veterinary or other regulated values require qualified design/approval where applicable.

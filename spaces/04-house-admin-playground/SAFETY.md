@@ -1,18 +1,27 @@
-# Safety & Emergency
+# House, Admin, Playground, Garage & Swimming Pool — Safety & Emergency
 
-## Life safety
+## Purpose
+This document defines the safety & emergency requirements for this specific farm space. It must be read with `SPACE.md`, `DESIGN.md`, `UTILITIES.md`, `IMAGE.md`, the L1 coordinate plan, and the relevant skills.
+
+## Required / planned elements
+- pool barrier/rescue/electrical safety
 - smoke/heat detection
 - extinguishers
-- emergency lighting
-- clear exits/stairs/guardrails
-- first-aid/emergency room
-- playground as assembly point
+- egress/stairs/guardrails
+- playground assembly point
+- storm/flood/PV safety
+- pedestrian-vehicle separation
 
-## Pool
-Barrier, controlled gate, anti-slip deck, rescue equipment, supervision rules and electrical protection.
+## Integration rules
+- stay inside the parent land allocation and L1 topology
+- do not export hazards or drainage problems into neighboring zones
+- keep clean, dirty, wet, electrical and public/service interfaces separated as appropriate
+- provide maintenance access
+- mark exact unengineered sizes/ratings/coordinates PROVISIONAL
+- coordinate with farm-wide systems before construction
 
-## Storm/flood
-Raised critical controls, roof anchoring, PV uplift design, protected openings, backflow control, safe drainage.
+## Drawing / image requirement
+Any blueprint or image that represents this system must show its route, equipment/space, access and neighbor interfaces consistently across angles.
 
-## Traffic
-Separate pedestrian/playground path from garage vehicles; no heavy farm-service route through zone.
+## Engineering boundary
+Final structural, hydraulic, electrical, fire, public-health, veterinary or other regulated values require qualified design/approval where applicable.

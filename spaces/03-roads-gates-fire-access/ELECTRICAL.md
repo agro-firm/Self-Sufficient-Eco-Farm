@@ -1,24 +1,13 @@
-# House, Admin, Playground, Garage & Swimming Pool — Blueprint Set
+# Perimeter Roads, Gates & Fire Access — Electrical System
 
 ## Purpose
-This document defines the blueprint set requirements for this specific farm space. It must be read with `SPACE.md`, `DESIGN.md`, `UTILITIES.md`, `IMAGE.md`, the L1 coordinate plan, and the relevant skills.
+This document defines the electrical system requirements for this specific farm space. It must be read with `SPACE.md`, `DESIGN.md`, `UTILITIES.md`, `IMAGE.md`, the L1 coordinate plan, and the relevant skills.
 
 ## Required / planned elements
-- site plan
-- ground floor
-- first floor
-- roof/solar
-- four elevations
-- sections
-- garage/parking
-- pool layout/plant/barrier
-- drainage
-- water/plumbing
-- electrical
-- lighting
-- CCTV/data/access
-- fire/life safety
-- playground/hardscape
+- road/gate lighting
+- gate power/access control
+- underground utility crossings in sleeves
+- EV/vehicle charging only at designated buildings, not roadside
 
 ## Integration rules
 - stay inside the parent land allocation and L1 topology

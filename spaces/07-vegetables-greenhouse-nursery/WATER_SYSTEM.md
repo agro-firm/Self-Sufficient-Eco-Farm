@@ -1,24 +1,14 @@
-# House, Admin, Playground, Garage & Swimming Pool — Blueprint Set
+# Vegetables, Greenhouse & Nursery — Water System
 
 ## Purpose
-This document defines the blueprint set requirements for this specific farm space. It must be read with `SPACE.md`, `DESIGN.md`, `UTILITIES.md`, `IMAGE.md`, the L1 coordinate plan, and the relevant skills.
+This document defines the water system requirements for this specific farm space. It must be read with `SPACE.md`, `DESIGN.md`, `UTILITIES.md`, `IMAGE.md`, the L1 coordinate plan, and the relevant skills.
 
 ## Required / planned elements
-- site plan
-- ground floor
-- first floor
-- roof/solar
-- four elevations
-- sections
-- garage/parking
-- pool layout/plant/barrier
-- drainage
-- water/plumbing
-- electrical
-- lighting
-- CCTV/data/access
-- fire/life safety
-- playground/hardscape
+- clean irrigation source
+- drip/fertigation where approved
+- nursery fine-control water
+- wash point suitable water quality
+- metering and filtration
 
 ## Integration rules
 - stay inside the parent land allocation and L1 topology

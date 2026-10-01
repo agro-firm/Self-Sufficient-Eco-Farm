@@ -1,17 +1,26 @@
-# Daylight & Artificial Lighting
+# House, Admin, Playground, Garage & Swimming Pool — Daylight & Lighting
 
-## Daylight
-- maximize diffuse daylight in living/admin areas
-- use shading/overhangs to reduce heat gain
-- protect east food crops from tall opaque screening
-- maintain cross-ventilation and useful windows
+## Purpose
+This document defines the daylight & lighting requirements for this specific farm space. It must be read with `SPACE.md`, `DESIGN.md`, `UTILITIES.md`, `IMAGE.md`, the L1 coordinate plan, and the relevant skills.
 
-## External lighting
-- low-glare pedestrian/path lighting
-- garage/arrival task lighting
-- playground low-glare lights
+## Required / planned elements
+- daylight/cross-ventilation/shading
+- low-glare paths
+- garage/task lighting
+- playground lighting
 - pool safety lighting
-- emergency/egress lights
-- security lights coordinated with CCTV
+- emergency/egress/security lighting
 
-Avoid excessive spill toward crops, pollinators and neighboring land. Final lux/photometric design by engineer.
+## Integration rules
+- stay inside the parent land allocation and L1 topology
+- do not export hazards or drainage problems into neighboring zones
+- keep clean, dirty, wet, electrical and public/service interfaces separated as appropriate
+- provide maintenance access
+- mark exact unengineered sizes/ratings/coordinates PROVISIONAL
+- coordinate with farm-wide systems before construction
+
+## Drawing / image requirement
+Any blueprint or image that represents this system must show its route, equipment/space, access and neighbor interfaces consistently across angles.
+
+## Engineering boundary
+Final structural, hydraulic, electrical, fire, public-health, veterinary or other regulated values require qualified design/approval where applicable.

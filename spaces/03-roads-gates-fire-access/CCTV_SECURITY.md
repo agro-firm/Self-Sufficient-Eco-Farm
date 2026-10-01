@@ -1,24 +1,11 @@
-# House, Admin, Playground, Garage & Swimming Pool — Blueprint Set
+# Perimeter Roads, Gates & Fire Access — CCTV & Security
 
 ## Purpose
-This document defines the blueprint set requirements for this specific farm space. It must be read with `SPACE.md`, `DESIGN.md`, `UTILITIES.md`, `IMAGE.md`, the L1 coordinate plan, and the relevant skills.
+This document defines the cctv & security requirements for this specific farm space. It must be read with `SPACE.md`, `DESIGN.md`, `UTILITIES.md`, `IMAGE.md`, the L1 coordinate plan, and the relevant skills.
 
 ## Required / planned elements
-- site plan
-- ground floor
-- first floor
-- roof/solar
-- four elevations
-- sections
-- garage/parking
-- pool layout/plant/barrier
-- drainage
-- water/plumbing
-- electrical
-- lighting
-- CCTV/data/access
-- fire/life safety
-- playground/hardscape
+- main gate, service gate, junctions, bridges, blind bends and critical approach routes
+- plate/face capture at controlled entrances where lawful
 
 ## Integration rules
 - stay inside the parent land allocation and L1 topology

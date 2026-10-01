@@ -1,24 +1,16 @@
-# House, Admin, Playground, Garage & Swimming Pool — Blueprint Set
+# Dedicated Fodder Bank — Blueprint Set
 
 ## Purpose
 This document defines the blueprint set requirements for this specific farm space. It must be read with `SPACE.md`, `DESIGN.md`, `UTILITIES.md`, `IMAGE.md`, the L1 coordinate plan, and the relevant skills.
 
 ## Required / planned elements
-- site plan
-- ground floor
-- first floor
-- roof/solar
-- four elevations
-- sections
-- garage/parking
-- pool layout/plant/barrier
-- drainage
-- water/plumbing
-- electrical
-- lighting
-- CCTV/data/access
-- fire/life safety
-- playground/hardscape
+- fodder sub-blocks
+- harvest lanes
+- irrigation/drainage
+- silage-haul route
+- seed/planting-material section
+- emergency reserve block
+- soil-monitoring points
 
 ## Integration rules
 - stay inside the parent land allocation and L1 topology

@@ -1,14 +1,24 @@
-# Space Management
+# House, Admin, Playground, Garage & Swimming Pool — Space Management
 
-## Area control
-The eight approved components must sum to exactly 2,200 m². Any proposed expansion of pool, garage or house must take area from another approved component and be logged as a decision.
+## Purpose
+This document defines the space management requirements for this specific farm space. It must be read with `SPACE.md`, `DESIGN.md`, `UTILITIES.md`, `IMAGE.md`, the L1 coordinate plan, and the relevant skills.
 
-## Movement
-- clean pedestrian route from west access to house/playground
-- vehicle route stops at garage/drop-off
-- no through-traffic across playground
-- pool has controlled access
-- service staff can reach pool plant/utility area without crossing playground
+## Required / planned elements
+- use approved 2,200 m² eight-part area budget
+- separate vehicle, pedestrian, playground and pool movements
+- keep crop-side edge low/open
+- service pool/utility without crossing playground
 
-## Privacy / visibility
-Admin entrance can be visible from arrival. Family/private entrances, pool and bedrooms require privacy. CCTV focuses on external circulation and safety points.
+## Integration rules
+- stay inside the parent land allocation and L1 topology
+- do not export hazards or drainage problems into neighboring zones
+- keep clean, dirty, wet, electrical and public/service interfaces separated as appropriate
+- provide maintenance access
+- mark exact unengineered sizes/ratings/coordinates PROVISIONAL
+- coordinate with farm-wide systems before construction
+
+## Drawing / image requirement
+Any blueprint or image that represents this system must show its route, equipment/space, access and neighbor interfaces consistently across angles.
+
+## Engineering boundary
+Final structural, hydraulic, electrical, fire, public-health, veterinary or other regulated values require qualified design/approval where applicable.

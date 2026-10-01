@@ -1,18 +1,25 @@
-# Water System
+# House, Admin, Playground, Garage & Swimming Pool — Water System
 
-## Water classes
-- potable drinking/cooking
-- domestic hot/cold water
-- playground drinking point
-- pool makeup
-- cleaning/service
+## Purpose
+This document defines the water system requirements for this specific farm space. It must be read with `SPACE.md`, `DESIGN.md`, `UTILITIES.md`, `IMAGE.md`, the L1 coordinate plan, and the relevant skills.
+
+## Required / planned elements
+- potable domestic supply
+- hot/cold domestic water
 - rainwater/non-potable reuse
+- pool makeup/filtration/testing
+- playground drinking point
 
-## Concept
-Potable supply comes from the farm clean-water system with local storage/pressure as required. Roof rainwater may be collected for approved non-potable uses.
+## Integration rules
+- stay inside the parent land allocation and L1 topology
+- do not export hazards or drainage problems into neighboring zones
+- keep clean, dirty, wet, electrical and public/service interfaces separated as appropriate
+- provide maintenance access
+- mark exact unengineered sizes/ratings/coordinates PROVISIONAL
+- coordinate with farm-wide systems before construction
 
-## Pool
-Dedicated fill/makeup meter, filtration/circulation, chemical treatment, testing and controlled backwash.
+## Drawing / image requirement
+Any blueprint or image that represents this system must show its route, equipment/space, access and neighbor interfaces consistently across angles.
 
-## Monitoring
-Provide accessible isolation valves, tank level indication where applicable, sample points and leak detection/usage metering.
+## Engineering boundary
+Final structural, hydraulic, electrical, fire, public-health, veterinary or other regulated values require qualified design/approval where applicable.
