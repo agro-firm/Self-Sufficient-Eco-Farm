@@ -29,3 +29,11 @@ Keep wall footing dry; direct surface water to controlled drains without eroding
 
 - Separate reusable organics from hazardous/contaminated waste.
 - Define the destination of every significant by-product before commissioning.
+
+## Utility visual references
+
+![CCTV and communications utility reference](images/16-cctv-security-detail.png)
+
+![Security lighting utility reference](images/17-security-lighting-detail.png)
+
+![Drainage and wall-footing utility reference](images/13-wall-footing-drainage-detail.png)

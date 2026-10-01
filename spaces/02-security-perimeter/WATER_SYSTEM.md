@@ -20,3 +20,7 @@ Any blueprint or image that represents this system must show its route, equipmen
 
 ## Engineering boundary
 Final structural, hydraulic, electrical, fire, public-health, veterinary or other regulated values require qualified design/approval where applicable.
+
+## Water / planting visual reference
+
+![Privacy planting and irrigation management reference](images/18-privacy-planting-detail.png)

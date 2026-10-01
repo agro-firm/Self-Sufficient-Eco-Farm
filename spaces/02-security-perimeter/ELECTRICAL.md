@@ -22,3 +22,11 @@ Any blueprint or image that represents this system must show its route, equipmen
 
 ## Engineering boundary
 Final structural, hydraulic, electrical, fire, public-health, veterinary or other regulated values require qualified design/approval where applicable.
+
+## Electrical visual references
+
+![CCTV power and communications installation reference](images/16-cctv-security-detail.png)
+
+![Security lighting electrical reference](images/17-security-lighting-detail.png)
+
+![Gate controls and emergency-release reference](images/15-service-emergency-gate-detail.png)

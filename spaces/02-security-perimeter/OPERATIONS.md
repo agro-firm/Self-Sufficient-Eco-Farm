@@ -40,3 +40,14 @@
 ## Records
 
 Keep date, responsible person, measured value/event, action taken and follow-up due date.
+
+## Operations visual references
+
+### Patrol / inspection
+![Primary patrol inspection view](images/11-primary-patrol-inspection-view.png)
+
+### Gate security
+![Secondary gate security view](images/12-secondary-gate-security-view.png)
+
+### Routine security operations
+![Security operations and patrol view](images/23-security-operations-patrol-view.png)

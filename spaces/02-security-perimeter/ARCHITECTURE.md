@@ -82,3 +82,11 @@ flowchart TB
 - [CCTV/Security](CCTV_SECURITY.md)
 - [Lighting](LIGHTING.md)
 - [Safety](SAFETY.md)
+
+## Architectural visual references
+
+### Whole-space aerial relationship
+![Security perimeter — north-west aerial architecture reference](images/03-north-west-aerial.png)
+
+### Wall / footing / drainage character
+![Security perimeter wall footing drainage detail](images/13-wall-footing-drainage-detail.png)

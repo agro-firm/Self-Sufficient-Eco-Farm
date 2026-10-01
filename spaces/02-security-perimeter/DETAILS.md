@@ -62,3 +62,20 @@ Keep wall footing dry; direct surface water to controlled drains without eroding
 - [ ] Fire/emergency access is explicit
 - [ ] Neighbor conflicts are checked
 - [ ] Image/blueprint matches the master plan
+
+## Detailed visual references
+
+### Main clean gate
+![Main clean gate detail](images/14-main-clean-gate-detail.png)
+
+### Service / emergency gate
+![Service emergency gate detail](images/15-service-emergency-gate-detail.png)
+
+### CCTV
+![CCTV security detail](images/16-cctv-security-detail.png)
+
+### Security lighting
+![Security lighting detail](images/17-security-lighting-detail.png)
+
+### Privacy planting
+![Privacy planting detail](images/18-privacy-planting-detail.png)

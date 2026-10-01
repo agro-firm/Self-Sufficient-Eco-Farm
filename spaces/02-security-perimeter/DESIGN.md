@@ -31,3 +31,11 @@ Concept wall height ~3 m. Final footing, reinforcement, anti-climb details and c
 ## Design review
 
 Before approval, run the relevant skills and finish with [`eco-farm-quality-gate`](../../.agents/skills/eco-farm-quality-gate/SKILL.md).
+
+## Design visual references
+
+![Wall footing and drainage design reference](images/13-wall-footing-drainage-detail.png)
+
+![Privacy planting design reference](images/18-privacy-planting-detail.png)
+
+![Inspection and patrol bay design reference](images/19-inspection-patrol-bay-detail.png)

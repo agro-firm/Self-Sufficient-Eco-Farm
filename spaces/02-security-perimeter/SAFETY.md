@@ -23,3 +23,11 @@ Any blueprint or image that represents this system must show its route, equipmen
 
 ## Engineering boundary
 Final structural, hydraulic, electrical, fire, public-health, veterinary or other regulated values require qualified design/approval where applicable.
+
+## Safety visual references
+
+![Emergency gate and manual-release safety reference](images/15-service-emergency-gate-detail.png)
+
+![Monsoon safety reference](images/21-monsoon-heavy-rain-security-view.png)
+
+![Cyclone high-wind readiness reference](images/22-cyclone-high-wind-readiness.png)

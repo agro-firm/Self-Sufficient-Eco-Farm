@@ -49,3 +49,9 @@ flowchart LR
     B["Perimeter canal inside"]
     A --- S --- B
 ```
+
+## Visual space reference
+
+![Security perimeter — full top-view reference](images/02-realistic-top-view.png)
+
+Use this image for visual orientation only; use the L1 values above for geometry.

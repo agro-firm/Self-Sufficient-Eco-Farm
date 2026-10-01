@@ -111,6 +111,8 @@ These small side glimpses are required because they prove the target space is pl
 
 # 4. TRUE TOP-DOWN VIEW
 
+![02 — Realistic true top view](images/02-realistic-top-view.png)
+
 ## Composition
 - north up
 - show the entire target-space boundary
@@ -132,6 +134,8 @@ These small side glimpses are required because they prove the target space is pl
 
 # 5. BLUEPRINT / TECHNICAL IMAGE
 
+![01 — Blueprint master](images/01-blueprint-master.png)
+
 Use [BLUEPRINT.md](BLUEPRINT.md) and the [blueprint skill](../../.agents/skills/eco-farm-space-blueprint/SKILL.md).
 
 **Blueprint-specific context rule**
@@ -147,6 +151,8 @@ Use [BLUEPRINT.md](BLUEPRINT.md) and the [blueprint skill](../../.agents/skills/
 # 6. FOUR AERIAL OBLIQUE VIEWS
 
 ## North-West aerial — camera NW looking SE
+
+![03 — North-West aerial](images/03-north-west-aerial.png)
 Show the **north** and **west** edges as small contextual glimpses:
 - north: outside property beyond wall + canal inside
 - west: outside property beyond wall + canal inside
@@ -156,6 +162,8 @@ The target remains dominant; far east/south context should be minimal.
 > NW aerial oblique of **Security Wall, Inspection & Privacy Band**, looking SE. Target space dominates. Show only a small north-edge glimpse of outside property beyond wall + canal inside and a small west-edge glimpse of outside property beyond wall + canal inside. Keep Solid wall; Inspection/patrol strip; Gate/security bays; Low/medium privacy planting; CCTV/security lighting; Drainage/utility edge consistent with the top view.
 
 ## North-East aerial — camera NE looking SW
+
+![04 — North-East aerial](images/04-north-east-aerial.png)
 Show small **north** + **east** context:
 - north: outside property beyond wall + canal inside
 - east: outside property beyond wall + canal inside
@@ -164,6 +172,8 @@ Show small **north** + **east** context:
 > NE aerial oblique of **Security Wall, Inspection & Privacy Band**, looking SW. Keep the target dominant. Show a small north context of outside property beyond wall + canal inside and small east context of outside property beyond wall + canal inside. Do not redesign neighboring areas.
 
 ## South-East aerial — camera SE looking NW
+
+![05 — South-East aerial](images/05-south-east-aerial.png)
 Show small **south** + **east** context:
 - south: outside property + two south gates + canal inside
 - east: outside property beyond wall + canal inside
@@ -172,6 +182,8 @@ Show small **south** + **east** context:
 > SE aerial oblique of **Security Wall, Inspection & Privacy Band**, looking NW. Preserve the same permanent layout. Show only a small glimpse of outside property + two south gates + canal inside on the south edge and outside property beyond wall + canal inside on the east edge.
 
 ## South-West aerial — camera SW looking NE
+
+![06 — South-West aerial](images/06-south-west-aerial.png)
 Show small **south** + **west** context:
 - south: outside property + two south gates + canal inside
 - west: outside property beyond wall + canal inside
@@ -182,6 +194,8 @@ Show small **south** + **west** context:
 # 7. FOUR CARDINAL SIDE VIEWS
 
 ## North-side view — camera north looking south
+
+![07 — North-side view](images/07-north-side-view.png)
 - nearest small foreground/context: outside property beyond wall + canal inside
 - then immediately reveal the target-space north edge
 - target fills most of the frame
@@ -191,6 +205,8 @@ Show small **south** + **west** context:
 > Ground-level north-side view of **Security Wall, Inspection & Privacy Band**, camera north looking south. Show only a small foreground cue of outside property beyond wall + canal inside, then make Security Wall, Inspection & Privacy Band dominate the frame. Preserve all internal parts and L1 orientation.
 
 ## South-side view — camera south looking north
+
+![08 — South-side view](images/08-south-side-view.png)
 - foreground/context: outside property + two south gates + canal inside
 - target begins immediately beyond
 - use correct south frontage/access
@@ -199,6 +215,8 @@ Show small **south** + **west** context:
 > Ground-level south-side view of **Security Wall, Inspection & Privacy Band**, camera south looking north. Show a small contextual foreground of outside property + two south gates + canal inside, then the full working face of the target space. Do not fully render the neighboring zone.
 
 ## East-side view — camera east looking west
+
+![09 — East-side view](images/09-east-side-view.png)
 - foreground/context: outside property beyond wall + canal inside
 - target must stay dominant
 - west side context only if naturally visible in distance
@@ -207,6 +225,8 @@ Show small **south** + **west** context:
 > East-side view of **Security Wall, Inspection & Privacy Band**, camera east looking west. Include only a small east-neighbor glimpse of outside property beyond wall + canal inside; preserve the same target-space architecture and internal arrangement.
 
 ## West-side view — camera west looking east
+
+![10 — West-side view](images/10-west-side-view.png)
 - foreground/context: outside property beyond wall + canal inside
 - target begins immediately after that context
 - preserve clean/service character of the real west edge
@@ -215,6 +235,35 @@ Show small **south** + **west** context:
 > West-side view of **Security Wall, Inspection & Privacy Band**, camera west looking east. Show a small contextual foreground of outside property beyond wall + canal inside, then make the target space the main subject.
 
 # 8. CLOSE DETAIL / OPERATIONS VIEWS
+
+## Generated close-detail references
+
+### 11 — Primary patrol / inspection
+![11 — Primary patrol inspection](images/11-primary-patrol-inspection-view.png)
+
+### 12 — Secondary gate security
+![12 — Secondary gate security](images/12-secondary-gate-security-view.png)
+
+### 13 — Wall + footing + drainage
+![13 — Wall footing drainage detail](images/13-wall-footing-drainage-detail.png)
+
+### 14 — Main clean gate
+![14 — Main clean gate detail](images/14-main-clean-gate-detail.png)
+
+### 15 — Service / emergency gate
+![15 — Service emergency gate detail](images/15-service-emergency-gate-detail.png)
+
+### 16 — CCTV security
+![16 — CCTV security detail](images/16-cctv-security-detail.png)
+
+### 17 — Security lighting
+![17 — Security lighting detail](images/17-security-lighting-detail.png)
+
+### 18 — Privacy planting
+![18 — Privacy planting detail](images/18-privacy-planting-detail.png)
+
+### 19 — Inspection / patrol bay
+![19 — Inspection patrol bay detail](images/19-inspection-patrol-bay-detail.png)
 
 Close views should focus on one internal part:
 - Solid wall
@@ -237,6 +286,20 @@ When making another angle:
 6. if a prior image conflicts with the blueprint/L1 plan, correct toward the blueprint/L1 authority
 
 # 10. DAY / NIGHT / MONSOON / SPECIAL CONDITIONS
+
+## Generated special-condition references
+
+### 20 — Night security
+![20 — Night security view](images/20-night-security-view.png)
+
+### 21 — Monsoon / heavy rain
+![21 — Monsoon heavy-rain security view](images/21-monsoon-heavy-rain-security-view.png)
+
+### 22 — Cyclone / high-wind readiness
+![22 — Cyclone high-wind readiness](images/22-cyclone-high-wind-readiness.png)
+
+### 23 — Security operations / patrol
+![23 — Security operations patrol view](images/23-security-operations-patrol-view.png)
 
 - **Daylight default:** clear realistic Bangladesh daylight; architecture/rows/equipment easy to read
 - **Night:** only practical safety/security/task lighting

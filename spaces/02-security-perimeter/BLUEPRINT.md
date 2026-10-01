@@ -28,6 +28,12 @@
 - **L1:** legal/planning boundary to inner security control line at ~1.931 m inset
 - **Status:** PROVISIONAL L1 unless a later approved drawing supersedes it
 
+## Generated blueprint reference
+
+![Security perimeter — PROVISIONAL L1 blueprint master](images/01-blueprint-master.png)
+
+> Visual reference only; written schedules and L1 registry control discrepancies.
+
 ## Actual blueprint functional schedule
 
 | ID | Blueprint section | Area | Function |

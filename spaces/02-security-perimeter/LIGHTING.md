@@ -20,3 +20,9 @@ Any blueprint or image that represents this system must show its route, equipmen
 
 ## Engineering boundary
 Final structural, hydraulic, electrical, fire, public-health, veterinary or other regulated values require qualified design/approval where applicable.
+
+## Lighting visual references
+
+![Security lighting detail](images/17-security-lighting-detail.png)
+
+![Night security lighting reference](images/20-night-security-view.png)
