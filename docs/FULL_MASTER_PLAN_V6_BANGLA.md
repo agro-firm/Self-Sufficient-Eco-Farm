@@ -117,7 +117,8 @@ Biosecurity Buffer
 | Inner Fire Road | ভিতরের fire/service road | ~৪.৯ মি average planning perimeter ring | perimeter loop | open | emergency vehicle access |
 | House/Admin Block | বাড়ি + অফিস | ~২৪ মি × ২০ মি envelope | ~৪৮০ মি² | ১–২ তলা | বাসা, office, control, first aid |
 | Playground | খেলার মাঠ | ২০ মি × ৩০ মি | ৬০০ মি² | open | mini football/badminton/play |
-| Kitchen Garden | পরিবারের kitchen garden | ১০ মি × ২০ মি | ২০০ মি² | open | herbs/leafy/daily use |
+| Garage | residential/admin garage | ~১২ মি × ১০ মি | ১২০ মি² | covered | car/SUV/EV-ready light vehicle use |
+| Swimming Pool | secured family pool | ~১২ মি × ৫ মি water | ৬০ মি² water + ১৪০ মি² deck/safety/equipment | open/secured | family recreation + controlled filtration/drainage |
 | Food Crop Block | খাবার ফসল এলাকা | ~৬৫ মি × ১০০ মি envelope | ~৬,৫০০ মি² | open | ধান/ভুট্টা/ডাল/তেলবীজ |
 | Fodder Bank | পশুখাদ্য এলাকা | ~১০০ মি × ১২০ মি envelope | ~১২,০০০ মি² | open | সবচেয়ে বড় production block |
 | Vegetable Zone | সবজি এলাকা | ~৬০ মি × ৭৫ মি envelope | ~৪,৫০০ মি² | open + shed | rotation bed + paths |
@@ -171,11 +172,13 @@ Biosecurity Buffer
 - CCTV/NVR control room
 - first aid / emergency room
 - staff meeting point
-- small playground
-- kitchen garden
+- fixed ২০×৩০ মি playground
+- residential/admin garage
+- secured family swimming pool
+- rooftop solar
+- clean arrival/parking and drainage buffer
 
 ### এই zone-এর পাশে কী থাকবে
-- kitchen garden
 - clean pedestrian path
 - food crop side / orchard side
 
@@ -1010,7 +1013,7 @@ Cold Room → Reduced Post-Harvest Loss
 
 | Zone | ভিতরের আনুমানিক ভাগ | Design Logic |
 |---|---|---|
-| House/Admin Zone ২,২০০ মি² | বাড়ি/অফিস ~৪৮০; playground ৬০০; kitchen garden ২০০; admin/parking/paths/green buffer ~৯২০ | Family clean zone |
+| House/Admin Zone ২,২০০ মি² | ২-তলা বাড়ি/অফিস footprint ৪৮০; playground ৬০০; garage ১২০; pool water ৬০; pool deck/safety/equipment ১৪০; arrival/drive/pedestrian ২৬০; utility/service ১২০; drainage/pervious/safety buffer ৪২০ | Family clean zone |
 | Food Crop ৬,৫০০ মি² | rice ~৩,০০০; maize ~১,৫০০; pulse ~১,০০০; oilseed ~১,০০০ | Rotation may change seasonally |
 | Fodder ১২,০০০ মি² | Napier ৫,৫০০–৬,০০০; fodder maize/sorghum ২,৫০০–৩,০০০; legume ১,৫০০–২,০০০; seasonal/azolla/headland balance | Largest block |
 | Vegetable ৪,৫০০ মি² | open beds ২,৫০০–৩,০০০; greenhouse ৭০০–১,০০০; nursery ২৫০–৩৫০; wash/path/drain balance | Clean production |
@@ -1270,4 +1273,4 @@ measure করে।
 
 # Residential/Admin Zone — নতুন Superseding Update
 
-Decision D-013 অনুযায়ী পুরনো kitchen garden reference আর authoritative নয়। ২,২০০ মি² clean residential/admin zone-এ এখন থাকবে: ২-তলা duplex-style farmhouse/admin, ২০×৩০ মি playground, residential garage, secured family swimming pool, pool deck/equipment/safety zone, clean arrival/drive, utility/service area এবং drainage/pervious safety buffer। এই zone-এ vegetable garden থাকবে না; vegetable production dedicated vegetable/greenhouse/nursery zone-এ থাকবে। Swimming pool কোনো fish pond নয় এবং continuous perimeter canal decision পরিবর্তন করে না।
+Decision D-013 অনুযায়ী পুরনো household-garden program আর authoritative নয়। ২,২০০ মি² clean residential/admin zone-এ এখন থাকবে: ২-তলা duplex-style farmhouse/admin, ২০×৩০ মি playground, residential garage, secured family swimming pool, pool deck/equipment/safety zone, clean arrival/drive, utility/service area এবং drainage/pervious safety buffer। এই zone-এ vegetable garden থাকবে না; vegetable production dedicated vegetable/greenhouse/nursery zone-এ থাকবে। Swimming pool কোনো fish pond নয় এবং continuous perimeter canal decision পরিবর্তন করে না।

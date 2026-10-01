@@ -136,7 +136,8 @@ PRODUCTION ZONES
 | Inner Fire/Service Road | About 4.5–5.0 m wide | Perimeter loop | Open | Emergency and maintenance access |
 | House/Admin Block | About 24 m × 20 m envelope | About 480 m² | 1–2 storeys | Residence, office, control and first aid |
 | Playground | 20 m × 30 m | 600 m² | Open | Play + emergency assembly |
-| Kitchen Garden | 10 m × 20 m | 200 m² | Open | Herbs, greens and household crops |
+| Garage | About 12 m × 10 m | 120 m² | Covered | Residential/admin vehicles; no heavy workshop |
+| Swimming Pool | About 12 m × 5 m water | 60 m² water + 140 m² deck/safety/equipment | Open/secured | Family recreation; controlled treatment/drainage |
 | Food Crop Block | About 65 m × 100 m envelope | About 6,500 m² | Open | Rice, maize, pulses and oilseed |
 | Fodder Bank | About 100 m × 120 m envelope | About 12,000 m² | Open | Largest productive block |
 | Vegetable Zone | About 60 m × 75 m envelope | About 4,500 m² | Open + protected structures | Rotation beds, paths and drains |
@@ -1297,7 +1298,7 @@ Maintain:
 | Cross-species disease | Physical separation + tools + quarantine |
 | Duck wastewater contaminates canal | Managed wet pad + treatment |
 | Workshop oily runoff | Oil-water separator + hazardous-waste handling |
-| Decorative landscaping wastes land | Small functional playground + kitchen garden only |
+| Decorative landscaping wastes land | Functional playground + secured residential pool + compact drainage/safety landscape only |
 | Nutrient mining | Annual nutrient budget + soil-test-based mineral replacement |
 | Too many animals | Dry-matter feed audit before expansion |
 
@@ -1375,4 +1376,4 @@ This English V6 document is the authoritative master-planning reference for futu
 
 # Residential/Admin Zone Superseding Update
 
-Decision D-013 supersedes older kitchen-garden references in this document. The 2,200 m² residential/admin zone now contains a two-story duplex-style farmhouse/admin building, 20×30 m playground, residential garage, secured 12×5 m concept swimming pool plus deck/equipment/safety zone, clean arrival circulation, utility/service area, and drainage/pervious buffers. No vegetable garden remains inside this zone. The pool is not a fish pond and does not change the continuous-perimeter-canal decision.
+Decision D-013 supersedes the older household-garden program in this document. The 2,200 m² residential/admin zone now contains a two-story duplex-style farmhouse/admin building, 20×30 m playground, residential garage, secured 12×5 m concept swimming pool plus deck/equipment/safety zone, clean arrival circulation, utility/service area, and drainage/pervious buffers. No vegetable garden remains inside this zone. The pool is not a fish pond and does not change the continuous-perimeter-canal decision.
