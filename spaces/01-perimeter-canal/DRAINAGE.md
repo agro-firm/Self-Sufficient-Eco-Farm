@@ -22,3 +22,11 @@ Any blueprint or image that represents this system must show its route, equipmen
 
 ## Engineering boundary
 Final structural, hydraulic, electrical, fire, public-health, veterinary or other regulated values require qualified design/approval where applicable.
+
+## Drainage visual references
+
+### Hydraulic / clean-runoff management
+![Hydraulic and drainage system reference](images/18-hydraulic-drainage-system.png)
+
+### Monsoon performance
+![Monsoon and heavy-rain performance reference](images/20-monsoon-heavy-rain.png)

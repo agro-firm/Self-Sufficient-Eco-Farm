@@ -112,6 +112,8 @@ These small side glimpses are required because they prove the target space is pl
 
 # 4. TRUE TOP-DOWN VIEW
 
+![02 — Realistic true top view](images/02-realistic-top-view.png)
+
 ## Composition
 - north up
 - show the entire target-space boundary
@@ -133,6 +135,8 @@ These small side glimpses are required because they prove the target space is pl
 
 # 5. BLUEPRINT / TECHNICAL IMAGE
 
+![01 — Blueprint master](images/01-blueprint-master.png)
+
 Use [BLUEPRINT.md](BLUEPRINT.md) and the [blueprint skill](../../.agents/skills/eco-farm-space-blueprint/SKILL.md).
 
 **Blueprint-specific context rule**
@@ -148,6 +152,8 @@ Use [BLUEPRINT.md](BLUEPRINT.md) and the [blueprint skill](../../.agents/skills/
 # 6. FOUR AERIAL OBLIQUE VIEWS
 
 ## North-West aerial — camera NW looking SE
+
+![03 — North-West aerial](images/03-north-west-aerial.png)
 Show the **north** and **west** edges as small contextual glimpses:
 - north: security wall/inspection outside + fire/service road inside
 - west: security wall/inspection outside + clean-side road inside
@@ -157,6 +163,8 @@ The target remains dominant; far east/south context should be minimal.
 > NW aerial oblique of **Perimeter Canal**, looking SE. Target space dominates. Show only a small north-edge glimpse of security wall/inspection outside + fire/service road inside and a small west-edge glimpse of security wall/inspection outside + clean-side road inside. Keep Grow-out fish sections; Nursery/hapa management; Irrigation/fire-water intake; Overflow/spillway/sluice; Bridge/crossing sections; Aeration/monitoring points consistent with the top view.
 
 ## North-East aerial — camera NE looking SW
+
+![04 — North-East aerial](images/04-north-east-aerial.png)
 Show small **north** + **east** context:
 - north: security wall/inspection outside + fire/service road inside
 - east: security wall/inspection outside + service-side road inside
@@ -165,6 +173,8 @@ Show small **north** + **east** context:
 > NE aerial oblique of **Perimeter Canal**, looking SW. Keep the target dominant. Show a small north context of security wall/inspection outside + fire/service road inside and small east context of security wall/inspection outside + service-side road inside. Do not redesign neighboring areas.
 
 ## South-East aerial — camera SE looking NW
+
+![05 — South-East aerial](images/05-south-east-aerial.png)
 Show small **south** + **east** context:
 - south: security wall/inspection outside + approved gate crossings + fire/service road inside
 - east: security wall/inspection outside + service-side road inside
@@ -173,6 +183,8 @@ Show small **south** + **east** context:
 > SE aerial oblique of **Perimeter Canal**, looking NW. Preserve the same permanent layout. Show only a small glimpse of security wall/inspection outside + approved gate crossings + fire/service road inside on the south edge and security wall/inspection outside + service-side road inside on the east edge.
 
 ## South-West aerial — camera SW looking NE
+
+![06 — South-West aerial](images/06-south-west-aerial.png)
 Show small **south** + **west** context:
 - south: security wall/inspection outside + approved gate crossings + fire/service road inside
 - west: security wall/inspection outside + clean-side road inside
@@ -183,6 +195,8 @@ Show small **south** + **west** context:
 # 7. FOUR CARDINAL SIDE VIEWS
 
 ## North-side view — camera north looking south
+
+![07 — North-side view](images/07-north-side-view.png)
 - nearest small foreground/context: security wall/inspection outside + fire/service road inside
 - then immediately reveal the target-space north edge
 - target fills most of the frame
@@ -192,6 +206,8 @@ Show small **south** + **west** context:
 > Ground-level north-side view of **Perimeter Canal**, camera north looking south. Show only a small foreground cue of security wall/inspection outside + fire/service road inside, then make Perimeter Canal dominate the frame. Preserve all internal parts and L1 orientation.
 
 ## South-side view — camera south looking north
+
+![08 — South-side view](images/08-south-side-view.png)
 - foreground/context: security wall/inspection outside + approved gate crossings + fire/service road inside
 - target begins immediately beyond
 - use correct south frontage/access
@@ -200,6 +216,8 @@ Show small **south** + **west** context:
 > Ground-level south-side view of **Perimeter Canal**, camera south looking north. Show a small contextual foreground of security wall/inspection outside + approved gate crossings + fire/service road inside, then the full working face of the target space. Do not fully render the neighboring zone.
 
 ## East-side view — camera east looking west
+
+![09 — East-side view](images/09-east-side-view.png)
 - foreground/context: security wall/inspection outside + service-side road inside
 - target must stay dominant
 - west side context only if naturally visible in distance
@@ -208,6 +226,8 @@ Show small **south** + **west** context:
 > East-side view of **Perimeter Canal**, camera east looking west. Include only a small east-neighbor glimpse of security wall/inspection outside + service-side road inside; preserve the same target-space architecture and internal arrangement.
 
 ## West-side view — camera west looking east
+
+![10 — West-side view](images/10-west-side-view.png)
 - foreground/context: security wall/inspection outside + clean-side road inside
 - target begins immediately after that context
 - preserve clean/service character of the real west edge
@@ -216,6 +236,29 @@ Show small **south** + **west** context:
 > West-side view of **Perimeter Canal**, camera west looking east. Show a small contextual foreground of security wall/inspection outside + clean-side road inside, then make the target space the main subject.
 
 # 8. CLOSE DETAIL / OPERATIONS VIEWS
+
+## Generated close-detail references
+
+### 11 — Primary working view
+![11 — Primary working view](images/11-primary-working-view.png)
+
+### 12 — Canal bank engineering detail
+![12 — Canal bank engineering detail](images/12-canal-bank-engineering-detail.png)
+
+### 13 — Fish nursery / hapa detail
+![13 — Fish nursery hapa detail](images/13-fish-nursery-hapa-detail.png)
+
+### 14 — Irrigation intake + fire-water
+![14 — Irrigation intake and fire-water detail](images/14-irrigation-intake-fire-water.png)
+
+### 15 — Sluice / overflow / spillway
+![15 — Sluice overflow spillway detail](images/15-sluice-overflow-spillway.png)
+
+### 16 — Bridge / crossing
+![16 — Bridge crossing detail](images/16-bridge-crossing-detail.png)
+
+### 17 — Aeration + monitoring
+![17 — Aeration monitoring detail](images/17-aeration-monitoring-detail.png)
 
 Close views should focus on one internal part:
 - Grow-out fish sections
@@ -238,6 +281,26 @@ When making another angle:
 6. if a prior image conflicts with the blueprint/L1 plan, correct toward the blueprint/L1 authority
 
 # 10. DAY / NIGHT / MONSOON / SPECIAL CONDITIONS
+
+## Generated system / condition references
+
+### 18 — Hydraulic / drainage system
+![18 — Hydraulic drainage system](images/18-hydraulic-drainage-system.png)
+
+### 19 — Night / security
+![19 — Night security view](images/19-night-security-view.png)
+
+### 20 — Monsoon / heavy rain
+![20 — Monsoon heavy-rain view](images/20-monsoon-heavy-rain.png)
+
+### 21–23 — Composite variants for cyclone readiness, fish management and maintenance
+![21 — Cyclone fish maintenance composite v1](images/21-cyclone-fish-maintenance-composite-v1.png)
+
+![22 — Cyclone fish maintenance composite v2](images/22-cyclone-fish-maintenance-composite-v2.png)
+
+![23 — Cyclone fish maintenance composite v3](images/23-cyclone-fish-maintenance-composite-v3.png)
+
+> These three are composite presentation images, not standalone single-angle reference frames.
 
 - **Daylight default:** clear realistic Bangladesh daylight; architecture/rows/equipment easy to read
 - **Night:** only practical safety/security/task lighting

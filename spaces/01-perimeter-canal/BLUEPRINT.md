@@ -28,6 +28,12 @@
 - **L1:** outer canal control at ~1.931 m inset; inner canal control at ~7.927 m inset
 - **Status:** PROVISIONAL L1 unless a later approved drawing supersedes it
 
+## Generated blueprint reference
+
+![Perimeter Canal — PROVISIONAL L1 blueprint master](images/01-blueprint-master.png)
+
+> Visual reference only; the written schedule and L1 registry control any discrepancy.
+
 ## Actual blueprint functional schedule
 
 | ID | Blueprint section | Area | Function |

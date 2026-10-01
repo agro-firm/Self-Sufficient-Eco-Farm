@@ -31,3 +31,11 @@ Use stable engineered banks, erosion protection, screened intakes and controlled
 ## Design review
 
 Before approval, run the relevant skills and finish with [`eco-farm-quality-gate`](../../.agents/skills/eco-farm-quality-gate/SKILL.md).
+
+## Design visual references
+
+![Canal bank design reference](images/12-canal-bank-engineering-detail.png)
+
+![Bridge and crossing design reference](images/16-bridge-crossing-detail.png)
+
+Use these as design-intent references for bank stabilization, maintenance access and safe crossings.

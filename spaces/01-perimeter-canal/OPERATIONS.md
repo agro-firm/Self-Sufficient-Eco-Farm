@@ -39,3 +39,20 @@
 ## Records
 
 Keep date, responsible person, measured value/event, action taken and follow-up due date.
+
+## Operations visual references
+
+### Routine working view
+![Perimeter Canal primary working operations view](images/11-primary-working-view.png)
+
+### Nursery operations
+![Fish nursery and hapa operations](images/13-fish-nursery-hapa-detail.png)
+
+### Special operations composites
+![Cyclone fish maintenance composite variant 1](images/21-cyclone-fish-maintenance-composite-v1.png)
+
+![Cyclone fish maintenance composite variant 2](images/22-cyclone-fish-maintenance-composite-v2.png)
+
+![Cyclone fish maintenance composite variant 3](images/23-cyclone-fish-maintenance-composite-v3.png)
+
+The three composite images are presentation references. Individual operational procedures remain defined by this file and the engineering/system documents.

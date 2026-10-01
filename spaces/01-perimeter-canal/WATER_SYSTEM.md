@@ -23,3 +23,14 @@ Any blueprint or image that represents this system must show its route, equipmen
 
 ## Engineering boundary
 Final structural, hydraulic, electrical, fire, public-health, veterinary or other regulated values require qualified design/approval where applicable.
+
+## Water-system visual references
+
+### Screened intake + fire-water suction
+![Irrigation intake and fire-water suction](images/14-irrigation-intake-fire-water.png)
+
+### Sluice / overflow
+![Sluice overflow and spillway](images/15-sluice-overflow-spillway.png)
+
+### Aeration / water-quality monitoring
+![Aeration and water-quality monitoring](images/17-aeration-monitoring-detail.png)

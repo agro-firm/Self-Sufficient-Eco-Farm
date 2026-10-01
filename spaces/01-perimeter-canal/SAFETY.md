@@ -23,3 +23,18 @@ Any blueprint or image that represents this system must show its route, equipmen
 
 ## Engineering boundary
 Final structural, hydraulic, electrical, fire, public-health, veterinary or other regulated values require qualified design/approval where applicable.
+
+## Safety visual references
+
+### Safe bridge / crossing
+![Bridge crossing safety reference](images/16-bridge-crossing-detail.png)
+
+### Monsoon / flood readiness
+![Monsoon flood-readiness reference](images/20-monsoon-heavy-rain.png)
+
+### Cyclone / emergency / maintenance presentation variants
+![Cyclone and emergency composite reference v1](images/21-cyclone-fish-maintenance-composite-v1.png)
+
+![Cyclone and emergency composite reference v2](images/22-cyclone-fish-maintenance-composite-v2.png)
+
+![Cyclone and emergency composite reference v3](images/23-cyclone-fish-maintenance-composite-v3.png)

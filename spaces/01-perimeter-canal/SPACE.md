@@ -49,3 +49,9 @@ flowchart LR
     B["Perimeter fire/service road inside"]
     A --- S --- B
 ```
+
+## Visual space reference
+
+![Perimeter Canal — full top-view space reference](images/02-realistic-top-view.png)
+
+Use this image to understand the ring relationship only; use the L1 values above for geometry.

@@ -82,3 +82,13 @@ flowchart TB
 - [CCTV/Security](CCTV_SECURITY.md)
 - [Lighting](LIGHTING.md)
 - [Safety](SAFETY.md)
+
+## Architectural visual references
+
+### Whole-space aerial relationship
+![Perimeter Canal — north-west aerial architecture reference](images/03-north-west-aerial.png)
+
+### Typical bank construction character
+![Perimeter Canal — bank engineering detail](images/12-canal-bank-engineering-detail.png)
+
+These images illustrate the intended architectural/hydraulic character but do not create construction dimensions.

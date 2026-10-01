@@ -22,3 +22,9 @@ Any blueprint or image that represents this system must show its route, equipmen
 
 ## Engineering boundary
 Final structural, hydraulic, electrical, fire, public-health, veterinary or other regulated values require qualified design/approval where applicable.
+
+## Electrical visual reference
+
+![Electrical aeration and monitoring installation reference](images/17-aeration-monitoring-detail.png)
+
+This image illustrates protected outdoor monitoring/aeration equipment; final electrical protection and cable sizing require engineering.

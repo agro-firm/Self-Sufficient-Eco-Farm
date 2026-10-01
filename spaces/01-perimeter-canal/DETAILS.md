@@ -63,3 +63,17 @@ Only controlled clean runoff after silt/erosion treatment may enter.
 - [ ] Fire/emergency access is explicit
 - [ ] Neighbor conflicts are checked
 - [ ] Image/blueprint matches the master plan
+
+## Detailed visual references
+
+### Nursery / hapa
+![Fish nursery and hapa detail](images/13-fish-nursery-hapa-detail.png)
+
+### Intake / fire water
+![Irrigation intake and fire-water detail](images/14-irrigation-intake-fire-water.png)
+
+### Sluice / spillway
+![Sluice overflow spillway detail](images/15-sluice-overflow-spillway.png)
+
+### Aeration / monitoring
+![Aeration and monitoring detail](images/17-aeration-monitoring-detail.png)

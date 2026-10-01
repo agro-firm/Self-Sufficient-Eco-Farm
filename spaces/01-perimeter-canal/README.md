@@ -2,6 +2,12 @@
 
 This folder is the detailed documentation authority for the **Perimeter Canal** space.
 
+## Master visual reference
+
+![Perimeter Canal — realistic true top view](images/02-realistic-top-view.png)
+
+> Generated images are visual references only. Markdown/L1/engineering authorities remain controlling for measurements and construction.
+
 ## At a glance
 
 | Item | Value |
@@ -49,6 +55,26 @@ This folder is the detailed documentation authority for the **Perimeter Canal** 
 - Fish: 1.2–2.0 t/year
 - Monthly equivalent fish harvest: about 100–165 kg/month if staggered
 - Service outputs: stored irrigation water, stormwater buffering, fire-water availability, security separation
+
+## Complete image gallery
+
+| Reference | Reference |
+|---|---|
+| 01 — Blueprint Master<br>![01 — Blueprint Master](images/01-blueprint-master.png) | 02 — Realistic True Top View<br>![02 — Realistic True Top View](images/02-realistic-top-view.png) |
+| 03 — North-West Aerial<br>![03 — North-West Aerial](images/03-north-west-aerial.png) | 04 — North-East Aerial<br>![04 — North-East Aerial](images/04-north-east-aerial.png) |
+| 05 — South-East Aerial<br>![05 — South-East Aerial](images/05-south-east-aerial.png) | 06 — South-West Aerial<br>![06 — South-West Aerial](images/06-south-west-aerial.png) |
+| 07 — North-Side View<br>![07 — North-Side View](images/07-north-side-view.png) | 08 — South-Side View<br>![08 — South-Side View](images/08-south-side-view.png) |
+| 09 — East-Side View<br>![09 — East-Side View](images/09-east-side-view.png) | 10 — West-Side View<br>![10 — West-Side View](images/10-west-side-view.png) |
+| 11 — Primary Working View<br>![11 — Primary Working View](images/11-primary-working-view.png) | 12 — Canal Bank Engineering Detail<br>![12 — Canal Bank Engineering Detail](images/12-canal-bank-engineering-detail.png) |
+| 13 — Fish Nursery / Hapa Detail<br>![13 — Fish Nursery / Hapa Detail](images/13-fish-nursery-hapa-detail.png) | 14 — Irrigation Intake + Fire-Water<br>![14 — Irrigation Intake + Fire-Water](images/14-irrigation-intake-fire-water.png) |
+| 15 — Sluice / Overflow / Spillway<br>![15 — Sluice / Overflow / Spillway](images/15-sluice-overflow-spillway.png) | 16 — Bridge / Crossing Detail<br>![16 — Bridge / Crossing Detail](images/16-bridge-crossing-detail.png) |
+| 17 — Aeration + Monitoring Detail<br>![17 — Aeration + Monitoring Detail](images/17-aeration-monitoring-detail.png) | 18 — Hydraulic / Drainage System<br>![18 — Hydraulic / Drainage System](images/18-hydraulic-drainage-system.png) |
+| 19 — Night / Security View<br>![19 — Night / Security View](images/19-night-security-view.png) | 20 — Monsoon / Heavy Rain<br>![20 — Monsoon / Heavy Rain](images/20-monsoon-heavy-rain.png) |
+| 21 — Cyclone/Fish/Maintenance Composite V1<br>![21 — Cyclone/Fish/Maintenance Composite V1](images/21-cyclone-fish-maintenance-composite-v1.png) | 22 — Cyclone/Fish/Maintenance Composite V2<br>![22 — Cyclone/Fish/Maintenance Composite V2](images/22-cyclone-fish-maintenance-composite-v2.png) |
+| 23 — Cyclone/Fish/Maintenance Composite V3<br>![23 — Cyclone/Fish/Maintenance Composite V3](images/23-cyclone-fish-maintenance-composite-v3.png) |  |
+
+### Composite note
+Images 21–23 are three generated **composite variants** that each contain cyclone readiness, fish-management, and maintenance scenes together. They are retained honestly as composite references rather than mislabeled as standalone single-view images.
 
 ## Required rule
 

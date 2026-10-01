@@ -20,3 +20,9 @@ Any blueprint or image that represents this system must show its route, equipmen
 
 ## Engineering boundary
 Final structural, hydraulic, electrical, fire, public-health, veterinary or other regulated values require qualified design/approval where applicable.
+
+## Lighting visual reference
+
+![Perimeter Canal low-glare night lighting reference](images/19-night-security-view.png)
+
+Lighting is concentrated at crossings, equipment and access points; most canal length remains dark.
