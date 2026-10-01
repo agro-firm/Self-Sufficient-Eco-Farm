@@ -40,3 +40,4 @@ For every blueprint/image also verify:
 - all shown dimensions match approved registry
 - fixed adjacency and clean/dirty boundaries remain unchanged
 - no extra pond, fountain, resort lawn, or unapproved building was added
+- the only approved swimming pool is inside space 04 under D-013, with pool/playground safety separation and controlled drainage

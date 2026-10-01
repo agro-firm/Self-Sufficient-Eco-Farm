@@ -37,7 +37,7 @@ This registry defines authoritative **planning envelopes and fixed relationships
 ## Fixed adjacency rules
 
 - Wall → inspection strip → canal → inner bank → fire/service road → internal zones.
-- House/admin/playground must connect to the main clean gate without crossing manure traffic.
+- House/admin/playground/garage/pool must connect to the main clean gate without crossing manure traffic.
 - Livestock/poultry must connect to the service gate and biogas/treatment system.
 - Processing hub must connect to crop harvest routes and service/heavy-vehicle routes.
 - Food crops must remain in a no-tall-obstruction solar zone.
@@ -82,8 +82,23 @@ The following internal rectangles supersede the earlier generic envelope shapes 
 | Biogas/treatment | X 207.008–237.172; Y 12.828–65.871 m |
 | Vegetables/greenhouse | X 25.648–83.336; Y 65.871–143.877 m |
 | Fodder | X 83.336–237.172; Y 65.871–143.877 m |
-| House/admin/playground | X 28.627–63.384; Y 143.877–207.172 m |
+| House/admin/playground/garage/pool | X 28.627–63.384; Y 143.877–207.172 m |
 | Food crops | X 63.384–166.077; Y 143.877–207.172 m |
 | Orchard | X 166.077–237.172; Y 143.877–207.172 m |
 
 The three west access/buffer strips are 1,000 m² each and together form the 3,000 m² internal-access/buffer authority.
+
+## Residential/admin subspace registry
+
+Parent: **2,200 m²**, X 28.627–63.384 m; Y 143.877–207.172 m.
+
+- 2-story house/admin footprint: 480 m²
+- playground: 600 m²
+- garage: 120 m²
+- swimming-pool water: 60 m²
+- pool deck/safety/equipment: 140 m²
+- arrival/drive/pedestrian courts: 260 m²
+- utility/service: 120 m²
+- drainage/pervious/safety buffers: 420 m²
+
+No kitchen/vegetable garden is reserved in this parent zone.

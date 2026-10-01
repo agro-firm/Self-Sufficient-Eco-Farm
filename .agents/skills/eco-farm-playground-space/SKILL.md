@@ -48,4 +48,4 @@ Must be:
 
 ## Image rules
 
-Do not convert the playground into a decorative lawn, pool, or large landscaped park.
+Do not convert the 600 m² playground itself into a pool or landscaped park. A separate secured swimming pool is now approved elsewhere inside the same 2,200 m² residential/admin parent zone under D-013 and must remain physically separated from the playground.

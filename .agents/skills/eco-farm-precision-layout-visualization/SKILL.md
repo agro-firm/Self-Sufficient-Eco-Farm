@@ -32,7 +32,7 @@ Every farm-wide image prompt must explicitly state:
 - continuous perimeter canal, no separate pond
 - security wall outside canal system
 - inner fire/service road
-- house/admin/playground clean zone
+- house/admin/playground/garage/secured-pool clean zone
 - open food-crop zone with no tall shading elements
 - largest internal productive block = fodder bank
 - orchard separate from crop solar envelope

@@ -1,46 +1,51 @@
-# House, Admin, Playground & Kitchen Garden
+# House, Admin, Playground, Garage & Swimming Pool
 
-This folder is the detailed documentation authority for the **House, Admin, Playground & Kitchen Garden** space.
+This folder is the detailed authority for the farm's **2,200 m² clean residential/admin compound**.
 
-## At a glance
+## Approved concept
+- two-story modern tropical duplex/bungalow-style farmhouse + admin/control
+- fixed 20 m × 30 m playground
+- residential/admin garage
+- secured family swimming pool
+- rooftop solar-PV provision
+- full drainage, water, electrical, lighting, CCTV/security and life-safety systems
+- **no kitchen/vegetable garden in this zone**
 
-| Item | Value |
-|---|---|
-| Parent area | **2,200 m²** |
-| Business role | **support-household** |
-| Planning status | L1 / master planning |
+## L1 parent
+X 28.627–63.384 m; Y 143.877–207.172 m.
 
-## Core design documentation
-
+## Core design
 - [Architecture](ARCHITECTURE.md)
-- [Space](SPACE.md)
+- [Space & Coordinates](SPACE.md)
 - [Design](DESIGN.md)
-- [Image & Blueprint](IMAGE.md)
 - [Details](DETAILS.md)
+- [Image & Multi-Angle Rules](IMAGE.md)
 - [Utilities](UTILITIES.md)
 - [Operations](OPERATIONS.md)
 
-## Capacity, production and business documentation
+## Dedicated engineering/system documents
+- [Blueprint Set](BLUEPRINT.md)
+- [Space Management](SPACE_MANAGEMENT.md)
+- [Drainage](DRAINAGE.md)
+- [Water System](WATER_SYSTEM.md)
+- [Electrical](ELECTRICAL.md)
+- [CCTV & Security](CCTV_SECURITY.md)
+- [Daylight & Artificial Lighting](LIGHTING.md)
+- [Safety & Emergency](SAFETY.md)
 
+## Residential subspace documents
+- [House Program](HOUSE_PROGRAM.md)
+- [Garage](GARAGE.md)
+- [Swimming Pool](SWIMMING_POOL.md)
+- [Solar Power](SOLAR_POWER.md)
+- [Playground](PLAYGROUND.md)
+
+## Capacity / cost / business
 - [Capacity](CAPACITY.md)
 - [Production / Service Output](PRODUCTION.md)
 - [Inputs & Outputs](INPUTS_OUTPUTS.md)
 - [Costs](COSTS.md)
 - [Economics](ECONOMICS.md)
-- [Business & Value Strategy](BUSINESS.md)
+- [Business / Value Strategy](BUSINESS.md)
 
-## Main capacity/output snapshot
-
-- House/admin envelope ~480 m² concept
-- Playground fixed 600 m²
-- Kitchen/herb garden fixed 200 m²
-- Remaining ~920 m² for parking, paths, admin yard and buffers
-- Kitchen garden: roughly 0.5–1.5 t/year mixed household vegetables/herbs planning range
-- Administrative output: records, CCTV control, farm coordination
-- Playground/emergency assembly has no sale output
-
-## Required rule
-
-Do not judge this space only by cash income. Some zones create direct sales, some create internal replacement value, and some protect the rest of the farm by reducing risk or operating cost.
-
-See [farm-wide economic assumptions](../../docs/ECONOMIC_ASSUMPTIONS.md).
+All internal positions remain PROVISIONAL until an L2 site/floor plan is approved.

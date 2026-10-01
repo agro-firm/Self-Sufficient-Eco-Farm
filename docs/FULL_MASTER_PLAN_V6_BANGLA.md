@@ -88,7 +88,7 @@ Biosecurity Buffer
 | ১ | চারপাশের মাছ/বন্যা/অগ্নিনির্বাপণ খাল | Perimeter Fish / Flood / Fire-Water Canal | ৫,৪০০ | ৯.৮% | চারপাশে ক্রমাগত খাল; মাছ চাষ + বৃষ্টির পানি ধরে রাখা + সেচ + fire reserve |
 | ২ | নিরাপত্তা দেয়াল + পরিদর্শন স্ট্রিপ + privacy belt | Security Wall + Inspection Strip + Privacy Belt | ১,৮০০ | ৩.৩% | দেয়াল, পাহারা পথ, গাছের বেল্ট |
 | ৩ | রাস্তা + ড্রেন + ফায়ার লেন + গেট | Roads + Drains + Fire Lanes + Gates | ৪,২০০ | ৭.৬% | প্রধান রাস্তা, সার্ভিস রোড, ড্রেন, manhole, গেট |
-| ৪ | বাড়ি + অফিস + কন্ট্রোল + খেলার মাঠ + kitchen garden | House + Admin + Control + Playground + Kitchen Garden | ২,২০০ | ৪.০% | বাসস্থান, control room, children area, family garden |
+| ৪ | বাড়ি + অফিস + কন্ট্রোল + খেলার মাঠ + garage + swimming pool | House + Admin + Control + Playground + Garage + Swimming Pool | ২,২০০ | ৪.০% | বাসস্থান, control room, children area, family garden |
 | ৫ | মানুষের খাবারের ফসল | Human Food Crop Zone | ৬,৫০০ | ১১.৮% | ধান, ভুট্টা, ডাল, সরিষা/তিল |
 | ৬ | পশুখাদ্য ব্লক | Dedicated Fodder Bank | ১২,০০০ | ২১.৮% | Napier, fodder maize, sorghum, cowpea, silage crop |
 | ৭ | সবজি + গ্রিনহাউস + নার্সারি | Vegetable + Greenhouse + Nursery | ৪,৫০০ | ৮.২% | বাণিজ্যিক সবজি, protected crop, চারা |
@@ -1267,3 +1267,7 @@ measure করে।
 - final stocking density
 
 এগুলো বাদ পড়া নয়; বরং **construction safety-এর জন্য deliberately left for engineering calculation**।
+
+# Residential/Admin Zone — নতুন Superseding Update
+
+Decision D-013 অনুযায়ী পুরনো kitchen garden reference আর authoritative নয়। ২,২০০ মি² clean residential/admin zone-এ এখন থাকবে: ২-তলা duplex-style farmhouse/admin, ২০×৩০ মি playground, residential garage, secured family swimming pool, pool deck/equipment/safety zone, clean arrival/drive, utility/service area এবং drainage/pervious safety buffer। এই zone-এ vegetable garden থাকবে না; vegetable production dedicated vegetable/greenhouse/nursery zone-এ থাকবে। Swimming pool কোনো fish pond নয় এবং continuous perimeter canal decision পরিবর্তন করে না।

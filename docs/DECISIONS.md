@@ -48,3 +48,22 @@ Do not treat 25–40 kW as guaranteed base capacity. Use 10–20 kW as an initia
 
 **Status:** Accepted as PROVISIONAL L1 planning authority  
 The repository uses `docs/COORDINATE_MASTER_PLAN_L1.md` for consistent zone placement, drawings, blueprints and generated images. The plan preserves the exact 55,000 m² area allocation and clean/dirty adjacency. It is not a legal survey or construction-staking authority. Surveyed L2 coordinates may supersede it without changing land allocations unless a new decision explicitly reallocates space.
+
+## D-013 — Residential/admin zone redesign
+
+**Status:** Accepted  
+The 2,200 m² house/admin parent zone is redesigned without changing its L1 outer coordinates or farm-wide land allocation.
+
+Approved components:
+- two-story duplex-style farmhouse/admin footprint: 480 m²
+- playground: 600 m²
+- residential/admin garage: 120 m²
+- swimming-pool water: 60 m²
+- pool deck/safety/equipment: 140 m²
+- arrival/drive/pedestrian courts: 260 m²
+- utility/service: 120 m²
+- drainage/pervious/safety buffers: 420 m²
+
+The previous kitchen/herb garden is removed from this zone. Vegetable production remains in the dedicated vegetable/greenhouse/nursery zone.
+
+The swimming pool is a secured residential amenity and **does not modify D-002**: there is still no separate fish pond in the farm base plan. Pool backwash/chlorinated water must not discharge untreated into the perimeter canal or crop drains.

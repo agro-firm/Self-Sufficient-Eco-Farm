@@ -1,42 +1,6 @@
-# House, Admin, Playground & Kitchen Garden — Operations
+# Operations
 
-## Routine activities
-
-- house/admin security checks
-- playground safety inspection
-- potable water checks
-- CCTV/NVR review
-- kitchen-garden care
-
-## Daily / shift checks
-
-- safety/access clear
-- water/power/drainage normal
-- obvious leak, damage, pest, disease or contamination check
-- abnormal condition logged and escalated
-
-## Weekly checks
-
-- inspect drains, paths and utility points
-- inspect stored materials/equipment
-- verify cleaning/housekeeping
-- review zone-specific records
-
-## Monthly checks
-
-- compare KPI/output against plan
-- inspect structural/weather damage
-- test emergency/backup function relevant to the space
-- verify no neighboring zone has encroached into the area budget
-
-## Seasonal / annual checks
-
-- pre-monsoon drainage and flood preparation
-- cyclone/high-wind readiness
-- annual area/layout audit
-- maintenance/replacement plan
-- capacity review before expansion
-
-## Records
-
-Keep date, responsible person, measured value/event, action taken and follow-up due date.
+Daily: pool gate/safety, water leaks, security/CCTV, clean access, playground hazards.  
+Weekly: pool chemistry/filtration, drains, garage/service area, lighting, PV visual check.  
+Monthly: fire equipment, alarms, emergency lighting, CCTV recording, water use, electrical visual inspection.  
+Pre-monsoon/cyclone: clear drains/gutters, secure outdoor items, verify backup power/comms, inspect roof/PV, check pool overflow/backflow plan.

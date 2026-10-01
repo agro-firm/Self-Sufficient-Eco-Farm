@@ -1,63 +1,58 @@
 ---
 name: eco-farm-house-admin-space
-description: Design the clean residential, administration, CCTV/control, first-aid, emergency shelter, parking, and kitchen-garden space.
+description: Design the 2,200 m² clean residential/admin compound with a two-story duplex-style farmhouse, admin/control functions, playground, garage, secured swimming pool, solar, utilities, drainage, lighting, CCTV and life-safety systems.
 ---
 
-# House and Admin Space
+# House, Admin, Garage, Pool and Playground Space
 
-## Precision authority
+## Authorities
+Read `docs/DECISIONS.md` D-013, `docs/COORDINATE_MASTER_PLAN_L1.md`, `spaces/04-house-admin-playground/README.md`, and the space's system documents.
 
-Use `docs/SPATIAL_DESIGN_STANDARD.md` and `docs/SPACE_REGISTRY.md`.
-- Plot basis: 250,000 mm × 220,000 mm.
-- Exact centimeter/mm values are allowed only when approved in the coordinate registry or an approved engineering drawing.
-- Otherwise mark dimensions/coordinates `PROVISIONAL`.
-- Never derive an exact dimension from a photorealistic image.
+## L1 parent
+- X 28.627–63.384 m
+- Y 143.877–207.172 m
+- area 2,200 m²
+- outer block unchanged
 
-## Planning allocation
+## Approved program
+- two-story duplex-style house/admin footprint: 480 m²
+- playground: 600 m²
+- garage: 120 m²
+- swimming-pool water: 60 m²
+- pool deck/safety/equipment: 140 m²
+- arrival/drive/pedestrian courts: 260 m²
+- utility/service: 120 m²
+- drainage/pervious/safety buffers: 420 m²
 
-Combined house/admin/playground/kitchen-garden zone: 2,200 m².
-House/admin building envelope concept: ~24 m × 20 m.
-
-## Required functions
-
-- residence
-- farm office
-- CCTV/NVR control room
+## House requirements
+- modern tropical duplex/bungalow character
+- family residence
+- farm office/reception
+- CCTV/NVR/security control
+- first-aid/emergency room
 - communications
-- first aid / emergency room
-- clean visitor reception
-- critical-document storage
-- household parking
-- emergency shelter function
-- kitchen-garden connection
+- critical document/storage
+- cross-ventilation/daylight
+- rooftop solar-PV surfaces
+- emergency egress and storm resilience
 
-## Separation rules
+## Pool requirements
+- family recreation only; not farm pond
+- child-resistant barrier and controlled gate
+- non-slip deck
+- dedicated pump/filter equipment
+- rescue equipment/depth marking
+- electrical bonding and residual-current protection
+- no untreated chlorinated backwash to canal/crop drainage
 
-Keep away from:
-- biogas plant
-- compost receiving
-- manure lanes
-- workshop hot work
-- quarantine
-- chemical/fuel storage
-- heavy truck route
+## Garage requirements
+Residential/admin vehicles only. Heavy tractor/workshop repair remains in the processing/workshop zone.
 
-## Utilities
+## Separation
+Keep away from biogas, manure traffic, quarantine, workshop hot-work, chemical/fuel storage and heavy truck routes.
 
-- potable water
-- sanitary blackwater/greywater connection
-- critical power
-- communications/fiber
-- lightning/earthing system
-- emergency lighting
+## Blueprint minimum
+Site plan, ground floor, first floor, roof/solar, four elevations, sections, drainage, water/plumbing, electrical, lighting, CCTV/data/access control, fire/life safety, pool mechanical/safety, garage/parking, and external hardscape/playground plan.
 
-## Image/blueprint rules
-
-The house must read as a functional farm residence/control center, not a luxury resort centerpiece. Do not consume agricultural land with oversized ornamental landscaping.
-
-## L1 coordinate block
-
-**Status: PROVISIONAL L1**  
-X 28.627–63.384 m; Y 143.877–207.172 m; L1 block 34.758 × 63.296 m; area 2,200 m².
-
-Use `docs/COORDINATE_MASTER_PLAN_L1.md` for neighboring zones, gate/access relationships, and ring control lines. Do not move this zone in blueprints or generated images without an approved master-plan decision.
+## Image rule
+Images must show a real two-story residential/admin compound with garage, playground and secured pool; no kitchen garden. Multiple angles must preserve the same internal arrangement.

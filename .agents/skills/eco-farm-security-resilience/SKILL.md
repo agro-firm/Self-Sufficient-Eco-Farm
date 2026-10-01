@@ -22,3 +22,7 @@ Show wall, gates, canal crossings, fire road, CCTV coverage sectors, lighting po
 ## Image/blueprint requirement
 
 No blind gate approach, no single-point emergency access, and no playground placement beside canal/heavy service traffic.
+
+## Residential pool safety interface
+
+For space 04, verify controlled pool access, child barrier, anti-slip deck, rescue equipment, CCTV coverage of the pool approach, safe night lighting, pool electrical protection, and separation from the playground/vehicle route.

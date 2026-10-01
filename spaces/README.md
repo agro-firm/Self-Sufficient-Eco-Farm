@@ -14,6 +14,16 @@ This directory is the detailed per-space documentation system for the complete 5
 - `UTILITIES.md`
 - `OPERATIONS.md`
 
+### Space systems / engineering documentation
+- `BLUEPRINT.md`
+- `SPACE_MANAGEMENT.md`
+- `DRAINAGE.md`
+- `WATER_SYSTEM.md`
+- `ELECTRICAL.md`
+- `CCTV_SECURITY.md`
+- `LIGHTING.md`
+- `SAFETY.md`
+
 ### Capacity / production / business documentation
 - `CAPACITY.md`
 - `PRODUCTION.md`
@@ -36,7 +46,7 @@ Not every space should show cash profit. Productive zones may create sales; fodd
 1. [Perimeter Canal](01-perimeter-canal/README.md) — 5,400 m²
 2. [Security Wall, Inspection & Privacy Band](02-security-perimeter/README.md) — 1,800 m²
 3. [Perimeter Roads, Gates & Fire Access](03-roads-gates-fire-access/README.md) — 4,200 m²
-4. [House, Admin, Playground & Kitchen Garden](04-house-admin-playground/README.md) — 2,200 m²
+4. [House, Admin, Playground, Garage & Swimming Pool](04-house-admin-playground/README.md) — 2,200 m²
 5. [Human Food Crop Zone](05-human-food-crops/README.md) — 6,500 m²
 6. [Dedicated Fodder Bank](06-fodder-bank/README.md) — 12,000 m²
 7. [Vegetables, Greenhouse & Nursery](07-vegetables-greenhouse-nursery/README.md) — 4,500 m²

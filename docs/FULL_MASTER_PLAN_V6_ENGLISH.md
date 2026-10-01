@@ -109,7 +109,7 @@ PRODUCTION ZONES
 | 1 | Perimeter Fish / Flood / Fire-Water Canal | 5,400 | 9.8% | Fish, flood retention, irrigation reserve, fire water |
 | 2 | Security Wall + Inspection Strip + Privacy Belt | 1,800 | 3.3% | Wall, patrol access, maintenance and privacy |
 | 3 | Roads + Drains + Fire Lanes + Gates | 4,200 | 7.6% | Internal movement, drains and emergency access |
-| 4 | House + Admin + Control + Playground + Kitchen Garden | 2,200 | 4.0% | Residence, administration, recreation and household garden |
+| 4 | House + Admin + Control + Playground + Garage + Swimming Pool | 2,200 | 4.0% | Residence, administration, recreation and household garden |
 | 5 | Human Food Crop Zone | 6,500 | 11.8% | Rice, maize, pulses, mustard/sesame rotation |
 | 6 | Dedicated Fodder Bank | 12,000 | 21.8% | Napier, fodder maize, sorghum, cowpea/legume, silage crops |
 | 7 | Vegetable + Greenhouse + Nursery | 4,500 | 8.2% | Vegetables, protected cultivation and seedlings |
@@ -994,7 +994,7 @@ These values are planning ranges, not guaranteed production. Actual values must 
 
 | Zone | Internal Allocation | Design Logic |
 |---|---|---|
-| House/Admin Zone – 2,200 m² | House/office ~480; playground 600; kitchen garden 200; admin/parking/paths/green buffer ~920 | Clean family/control zone |
+| House/Admin Zone – 2,200 m² | 2-story house/admin footprint 480; playground 600; garage 120; pool water 60; pool deck/safety/equipment 140; arrival/drive/pedestrian 260; utility/service 120; drainage/pervious/safety buffers 420 | Clean family/control zone |
 | Food Crops – 6,500 m² | Rice ~3,000; maize ~1,500; pulses ~1,000; oilseed ~1,000 | Seasonal rotation can change |
 | Fodder – 12,000 m² | Napier 5,500–6,000; fodder maize/sorghum 2,500–3,000; legumes 1,500–2,000; seasonal/azolla/headland balance | Largest productive block |
 | Vegetables – 4,500 m² | Open beds 2,500–3,000; greenhouse 700–1,000; nursery 250–350; wash/path/drain balance | Clean production |
@@ -1372,3 +1372,7 @@ This farm is defined as:
 > **A protected 5.5-hectare integrated eco-farm where the perimeter canal provides fish, flood storage, irrigation reserve and fire water; the land produces human food and animal feed; livestock produce milk, eggs and manure; manure becomes biogas and fertilizer; solar and biogas power the farm; crops are milled, stored, dried and cooled on-site; human, animal, processing and industrial wastewater are treated separately; roads, lighting, CCTV, security and emergency systems are integrated; and every expansion is controlled by actual feed, water, energy, nutrient and waste-treatment capacity.**
 
 This English V6 document is the authoritative master-planning reference for future CAD, drainage, electrical, structural, BOQ, CAPEX/OPEX and construction-design work.
+
+# Residential/Admin Zone Superseding Update
+
+Decision D-013 supersedes older kitchen-garden references in this document. The 2,200 m² residential/admin zone now contains a two-story duplex-style farmhouse/admin building, 20×30 m playground, residential garage, secured 12×5 m concept swimming pool plus deck/equipment/safety zone, clean arrival circulation, utility/service area, and drainage/pervious buffers. No vegetable garden remains inside this zone. The pool is not a fish pond and does not change the continuous-perimeter-canal decision.

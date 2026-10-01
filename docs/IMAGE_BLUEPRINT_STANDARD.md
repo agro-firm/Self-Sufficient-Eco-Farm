@@ -34,7 +34,7 @@ Must preserve topology and adjacency, but is not a measurement authority.
 
 - No separate central fish pond.
 - The perimeter canal is continuous except engineered crossings.
-- House/playground is separated from dirty/service traffic.
+- House/admin/playground/garage/pool is separated from dirty/service traffic.
 - Large fodder bank remains the largest internal productive block.
 - Tall orchard trees must not shade the open food-crop solar envelope.
 - Livestock and poultry are on the service side with short manure routes.
@@ -68,3 +68,7 @@ Reject/regenerate an image if:
 - tall trees shade crop fields
 - solar occupies prime crop land without approval
 - dimensions conflict with the registry
+
+## Residential pool visualization rule
+
+A swimming pool is approved **only** inside the `04-house-admin-playground` residential/admin zone under D-013. It must never be depicted as a fish pond, irrigation pond, canal substitute, or decorative farm-wide water body. Images must keep a physical child-safety separation between pool and playground and must preserve the 2,200 m² parent boundary.

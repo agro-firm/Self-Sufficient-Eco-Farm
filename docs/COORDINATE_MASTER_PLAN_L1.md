@@ -70,7 +70,7 @@ The 3,000 m² internal-access/buffer allocation is split as 1,000 m² in each ba
 | Zone | X-min | X-max | Y-min | Y-max | Width × height | Area |
 |---|---:|---:|---:|---:|---|---:|
 | Access/buffer N | 12.828 | 28.627 | 143.877 | 207.172 | 15.799 × 63.296 m | 1,000 m² |
-| House/admin/playground | 28.627 | 63.384 | 143.877 | 207.172 | 34.758 × 63.296 m | 2,200 m² |
+| House/admin/playground/garage/pool | 28.627 | 63.384 | 143.877 | 207.172 | 34.758 × 63.296 m | 2,200 m² |
 | Human food crops | 63.384 | 166.077 | 143.877 | 207.172 | 102.693 × 63.296 m | 6,500 m² |
 | Orchard/pollinators | 166.077 | 237.172 | 143.877 | 207.172 | 71.095 × 63.296 m | 4,500 m² |
 
@@ -119,7 +119,7 @@ NORTH / Y=220
 ┌────────────────────────────────────────────────────────────────────┐
 │ SECURITY BAND → CANAL → PERIMETER FIRE/SERVICE ROAD              │
 │ ┌────────────────────────────────────────────────────────────────┐ │
-│ │Access│ House/Admin │      Human Food Crops       │ Orchard     │ │
+│ │Access│ House/Admin+Pool │      Human Food Crops       │ Orchard     │ │
 │ │ N    │ Playground  │                             │ Pollinator  │ │
 │ ├──────┼──────────────┴─────────────────────────────┴─────────────┤ │
 │ │Access│ Vegetables / Greenhouse │         Fodder Bank           │ │
@@ -161,3 +161,7 @@ Those require survey and L2/L3 engineering.
 ## 8. Per-space documentation
 
 Detailed architecture/design/utility/image/operation documents are maintained under [`../spaces/`](../spaces/README.md). Those folders inherit these L1 coordinates and may not move their parent zone without a new master-plan decision.
+
+## 9. Residential/admin internal-program note
+
+The outer L1 block remains unchanged at X 28.627–63.384 m; Y 143.877–207.172 m. The internal program is now a two-story house/admin, playground, residential garage, swimming pool/deck, arrival circulation, utilities, and drainage/safety buffers. Exact internal X/Y footprints remain PROVISIONAL until the dedicated L2 residential site plan.

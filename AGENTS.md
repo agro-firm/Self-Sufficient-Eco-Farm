@@ -58,3 +58,7 @@ For any question about what a space can produce, how many animals/crops it can s
 7. Read `docs/ECONOMIC_ASSUMPTIONS.md`.
 8. Keep cash revenue, internal replacement value and avoided-loss value separate.
 9. Do not call scenario gross value "profit".
+
+## Per-space engineering system rule
+
+Every physical space must maintain dedicated documents for BLUEPRINT, SPACE_MANAGEMENT, DRAINAGE, WATER_SYSTEM, ELECTRICAL, CCTV_SECURITY, LIGHTING, and SAFETY. The content is space-specific; do not copy the house system literally into crops, animals, canal, processing, or utilities.

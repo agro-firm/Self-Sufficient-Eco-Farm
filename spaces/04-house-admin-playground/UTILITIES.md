@@ -1,33 +1,16 @@
-# House, Admin, Playground & Kitchen Garden — Utilities & Infrastructure Interfaces
+# House, Admin, Playground, Garage & Swimming Pool — Utility Summary
 
-## Power
+Detailed system files:
+- [Drainage](DRAINAGE.md)
+- [Water](WATER_SYSTEM.md)
+- [Electrical](ELECTRICAL.md)
+- [CCTV/Security](CCTV_SECURITY.md)
+- [Lighting](LIGHTING.md)
+- [Safety](SAFETY.md)
+- [Solar](SOLAR_POWER.md)
 
-- critical power
-- communications/fiber
-- CCTV
-- low-glare lighting
+## Utility hierarchy
+Critical: CCTV/NVR, communications, emergency lighting, water supply controls, essential house circuits.  
+Noncritical/shiftable: pool filtration, EV charging, selected comfort loads.
 
-## Water
-
-- potable water
-- blackwater/greywater
-
-## Drainage / wastewater
-
-Human blackwater and greywater route to appropriate treatment; roof rainwater goes to clean stormwater harvesting.
-
-## Data / monitoring
-
-- Connect sensors/CCTV/records only where operationally useful.
-- Critical monitoring should be backed by the farm communications/power system.
-
-## Fire / emergency
-
-- Maintain service/emergency access.
-- Keep isolation/shutoff points accessible.
-- Do not block the perimeter fire route or internal clean/service spines.
-
-## Waste / by-products
-
-- Separate reusable organics from hazardous/contaminated waste.
-- Define the destination of every significant by-product before commissioning.
+Blackwater, greywater, pool backwash and clean stormwater remain separate until appropriate treatment/disposal.

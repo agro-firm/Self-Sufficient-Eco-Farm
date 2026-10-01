@@ -14,7 +14,7 @@
 | Perimeter fish/flood/fire-water canal | 5,400 m² |
 | Security wall + inspection/privacy strip | 1,800 m² |
 | Perimeter fire/service road + edge drains + gates | 4,200 m² |
-| House + admin + control + playground + kitchen garden | 2,200 m² |
+| House + admin + control + playground + garage + swimming pool | 2,200 m² |
 | Human food crops | 6,500 m² |
 | Dedicated fodder bank | 12,000 m² |
 | Vegetables + greenhouse + nursery | 4,500 m² |
@@ -53,3 +53,7 @@ Flood elevation hierarchy, BNBC-based cyclone/wind design, two-gate emergency ac
 ## Design status
 
 All dimensions and capacities above are master-planning concepts, not final construction values. Site survey, geotechnical work, soil/water tests, flood-level study, structural design, hydraulic calculations, electrical protection design, veterinary planning, environmental compliance, and fire engineering are required before construction.
+
+## Residential/admin zone update
+
+The 2,200 m² residential/admin allocation now contains a two-story duplex-style farmhouse/admin building, the fixed 20×30 m playground, a residential garage, and a secured family swimming pool. The former kitchen-garden allocation is removed from this zone; crop/vegetable production remains in the dedicated production zones. The pool is a residential amenity only and does not change the no-separate-fish-pond decision.

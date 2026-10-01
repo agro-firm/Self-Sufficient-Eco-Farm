@@ -25,7 +25,7 @@ Every major farm area now has a dedicated documentation folder under [`spaces/`]
 - [Perimeter Canal](spaces/01-perimeter-canal/README.md)
 - [Security Wall, Inspection & Privacy Band](spaces/02-security-perimeter/README.md)
 - [Perimeter Roads, Gates & Fire Access](spaces/03-roads-gates-fire-access/README.md)
-- [House, Admin, Playground & Kitchen Garden](spaces/04-house-admin-playground/README.md)
+- [House, Admin, Playground, Garage & Swimming Pool](spaces/04-house-admin-playground/README.md)
 - [Human Food Crop Zone](spaces/05-human-food-crops/README.md)
 - [Dedicated Fodder Bank](spaces/06-fodder-bank/README.md)
 - [Vegetables, Greenhouse & Nursery](spaces/07-vegetables-greenhouse-nursery/README.md)
@@ -84,7 +84,7 @@ flowchart TB
 | 1 | Perimeter Canal | 5,400 | 58,125 | Distributed around perimeter; ~6 m clear-water width | [skill](.agents/skills/eco-farm-perimeter-canal-space/SKILL.md) |
 | 2 | Security Wall + Inspection/Privacy Strip | 1,800 | 19,375 | Equivalent gross perimeter band ~1.93 m average; locally widened inspection/service bays | [skill](.agents/skills/eco-farm-perimeter-wall-security-space/SKILL.md) |
 | 3 | Perimeter Fire/Service Road + Edge Drains + Gates | 4,200 | 45,208 | Equivalent continuous perimeter road ring ~4.9 m average; gate/bridge approaches included | [skill](.agents/skills/eco-farm-roads-gates-traffic-space/SKILL.md) |
-| 4 | House + Admin + Playground + Kitchen Garden | 2,200 | 23,681 | **L1:** 34.758 m × 63.296 m | [skill](.agents/skills/eco-farm-house-admin-space/SKILL.md) |
+| 4 | House + Admin + Playground + Garage + Swimming Pool | 2,200 | 23,681 | **L1:** 34.758 m × 63.296 m | [skill](.agents/skills/eco-farm-house-admin-space/SKILL.md) |
 | 5 | Human Food Crops | 6,500 | 69,965 | **L1:** 102.693 m × 63.296 m | [skill](.agents/skills/eco-farm-food-crop-space/SKILL.md) |
 | 6 | Fodder Bank | 12,000 | 129,167 | **L1:** 153.836 m × 78.005 m | [skill](.agents/skills/eco-farm-fodder-bank-space/SKILL.md) |
 | 7 | Vegetables + Greenhouse + Nursery | 4,500 | 48,438 | **L1:** 57.689 m × 78.005 m | [skill](.agents/skills/eco-farm-vegetable-greenhouse-nursery-space/SKILL.md) |
@@ -230,47 +230,81 @@ flowchart LR
 
 ---
 
-# 4. House + Admin + Playground + Kitchen Garden
+# 4. House + Admin + Playground + Garage + Swimming Pool
 
 **Combined area:** 2,200 m² ≈ 23,681 ft²  
+**L1 block:** X 28.627–63.384 m; Y 143.877–207.172 m  
 **Skill:** [`eco-farm-house-admin-space`](.agents/skills/eco-farm-house-admin-space/SKILL.md)
 
-## Internal space schedule
+## Approved internal space schedule
 
-| Component | Planning dimension | Area m² | Area ft² |
-|---|---:|---:|---:|
-| House/admin building envelope | ~24 m × 20 m | ~480 | ~5,167 |
-| Playground | 20 m × 30 m | 600 | 6,458 |
-| Kitchen/herb garden | 10 m × 20 m | 200 | 2,153 |
-| Parking, paths, admin yard, green/safety buffer | distributed | ~920 | ~9,903 |
+| Component | Planning dimension / description | Area m² | Area ft² |
+|---|---|---:|---:|
+| Two-story duplex-style house/admin footprint | ~24 m × 20 m footprint; 2 floors; gross floor area concept ~800–960 m² | 480 | 5,167 |
+| Playground | fixed 20 m × 30 m | 600 | 6,458 |
+| Garage / covered residential parking | concept ~12 m × 10 m | 120 | 1,292 |
+| Swimming pool water | concept ~12 m × 5 m | 60 | 646 |
+| Pool deck + child-safety separation + pool equipment | distributed around pool | 140 | 1,507 |
+| Arrival drive + visitor drop-off + pedestrian courts | distributed | 260 | 2,799 |
+| Utility/service area | pool plant, waste staging, outdoor service, meters | 120 | 1,292 |
+| Drainage/rain-garden/pervious/safety buffers | distributed | 420 | 4,521 |
 | **Total** |  | **2,200** | **23,681** |
 
 ## House/admin functions
-- residence
-- office
-- CCTV/NVR control
-- communications
-- first aid
+- two-story modern tropical duplex/farm-bungalow character
+- family residence
+- farm office/reception
+- CCTV/NVR/security control room
+- communications/network
+- first-aid/emergency room
 - clean visitor reception
-- emergency shelter
-- household parking
+- critical-document storage
+- emergency shelter function
+- roof/garage solar-PV surfaces
+- lightning/earthing and emergency lighting
+
+## Explicit changes
+- **No kitchen/vegetable garden inside this 2,200 m² zone.**
+- Vegetable production remains in `07-vegetables-greenhouse-nursery`.
+- A **secured family swimming pool is approved only inside this residential zone**; it is not a farm pond, fish pond, irrigation reservoir, or replacement for the perimeter canal.
+- Heavy farm workshop/tractor maintenance remains in the processing/workshop zone; this garage is residential/admin parking and light vehicle support.
 
 ## Playground
-See [`eco-farm-playground-space`](.agents/skills/eco-farm-playground-space/SKILL.md). It must be away from canal edge, biogas, quarantine, chemicals, and heavy traffic.
+The 20 m × 30 m playground remains the emergency assembly area. It must have a safe pedestrian route, CCTV visibility, low-glare lighting, shade/seating, and physical separation from the swimming pool and vehicle movement.
+
+## Swimming pool
+The pool requires:
+- child-resistant fence/gate or equivalent controlled barrier
+- non-slip deck
+- dedicated pump/filter plant
+- compliant electrical bonding/RCD/GFCI protection
+- life ring/rescue equipment and depth markings
+- CCTV coverage without compromising private indoor areas
+- controlled backwash/overflow route; **no chlorinated backwash to the canal or crop drains**
+
+## Concept arrangement
+- west/south-west: clean arrival + garage
+- west/north-west: swimming pool with secured deck
+- center/west-center: two-story house/admin
+- east: playground as a low-height buffer before the food-crop zone
+- roof: solar PV; no rooftop garden requirement
+- drainage/pervious buffers distributed around all hardscape
 
 ## Diagram
 
 ```mermaid
 flowchart LR
-    GATE[Main Clean Gate]
-    HOME[House / Admin ~480 m²]
+    ACCESS[Clean West Access]
+    GAR[Garage 120 m²]
+    POOL[Pool + Deck 200 m²]
+    HOME[2-Story House/Admin 480 m² footprint]
     PLAY[Playground 600 m²]
-    KG[Kitchen Garden 200 m²]
-    PARK[Parking / Paths / Buffer ~920 m²]
-    GATE --> HOME
+    CROP[Food Crops East]
+    ACCESS --> GAR
+    ACCESS --> HOME
+    POOL --- HOME
     HOME --- PLAY
-    HOME --- KG
-    HOME --- PARK
+    PLAY --- CROP
 ```
 
 ---
