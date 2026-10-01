@@ -72,3 +72,14 @@ Reject/regenerate an image if:
 ## Residential pool visualization rule
 
 A swimming pool is approved **only** inside the `04-house-admin-playground` residential/admin zone under D-013. It must never be depicted as a fish pond, irrigation pond, canal substitute, or decorative farm-wide water body. Images must keep a physical child-safety separation between pool and playground and must preserve the 2,200 m² parent boundary.
+
+## Four-side context rule for individual-space images
+
+When rendering one space:
+- target space is the primary subject and should normally hold about 75–90% of visual attention
+- show only a small 5–15% contextual glimpse/strip of adjacent spaces where visible
+- north/south/east/west neighbors come from L1 geometry and that space's `IMAGE.md` / `ARCHITECTURE.md`
+- do not fully design/render all neighboring spaces unless explicitly requested
+- never mirror or swap cardinal neighbors for composition
+
+For one-space blueprints, follow `docs/SPACE_BLUEPRINT_STANDARD.md` and `eco-farm-space-blueprint`.

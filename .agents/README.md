@@ -14,7 +14,7 @@ For physical design work, use [`../spaces/README.md`](../spaces/README.md) as th
 2. Read [`docs/MASTER_PLAN_SUMMARY.md`](../docs/MASTER_PLAN_SUMMARY.md), [`docs/DECISIONS.md`](../docs/DECISIONS.md), and [`SPACE.md`](../SPACE.md).
 3. Load the relevant physical-space skill(s).
 4. Load the relevant cross-farm system skill(s).
-5. For blueprints, dimensions, or images, load [`eco-farm-precision-layout-visualization`](skills/eco-farm-precision-layout-visualization/SKILL.md).
+5. For an individual-space blueprint, load [`eco-farm-space-blueprint`](skills/eco-farm-space-blueprint/SKILL.md), then [`eco-farm-precision-layout-visualization`](skills/eco-farm-precision-layout-visualization/SKILL.md). For images, load the precision skill.
 6. Finish with [`eco-farm-quality-gate`](skills/eco-farm-quality-gate/SKILL.md).
 
 ## Precision authorities
@@ -45,7 +45,7 @@ The farm planning frame is **250,000 mm × 220,000 mm**. Exact centimeter/mm val
 | [`eco-farm-perimeter-wall-security-space`](skills/eco-farm-perimeter-wall-security-space/SKILL.md) | Design the perimeter wall, privacy belt, inspection strip, anti-intrusion features, and interfaces with canal, gates, CCTV, lighting, and emergency access. |
 | [`eco-farm-perimeter-canal-space`](skills/eco-farm-perimeter-canal-space/SKILL.md) | Design the continuous perimeter canal as fish habitat, flood retention, irrigation reserve, fire water, and security separation without creating a separate pond. |
 | [`eco-farm-roads-gates-traffic-space`](skills/eco-farm-roads-gates-traffic-space/SKILL.md) | Design main gate, service/emergency gate, fire road, primary/secondary roads, pedestrian paths, turning areas, and clean/dirty traffic separation. |
-| [`eco-farm-house-admin-space`](skills/eco-farm-house-admin-space/SKILL.md) | Design the clean residential, administration, CCTV/control, first-aid, emergency shelter, parking, and kitchen-garden space. |
+| [`eco-farm-house-admin-space`](skills/eco-farm-house-admin-space/SKILL.md) | Design the 2,200 m² residential/admin compound with two-story duplex house, playground, garage, secured pool, solar and safety/control systems. |
 | [`eco-farm-playground-space`](skills/eco-farm-playground-space/SKILL.md) | Design the 20 m × 30 m playground and family recreation/assembly area with safe separation from canal, traffic, animals, utilities, and hazards. |
 | [`eco-farm-food-crop-space`](skills/eco-farm-food-crop-space/SKILL.md) | Design the open-sun human-food crop block for rice, maize, pulses, and oilseeds with rotations, headlands, machinery, irrigation, and no tall shading elements. |
 | [`eco-farm-fodder-bank-space`](skills/eco-farm-fodder-bank-space/SKILL.md) | Design the 12,000 m² fodder bank, harvest lanes, cut-and-carry system, silage crop blocks, and feed-capacity control for livestock. |

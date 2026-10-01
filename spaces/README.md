@@ -32,6 +32,13 @@ This directory is the detailed per-space documentation system for the complete 5
 - `ECONOMICS.md`
 - `BUSINESS.md`
 
+## Blueprint authorities
+
+- [Space Blueprint Standard](../docs/SPACE_BLUEPRINT_STANDARD.md)
+- [Blueprint Skill](../.agents/skills/eco-farm-space-blueprint/SKILL.md)
+
+Each space `ARCHITECTURE.md` now contains an internal m²/ft² schedule, and each `BLUEPRINT.md` uses that schedule plus small four-side context strips.
+
 ## Economic authorities
 
 - [Farm Economic Assumptions](../docs/ECONOMIC_ASSUMPTIONS.md)

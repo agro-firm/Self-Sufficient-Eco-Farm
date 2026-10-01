@@ -34,7 +34,7 @@ The outer zone placement is **PROVISIONAL L1** and must be preserved in all repo
 - Processing west
 - Quarantine east
 - Perimeter service road south
-- Vegetables north
+- Fodder bank north
 
 ### Prohibited or controlled conflicts
 - flood-prone low point

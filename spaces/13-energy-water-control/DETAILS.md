@@ -26,7 +26,7 @@ Raised critical utility hub with physical separation between wet water-process s
 - Processing west
 - Quarantine east
 - Perimeter service road south
-- Vegetables north
+- Fodder bank north
 
 ### Controlled / prohibited interfaces
 - flood-prone low point

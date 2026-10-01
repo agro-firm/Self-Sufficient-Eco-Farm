@@ -1,211 +1,273 @@
 # House, Admin, Playground, Garage & Swimming Pool — IMAGE.md
-## Image & Multi-Angle Generation Authority
+## Image, Four-Side Context & Multi-Angle Authority
 
-This file defines how the redesigned 2,200 m² residential/admin compound must look in every image. The same permanent layout must be preserved across top views, blueprints, aerial angles, side views and close details.
+This file controls images of **House, Admin, Playground, Garage & Swimming Pool**. The target space must always dominate the image, while small correctly positioned glimpses of adjacent spaces prove that the farm topology is correct.
 
 # 1. READ BEFORE GENERATING
 
-## Space documents
-- [Space README](README.md)
-- [Architecture](ARCHITECTURE.md)
-- [Space & L1 Coordinates](SPACE.md)
-- [Design Rules](DESIGN.md)
-- [Detailed Description](DETAILS.md)
-- [Utilities](UTILITIES.md)
-- [Blueprint Set](BLUEPRINT.md)
+## Target-space documents
+- [README](README.md)
+- [Architecture + m²/ft² schedule](ARCHITECTURE.md)
+- [Space & Coordinates](SPACE.md)
+- [Blueprint Authority](BLUEPRINT.md)
 - [Space Management](SPACE_MANAGEMENT.md)
-- [Drainage & Stormwater](DRAINAGE.md)
+- [Design](DESIGN.md)
+- [Details](DETAILS.md)
+- [Drainage](DRAINAGE.md)
 - [Water System](WATER_SYSTEM.md)
-- [Electrical System](ELECTRICAL.md)
+- [Electrical](ELECTRICAL.md)
 - [CCTV & Security](CCTV_SECURITY.md)
-- [Daylight & Lighting](LIGHTING.md)
-- [Safety & Emergency](SAFETY.md)
-- [House Program](HOUSE_PROGRAM.md)
-- [Garage](GARAGE.md)
-- [Swimming Pool](SWIMMING_POOL.md)
-- [Solar Power](SOLAR_POWER.md)
-- [Playground](PLAYGROUND.md)
+- [Lighting](LIGHTING.md)
+- [Safety](SAFETY.md)
 
-## Farm-wide authorities
-- [Root Farm SPACE.md](../../SPACE.md)
+## Farm/global authorities
+- [Root SPACE.md](../../SPACE.md)
 - [L1 Coordinate Master Plan](../../docs/COORDINATE_MASTER_PLAN_L1.md)
-- [Space Registry](../../docs/SPACE_REGISTRY.md)
-- [Spatial Design Standard](../../docs/SPATIAL_DESIGN_STANDARD.md)
+- [Space Blueprint Standard](../../docs/SPACE_BLUEPRINT_STANDARD.md)
 - [Image & Blueprint Standard](../../docs/IMAGE_BLUEPRINT_STANDARD.md)
-- [Master Decisions](../../docs/DECISIONS.md)
+- [Space Registry](../../docs/SPACE_REGISTRY.md)
+- [Decisions](../../docs/DECISIONS.md)
 
-## Skills
+## Required skills
+- [`eco-farm-space-blueprint`](../../.agents/skills/eco-farm-space-blueprint/SKILL.md)
+- [`eco-farm-precision-layout-visualization`](../../.agents/skills/eco-farm-precision-layout-visualization/SKILL.md)
 - [`eco-farm-house-admin-space`](../../.agents/skills/eco-farm-house-admin-space/SKILL.md)
 - [`eco-farm-playground-space`](../../.agents/skills/eco-farm-playground-space/SKILL.md)
 - [`eco-farm-electrical-lighting-cctv`](../../.agents/skills/eco-farm-electrical-lighting-cctv/SKILL.md)
 - [`eco-farm-security-resilience`](../../.agents/skills/eco-farm-security-resilience/SKILL.md)
 
-# 2. FIXED SPACE IDENTITY
+# 2. TARGET SPACE IDENTITY
 
-- parent: **2,200 m²**
-- L1: X 28.627–63.384 m; Y 143.877–207.172 m
-- north: perimeter road outside block
-- west: clean internal access/arrival
-- east: human-food crop block
-- south: clean internal circulation toward vegetable/production areas
+- **Parent area:** 2,200 m²
+- **L1 / geometry:** X 28.627–63.384 m; Y 143.877–207.172 m
+- **Main internal parts:** 2-story duplex-style house/admin; 20×30 m playground; 120 m² garage; 12×5 m concept secured swimming pool; pool deck/safety/equipment; clean arrival/drive; utility/service; drainage/pervious buffers; roof solar PV; CCTV/security/lighting
 
-## Must appear
-- **2-story modern tropical duplex-style farmhouse/admin building**, not a single-story small bungalow
-- residential/admin garage on clean arrival side
-- fixed **20 m × 30 m playground**
-- secured rectangular family swimming pool, concept **12 m × 5 m**, with deck/barrier/equipment zone
-- rooftop solar PV on suitable house/garage roof surfaces
-- admin/CCTV/security character
-- clean pedestrian paths
-- drainage/pervious/rain-garden logic
-- practical outdoor lighting/CCTV where the requested view allows
-
-## Must NOT appear
+## Must not show
 - kitchen/vegetable garden
-- luxury resort lagoon/pool
-- oversized ornamental lawn
-- heavy tractor workshop
-- manure/livestock traffic
-- pool touching playground without safety separation
-- pool backwash draining to canal/crop field
-- house or tall decorative trees moved into the food-crop zone
+- resort lagoon
+- heavy workshop
+- livestock/manure traffic
+- pool touching playground without barrier
 
-# 3. CONCEPT INTERNAL PLACEMENT
+# 3. FOUR-SIDE NEIGHBOR CONTEXT RULE
 
-Use this arrangement consistently:
-- **west/south-west:** clean arrival, driveway, residential garage
-- **west/north-west:** swimming pool + deck + safety barrier
-- **center/west-center:** two-story house/admin
-- **east:** playground as low-height recreation buffer before food crops
-- **roof:** solar PV
-- **distributed:** utility/service points, drainage, pervious paving, safety buffers
+**Critical rule:** When generating one individual-space image, do **not** fully generate all neighboring spaces. The target space should normally occupy about **75–90% of the visual attention**. Show only small neighbor glimpses/edge strips (about **5–15%**) where the camera can see them.
 
-Exact internal coordinates remain PROVISIONAL until L2, but once an image set adopts a plausible internal arrangement matching this rule, all later angles must preserve it.
+These small side glimpses are required because they prove the target space is placed correctly.
 
-# 4. DAYLIGHT BASELINE IMAGE
+## North context
 
-When the user asks for a normal/default realistic image, use a bright clear **daylight** condition:
-- tropical Bangladesh daylight
-- readable roof/PV geometry
-- realistic shadows
-- no excessive cinematic sunset
-- show that the 2-story building and landscaping do not dominate/shade the east crop block excessively
-- pool water clean and secured
-- playground clearly separate
-- drainage/pervious areas visible where practical
+**Neighbor beside this side:** perimeter fire/service road beyond north edge
 
-# 5. TRUE TOP-DOWN VIEW
+**How much to show**
+- target space remains the main subject
+- show only a small **5–15% contextual slice** of the neighboring side
+- the neighbor must be recognizable but not fully designed/rendered
+- use the correct edge object: road, field rows, building edge, wall/canal, yard, trees, buffer, etc.
+- do not move the target space inward to make room for the context
 
-## Must show every major component
-1. two-story house/admin footprint
-2. garage
-3. driveway/drop-off
-4. pool water
-5. pool deck/barrier/equipment zone
-6. playground
-7. pedestrian paths
-8. utility/service area
-9. drainage/pervious/rain-garden buffers
-10. roof solar PV
-11. crop block context east
-12. clean access context west
-13. perimeter-road context north
+**Simple prompt**
+> Show **House, Admin, Playground, Garage & Swimming Pool** as the main image. Along the north edge, include only a small contextual glimpse of **perimeter fire/service road beyond north edge**, enough to prove correct adjacency. Do not fully render the neighboring space. Preserve the L1 position and target-space geometry.
 
-## Prompt
-> Create a true top-down, north-up daylight image of the redesigned **House, Admin, Playground, Garage & Swimming Pool** space in the 5.5-hectare eco farm. Use the L1 parent block X 28.627–63.384 m, Y 143.877–207.172 m. Show a large but efficient two-story modern tropical duplex-style farmhouse/admin building, residential garage at the west/south-west clean arrival side, secured 12×5 m concept swimming pool with deck/barrier at the west/north-west side, fixed 20×30 m playground on the east side, rooftop solar PV, clean pedestrian paths, CCTV/security points, pervious drainage/rain-garden areas and utility service points. The human-food crop block must remain directly east and free from building encroachment. Do not show any kitchen/vegetable garden, heavy workshop, livestock/manure traffic, resort lagoon or oversized lawn.
+## South context
 
-# 6. TECHNICAL BLUEPRINT TOP VIEW
+**Neighbor beside this side:** clean internal circulation toward vegetable/production areas
 
-Use [BLUEPRINT.md](BLUEPRINT.md).
+**How much to show**
+- target space remains the main subject
+- show only a small **5–15% contextual slice** of the neighboring side
+- the neighbor must be recognizable but not fully designed/rendered
+- use the correct edge object: road, field rows, building edge, wall/canal, yard, trees, buffer, etc.
+- do not move the target space inward to make room for the context
 
-Must be capable of producing:
-- A-001 site/space-management plan
-- A-101 ground floor
-- A-102 first floor
-- A-103 roof/solar
-- garage/parking plan
-- pool/barrier/plant plan
-- drainage plan
-- water/plumbing plan
-- power plan
-- lighting plan
-- CCTV/data/access plan
-- fire/life-safety plan
-- playground/hardscape plan
+**Simple prompt**
+> Show **House, Admin, Playground, Garage & Swimming Pool** as the main image. Along the south edge, include only a small contextual glimpse of **clean internal circulation toward vegetable/production areas**, enough to prove correct adjacency. Do not fully render the neighboring space. Preserve the L1 position and target-space geometry.
 
-# 7. AERIAL OBLIQUE ANGLES
+## East context
 
-## North-West — camera NW looking SE
-Near side should reveal north edge/perimeter road and west clean access. Pool should be clearly readable on the west/north-west side, the 2-story house central, playground east, crop field beyond east. Garage remains west/south-west.
+**Neighbor beside this side:** human-food crop block
 
-## North-East — camera NE looking SW
-Foreground/near context should show the east crop boundary and north edge. Playground should be the first major low-height residential component near the crop side; house behind/left, pool farther west, garage south-west. This angle must prove the house/pool do not invade the crop zone.
+**How much to show**
+- target space remains the main subject
+- show only a small **5–15% contextual slice** of the neighboring side
+- the neighbor must be recognizable but not fully designed/rendered
+- use the correct edge object: road, field rows, building edge, wall/canal, yard, trees, buffer, etc.
+- do not move the target space inward to make room for the context
 
-## South-East — camera SE looking NW
-Show clean southern internal access, east-side playground, central 2-story house, west-side pool and south-west garage. No heavy service traffic.
+**Simple prompt**
+> Show **House, Admin, Playground, Garage & Swimming Pool** as the main image. Along the east edge, include only a small contextual glimpse of **human-food crop block**, enough to prove correct adjacency. Do not fully render the neighboring space. Preserve the L1 position and target-space geometry.
 
-## South-West — camera SW looking NE
-Best clean-arrival presentation angle. Garage/driveway nearest, house/admin behind/center, pool toward north-west, playground to east, crop background farther east. Show roof PV and CCTV/lighting.
+## West context
 
-# 8. FOUR CARDINAL SIDE VIEWS
+**Neighbor beside this side:** clean internal access/buffer strip
 
-## North-side view — looking south
-Show north facade/roof/PV, pool toward west, house center, playground east. Perimeter road is behind camera/near edge. Keep crop zone beyond east side.
+**How much to show**
+- target space remains the main subject
+- show only a small **5–15% contextual slice** of the neighboring side
+- the neighbor must be recognizable but not fully designed/rendered
+- use the correct edge object: road, field rows, building edge, wall/canal, yard, trees, buffer, etc.
+- do not move the target space inward to make room for the context
 
-## South-side view — looking north
-Show clean arrival/drop-off, garage on west side, main house/admin entrance, safe pedestrian route, playground east, pool farther north-west.
+**Simple prompt**
+> Show **House, Admin, Playground, Garage & Swimming Pool** as the main image. Along the west edge, include only a small contextual glimpse of **clean internal access/buffer strip**, enough to prove correct adjacency. Do not fully render the neighboring space. Preserve the L1 position and target-space geometry.
 
-## East-side view — looking west
-Camera is near the crop-side edge. Playground should be closest/most visible, providing a low-height transition; two-story house behind west of it; pool and garage farther west. No tall screen blocking crops.
+# 4. TRUE TOP-DOWN VIEW
 
-## West-side view — looking east
-Camera at clean arrival side. Show garage/driveway and pool-side boundary, house/admin as main mass, playground beyond/east. This is the strongest access/security view.
+## Composition
+- north up
+- show the entire target-space boundary
+- target space occupies the dominant central area
+- show a thin context strip on all four sides where possible
+- label/visually distinguish context if blueprint-like
+- do not let neighbor strips distort the target-space dimensions
 
-# 9. EYE-LEVEL / WALK-THROUGH IMAGES
+## What must be clear inside the target
+- 2-story duplex-style house/admin
+- 20×30 m playground
+- 120 m² garage
+- 12×5 m concept secured swimming pool
+- pool deck/safety/equipment
+- clean arrival/drive
+- utility/service
+- drainage/pervious buffers
+- roof solar PV
+- CCTV/security/lighting
 
-Suggested separate images:
-1. clean arrival from west
-2. garage/drop-off
-3. main house/admin entrance
-4. admin/CCTV reception side
-5. family courtyard/house side
-6. secured pool approach
-7. pool deck view
-8. playground approach
-9. playground full view
-10. east-side view toward food crops
-11. night-security arrival
-12. monsoon drainage view
+## Detailed prompt
+> Generate a true top-down, north-up image of **House, Admin, Playground, Garage & Swimming Pool**. Read IMAGE.md, ARCHITECTURE.md, BLUEPRINT.md, SPACE.md and all linked system files first. Preserve X 28.627–63.384 m; Y 143.877–207.172 m. Show the complete target space with these main parts: 2-story duplex-style house/admin; 20×30 m playground; 120 m² garage; 12×5 m concept secured swimming pool; pool deck/safety/equipment; clean arrival/drive; utility/service; drainage/pervious buffers; roof solar PV; CCTV/security/lighting. Around the target, show only small context strips: north = perimeter fire/service road beyond north edge; south = clean internal circulation toward vegetable/production areas; east = human-food crop block; west = clean internal access/buffer strip. Neighbor context is only for orientation, not a full rendering. Keep the target at 75–90% visual dominance. Do not show kitchen/vegetable garden; resort lagoon; heavy workshop; livestock/manure traffic; pool touching playground without barrier.
 
-Never combine these into one image unless a contact sheet is explicitly requested.
+# 5. BLUEPRINT / TECHNICAL IMAGE
 
-# 10. CLOSE-DETAIL IMAGES
+Use [BLUEPRINT.md](BLUEPRINT.md) and the [blueprint skill](../../.agents/skills/eco-farm-space-blueprint/SKILL.md).
 
-- duplex entrance/veranda and admin reception
-- CCTV/NVR/security control room exterior/interface
-- garage with PV/EV-ready provision
-- pool barrier/gate/rescue equipment
-- pool plant/filter enclosure
-- roof PV and lightning/safe maintenance zone
-- rainwater downpipe/first-flush/pervious drain
-- exterior electrical/lighting/CCTV detail
-- playground lighting/shade/seating
+**Blueprint-specific context rule**
+- full target plan
+- north/south/east/west context shown only as light grey/hatched strips
+- label context strips **CONTEXT ONLY**
+- show architecture area schedule, access and relevant systems
+- unapproved internal dimensions = **PROVISIONAL**
 
-# 11. SPECIAL CONDITIONS
+**Simple blueprint prompt**
+> Create the official PROVISIONAL L1 blueprint image for **House, Admin, Playground, Garage & Swimming Pool** using BLUEPRINT.md and ARCHITECTURE.md. Draw the target space in full, include its internal m²/ft² sections, and show only small grey context strips for its four neighboring sides. Do not fully draw neighboring spaces.
 
-## Night
-Low-glare path, pool safety, garage, playground and security lighting. No resort lighting.
+# 6. FOUR AERIAL OBLIQUE VIEWS
 
-## Monsoon
-Show gutters, downpipes, permeable surfaces, drains, pool overflow control and dry critical electrical/admin areas.
+## North-West aerial — camera NW looking SE
+Show the **north** and **west** edges as small contextual glimpses:
+- north: perimeter fire/service road beyond north edge
+- west: clean internal access/buffer strip
+The target remains dominant; far east/south context should be minimal.
 
-## Cyclone readiness
-Show secured roof/PV, protected openings, trimmed trees, clear emergency routes and no loose pool/playground items.
+**Simple prompt**
+> NW aerial oblique of **House, Admin, Playground, Garage & Swimming Pool**, looking SE. Target space dominates. Show only a small north-edge glimpse of perimeter fire/service road beyond north edge and a small west-edge glimpse of clean internal access/buffer strip. Keep 2-story duplex-style house/admin; 20×30 m playground; 120 m² garage; 12×5 m concept secured swimming pool; pool deck/safety/equipment; clean arrival/drive consistent with the top view.
 
-# 12. CONTINUITY RULE
+## North-East aerial — camera NE looking SW
+Show small **north** + **east** context:
+- north: perimeter fire/service road beyond north edge
+- east: human-food crop block
 
-Change the camera, **not the site plan**. Keep house, garage, pool, playground, paths, PV, access and crop boundary in the same positions from every angle.
+**Simple prompt**
+> NE aerial oblique of **House, Admin, Playground, Garage & Swimming Pool**, looking SW. Keep the target dominant. Show a small north context of perimeter fire/service road beyond north edge and small east context of human-food crop block. Do not redesign neighboring areas.
 
-# 13. MASTER PROMPT
+## South-East aerial — camera SE looking NW
+Show small **south** + **east** context:
+- south: clean internal circulation toward vegetable/production areas
+- east: human-food crop block
 
-> Create a [VIEW] image of the redesigned **House, Admin, Playground, Garage & Swimming Pool** zone within the 5.5-hectare Self-Sufficient Eco Farm. It is a 2,200 m² L1 parent block at X 28.627–63.384 m and Y 143.877–207.172 m. Use a large two-story modern tropical duplex-style farmhouse/admin building, west/south-west clean driveway and residential garage, west/north-west secured rectangular swimming pool with deck/barrier/plant, east-side fixed 20×30 m playground, rooftop solar PV, CCTV/security, safe lighting, drainage/rain-garden/pervious areas and utility service points. Preserve the east human-food crop boundary and west clean access. No kitchen garden, no heavy workshop, no livestock/manure traffic, no resort lagoon, no oversized ornamental lawn. One image = one angle, and all permanent geometry must remain identical across angles.
+**Simple prompt**
+> SE aerial oblique of **House, Admin, Playground, Garage & Swimming Pool**, looking NW. Preserve the same permanent layout. Show only a small glimpse of clean internal circulation toward vegetable/production areas on the south edge and human-food crop block on the east edge.
+
+## South-West aerial — camera SW looking NE
+Show small **south** + **west** context:
+- south: clean internal circulation toward vegetable/production areas
+- west: clean internal access/buffer strip
+
+**Simple prompt**
+> SW aerial oblique of **House, Admin, Playground, Garage & Swimming Pool**, looking NE. Target space remains the main subject. Show only small side clues of clean internal circulation toward vegetable/production areas and clean internal access/buffer strip.
+
+# 7. FOUR CARDINAL SIDE VIEWS
+
+## North-side view — camera north looking south
+- nearest small foreground/context: perimeter fire/service road beyond north edge
+- then immediately reveal the target-space north edge
+- target fills most of the frame
+- far south neighbor should not be fully rendered
+
+**Prompt**
+> Ground-level north-side view of **House, Admin, Playground, Garage & Swimming Pool**, camera north looking south. Show only a small foreground cue of perimeter fire/service road beyond north edge, then make House, Admin, Playground, Garage & Swimming Pool dominate the frame. Preserve all internal parts and L1 orientation.
+
+## South-side view — camera south looking north
+- foreground/context: clean internal circulation toward vegetable/production areas
+- target begins immediately beyond
+- use correct south frontage/access
+
+**Prompt**
+> Ground-level south-side view of **House, Admin, Playground, Garage & Swimming Pool**, camera south looking north. Show a small contextual foreground of clean internal circulation toward vegetable/production areas, then the full working face of the target space. Do not fully render the neighboring zone.
+
+## East-side view — camera east looking west
+- foreground/context: human-food crop block
+- target must stay dominant
+- west side context only if naturally visible in distance
+
+**Prompt**
+> East-side view of **House, Admin, Playground, Garage & Swimming Pool**, camera east looking west. Include only a small east-neighbor glimpse of human-food crop block; preserve the same target-space architecture and internal arrangement.
+
+## West-side view — camera west looking east
+- foreground/context: clean internal access/buffer strip
+- target begins immediately after that context
+- preserve clean/service character of the real west edge
+
+**Prompt**
+> West-side view of **House, Admin, Playground, Garage & Swimming Pool**, camera west looking east. Show a small contextual foreground of clean internal access/buffer strip, then make the target space the main subject.
+
+# 8. CLOSE DETAIL / OPERATIONS VIEWS
+
+Close views should focus on one internal part:
+- 2-story duplex-style house/admin
+- 20×30 m playground
+- 120 m² garage
+- 12×5 m concept secured swimming pool
+- pool deck/safety/equipment
+- clean arrival/drive
+- utility/service
+- drainage/pervious buffers
+- roof solar PV
+- CCTV/security/lighting
+
+For close-ups, include only enough neighboring/background context to identify location. Do not turn close-detail images into whole-farm scenes.
+
+# 9. CONTINUITY ACROSS IMAGES
+
+When making another angle:
+1. use the same internal arrangement from the approved top view/blueprint
+2. keep all permanent objects in the same positions
+3. rotate the camera, not the site plan
+4. keep neighbor sides exactly north/south/east/west as defined here
+5. neighbor context remains small and secondary
+6. if a prior image conflicts with the blueprint/L1 plan, correct toward the blueprint/L1 authority
+
+# 10. DAY / NIGHT / MONSOON / SPECIAL CONDITIONS
+
+- **Daylight default:** clear realistic Bangladesh daylight; architecture/rows/equipment easy to read
+- **Night:** only practical safety/security/task lighting
+- **Monsoon:** show drainage/water-management systems working
+- **Cyclone readiness:** show secured roofs/equipment/vegetation and access
+- **Operations:** show real work appropriate to the target space without changing layout
+
+# 11. MASTER IMAGE PROMPT
+
+> Create a **[VIEW TYPE]** image of **House, Admin, Playground, Garage & Swimming Pool** in the 5.5-hectare Self-Sufficient Eco Farm. Read the target IMAGE.md, ARCHITECTURE.md, BLUEPRINT.md, SPACE.md, engineering-system files, L1 Coordinate Master Plan and relevant skills first. Preserve X 28.627–63.384 m; Y 143.877–207.172 m. The target space must dominate the image and include 2-story duplex-style house/admin; 20×30 m playground; 120 m² garage; 12×5 m concept secured swimming pool; pool deck/safety/equipment; clean arrival/drive; utility/service; drainage/pervious buffers; roof solar PV; CCTV/security/lighting. Show only small contextual glimpses of neighboring spaces, not full neighboring designs: north = perimeter fire/service road beyond north edge; south = clean internal circulation toward vegetable/production areas; east = human-food crop block; west = clean internal access/buffer strip. Neighbor context should normally be about 5–15% of the visible edge/context. Preserve the same permanent geometry across every angle. Do not show kitchen/vegetable garden; resort lagoon; heavy workshop; livestock/manure traffic; pool touching playground without barrier. One image = one angle.
+
+# 12. VALIDATION
+
+- [ ] target space dominates
+- [ ] internal architecture matches ARCHITECTURE.md
+- [ ] top/blueprint matches BLUEPRINT.md
+- [ ] north neighbor is correct
+- [ ] south neighbor is correct
+- [ ] east neighbor is correct
+- [ ] west neighbor is correct
+- [ ] neighboring spaces are only small context, not fully rendered
+- [ ] no mirroring/swapping of cardinal sides
+- [ ] all permanent objects remain consistent across angles
+- [ ] prohibited features are absent

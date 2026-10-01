@@ -39,5 +39,6 @@ For every blueprint/image also verify:
 - no exact measurement is invented from imagery
 - all shown dimensions match approved registry
 - fixed adjacency and clean/dirty boundaries remain unchanged
+- four-side neighbor context matches the L1 plan; individual-space images/blueprints show neighbors only as small context unless wider context was requested
 - no extra pond, fountain, resort lawn, or unapproved building was added
 - the only approved swimming pool is inside space 04 under D-013, with pool/playground safety separation and controlled drainage

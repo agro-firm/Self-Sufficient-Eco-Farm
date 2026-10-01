@@ -1,412 +1,267 @@
 # Internal Access Spines, Biosecurity Buffers, Headlands & Swales — IMAGE.md
-## Image & Multi-Angle Generation Authority
+## Image, Four-Side Context & Multi-Angle Authority
 
-This file tells an AI, designer, architect, renderer, or human exactly how **Internal Access Spines, Biosecurity Buffers, Headlands & Swales** must look from every useful direction while remaining the same physical space in the approved 5.5-hectare farm.
+This file controls images of **Internal Access Spines, Biosecurity Buffers, Headlands & Swales**. The target space must always dominate the image, while small correctly positioned glimpses of adjacent spaces prove that the farm topology is correct.
 
 # 1. READ BEFORE GENERATING
 
-Read these linked files **before making any image**.
-
-## Space-specific documents
-- [Space README](README.md)
-- [Architecture](ARCHITECTURE.md)
-- [Space & L1 Coordinates](SPACE.md)
-- [Design Rules](DESIGN.md)
-- [Detailed Description](DETAILS.md)
-- [Utilities & Infrastructure](UTILITIES.md)
-- [Blueprint Set](BLUEPRINT.md)
+## Target-space documents
+- [README](README.md)
+- [Architecture + m²/ft² schedule](ARCHITECTURE.md)
+- [Space & Coordinates](SPACE.md)
+- [Blueprint Authority](BLUEPRINT.md)
 - [Space Management](SPACE_MANAGEMENT.md)
-- [Drainage & Stormwater](DRAINAGE.md)
+- [Design](DESIGN.md)
+- [Details](DETAILS.md)
+- [Drainage](DRAINAGE.md)
 - [Water System](WATER_SYSTEM.md)
-- [Electrical System](ELECTRICAL.md)
+- [Electrical](ELECTRICAL.md)
 - [CCTV & Security](CCTV_SECURITY.md)
-- [Daylight & Lighting](LIGHTING.md)
-- [Safety & Emergency](SAFETY.md)
-- [Operations](OPERATIONS.md)
-- [Capacity](CAPACITY.md)
-- [Production / Service Output](PRODUCTION.md)
-- [Inputs & Outputs](INPUTS_OUTPUTS.md)
-- [Costs](COSTS.md)
-- [Economics](ECONOMICS.md)
-- [Business / Value Strategy](BUSINESS.md)
+- [Lighting](LIGHTING.md)
+- [Safety](SAFETY.md)
 
-## Farm-wide spatial/image authorities
-- [Root Farm SPACE.md](../../SPACE.md)
+## Farm/global authorities
+- [Root SPACE.md](../../SPACE.md)
 - [L1 Coordinate Master Plan](../../docs/COORDINATE_MASTER_PLAN_L1.md)
-- [Space Registry](../../docs/SPACE_REGISTRY.md)
-- [Spatial Design Standard](../../docs/SPATIAL_DESIGN_STANDARD.md)
+- [Space Blueprint Standard](../../docs/SPACE_BLUEPRINT_STANDARD.md)
 - [Image & Blueprint Standard](../../docs/IMAGE_BLUEPRINT_STANDARD.md)
-- [Master Decisions](../../docs/DECISIONS.md)
-- [Farm Master Plan Summary](../../docs/MASTER_PLAN_SUMMARY.md)
+- [Space Registry](../../docs/SPACE_REGISTRY.md)
+- [Decisions](../../docs/DECISIONS.md)
 
-## Relevant agent skills
+## Required skills
+- [`eco-farm-space-blueprint`](../../.agents/skills/eco-farm-space-blueprint/SKILL.md)
+- [`eco-farm-precision-layout-visualization`](../../.agents/skills/eco-farm-precision-layout-visualization/SKILL.md)
 - [`eco-farm-master-planning`](../../.agents/skills/eco-farm-master-planning/SKILL.md)
 - [`eco-farm-land-civil-zoning`](../../.agents/skills/eco-farm-land-civil-zoning/SKILL.md)
 - [`eco-farm-roads-gates-traffic-space`](../../.agents/skills/eco-farm-roads-gates-traffic-space/SKILL.md)
 - [`eco-farm-water-drainage-wastewater`](../../.agents/skills/eco-farm-water-drainage-wastewater/SKILL.md)
 
-If any image instruction conflicts with a higher authority above, follow the higher authority and correct the image.
+# 2. TARGET SPACE IDENTITY
 
-# 2. SPACE IDENTITY
-
-- **Space:** Internal Access Spines, Biosecurity Buffers, Headlands & Swales
 - **Parent area:** 3,000 m²
-- **L1 authority:** distributed west-side strips plus support functions; clean internal spine concept X 16–21 m through internal core
-- **North context:** north access/buffer strip beside house/crops/orchard band
-- **South context:** main clean gate connection and south access/buffer strip
-- **East context:** multiple adjacent farm zones served/separated by the distributed strip system
-- **West context:** west internal edge and main clean access side
+- **L1 / geometry:** south strip 1000 m² + middle strip 1000 m² + north strip 1000 m²; west-side distributed system
+- **Main internal parts:** South access/buffer strip; Middle access/buffer strip; North access/buffer strip; Clean internal spine; Swales; Headlands/turning; Utility corridor
 
-## Visual identity — what makes this space recognizable
-- clean internal road/spine
-- vegetated drainage swales
-- biosecurity separation
-- headlands/turning areas
-- utility corridor
-- functional buffer rather than empty land
-
-## Never show
-- vacant waste-land appearance
-- random buildings consuming the buffer
-- ornamental park treatment
-- dirty-heavy traffic dominating clean spine
+## Must not show
+- vacant waste-land look
+- random buildings
+- ornamental park
+- dirty traffic dominating clean spine
 - blocked swales
 
-# 3. GLOBAL CONTINUITY RULES
+# 3. FOUR-SIDE NEIGHBOR CONTEXT RULE
 
-- Preserve the accepted 5.5 ha master plan and L1 topology.
-- One image = one angle/view unless a composite sheet is explicitly requested.
-- Rotate the camera, never the farm plan, when a different angle is requested.
-- Keep roads, buildings, crop rows, water edges, yards, utilities and neighboring zones in the same positions across all images.
-- Use realistic Bangladesh rural/agro-industrial materials, vegetation, climate and scale.
-- Show operational logic first: access, drainage, safety, biosecurity, maintenance and utility relationships.
-- Do not invent extra land, ponds, buildings, roads or decorative features.
+**Critical rule:** When generating one individual-space image, do **not** fully generate all neighboring spaces. The target space should normally occupy about **75–90% of the visual attention**. Show only small neighbor glimpses/edge strips (about **5–15%**) where the camera can see them.
 
-## Coordinate orientation rule
-- North, south, east and west always mean the farm's real L1 orientation.
-- "Left/right" is relative only to the current camera; never use left/right to relocate a zone.
-- If an earlier generated image conflicts with the L1 plan, fix the new image toward the L1 plan.
+These small side glimpses are required because they prove the target space is placed correctly.
+
+## North context
+
+**Neighbor beside this side:** north strip serving house/admin and north production band
+
+**How much to show**
+- target space remains the main subject
+- show only a small **5–15% contextual slice** of the neighboring side
+- the neighbor must be recognizable but not fully designed/rendered
+- use the correct edge object: road, field rows, building edge, wall/canal, yard, trees, buffer, etc.
+- do not move the target space inward to make room for the context
+
+**Simple prompt**
+> Show **Internal Access Spines, Biosecurity Buffers, Headlands & Swales** as the main image. Along the north edge, include only a small contextual glimpse of **north strip serving house/admin and north production band**, enough to prove correct adjacency. Do not fully render the neighboring space. Preserve the L1 position and target-space geometry.
+
+## South context
+
+**Neighbor beside this side:** south strip connected to main clean gate and south band
+
+**How much to show**
+- target space remains the main subject
+- show only a small **5–15% contextual slice** of the neighboring side
+- the neighbor must be recognizable but not fully designed/rendered
+- use the correct edge object: road, field rows, building edge, wall/canal, yard, trees, buffer, etc.
+- do not move the target space inward to make room for the context
+
+**Simple prompt**
+> Show **Internal Access Spines, Biosecurity Buffers, Headlands & Swales** as the main image. Along the south edge, include only a small contextual glimpse of **south strip connected to main clean gate and south band**, enough to prove correct adjacency. Do not fully render the neighboring space. Preserve the L1 position and target-space geometry.
+
+## East context
+
+**Neighbor beside this side:** adjacent production/service zones served by each strip
+
+**How much to show**
+- target space remains the main subject
+- show only a small **5–15% contextual slice** of the neighboring side
+- the neighbor must be recognizable but not fully designed/rendered
+- use the correct edge object: road, field rows, building edge, wall/canal, yard, trees, buffer, etc.
+- do not move the target space inward to make room for the context
+
+**Simple prompt**
+> Show **Internal Access Spines, Biosecurity Buffers, Headlands & Swales** as the main image. Along the east edge, include only a small contextual glimpse of **adjacent production/service zones served by each strip**, enough to prove correct adjacency. Do not fully render the neighboring space. Preserve the L1 position and target-space geometry.
+
+## West context
+
+**Neighbor beside this side:** perimeter fire/service road/internal-core west edge
+
+**How much to show**
+- target space remains the main subject
+- show only a small **5–15% contextual slice** of the neighboring side
+- the neighbor must be recognizable but not fully designed/rendered
+- use the correct edge object: road, field rows, building edge, wall/canal, yard, trees, buffer, etc.
+- do not move the target space inward to make room for the context
+
+**Simple prompt**
+> Show **Internal Access Spines, Biosecurity Buffers, Headlands & Swales** as the main image. Along the west edge, include only a small contextual glimpse of **perimeter fire/service road/internal-core west edge**, enough to prove correct adjacency. Do not fully render the neighboring space. Preserve the L1 position and target-space geometry.
 
 # 4. TRUE TOP-DOWN VIEW
 
-## Camera
-- true vertical or near-orthographic
+## Composition
 - north up
-- show the full parent space boundary
-- show at least a small strip of each relevant neighboring edge so orientation is obvious
+- show the entire target-space boundary
+- target space occupies the dominant central area
+- show a thin context strip on all four sides where possible
+- label/visually distinguish context if blueprint-like
+- do not let neighbor strips distort the target-space dimensions
 
-## Must show in this specific top view
-- clean internal road/spine
-- vegetated drainage swales
-- biosecurity separation
-- headlands/turning areas
-- utility corridor
-- functional buffer rather than empty land
-- north edge context: north access/buffer strip beside house/crops/orchard band
-- south edge context: main clean gate connection and south access/buffer strip
-- east edge context: multiple adjacent farm zones served/separated by the distributed strip system
-- west edge context: west internal edge and main clean access side
-- all main paths/roads/service lines that define internal organization
-- drainage/water/yard/crop-row structure relevant to the space
-- no perspective distortion that makes the zone appear larger/smaller than neighboring blocks
+## What must be clear inside the target
+- South access/buffer strip
+- Middle access/buffer strip
+- North access/buffer strip
+- Clean internal spine
+- Swales
+- Headlands/turning
+- Utility corridor
 
-## Detailed top-view prompt
-> Generate a **true top-down, north-up** image of **Internal Access Spines, Biosecurity Buffers, Headlands & Swales** within the 5.5-hectare Self-Sufficient Eco Farm. Use the approved L1 parent space: distributed west-side strips plus support functions; clean internal spine concept X 16–21 m through internal core. Show the complete zone boundary and enough surrounding context to identify all four sides. North: north access/buffer strip beside house/crops/orchard band. South: main clean gate connection and south access/buffer strip. East: multiple adjacent farm zones served/separated by the distributed strip system. West: west internal edge and main clean access side. Inside the space, clearly show clean internal road/spine; vegetated drainage swales; biosecurity separation; headlands/turning areas; utility corridor; functional buffer rather than empty land. Show realistic paths, maintenance access, drainage and utility logic. Do not show vacant waste-land appearance; random buildings consuming the buffer; ornamental park treatment; dirty-heavy traffic dominating clean spine; blocked swales. The result must look like the same physical place that can later be rendered from NW, NE, SE, SW and ground-level views.
+## Detailed prompt
+> Generate a true top-down, north-up image of **Internal Access Spines, Biosecurity Buffers, Headlands & Swales**. Read IMAGE.md, ARCHITECTURE.md, BLUEPRINT.md, SPACE.md and all linked system files first. Preserve south strip 1000 m² + middle strip 1000 m² + north strip 1000 m²; west-side distributed system. Show the complete target space with these main parts: South access/buffer strip; Middle access/buffer strip; North access/buffer strip; Clean internal spine; Swales; Headlands/turning; Utility corridor. Around the target, show only small context strips: north = north strip serving house/admin and north production band; south = south strip connected to main clean gate and south band; east = adjacent production/service zones served by each strip; west = perimeter fire/service road/internal-core west edge. Neighbor context is only for orientation, not a full rendering. Keep the target at 75–90% visual dominance. Do not show vacant waste-land look; random buildings; ornamental park; dirty traffic dominating clean spine; blocked swales.
 
-# 5. BLUEPRINT / TECHNICAL TOP VIEW
+# 5. BLUEPRINT / TECHNICAL IMAGE
 
-## Use for
-- architectural plan
-- farm-space blueprint
-- measured diagram
-- drainage/water overlay
-- electrical/CCTV overlay
-- production-layout diagram
-- access/biosecurity plan
+Use [BLUEPRINT.md](BLUEPRINT.md) and the [blueprint skill](../../.agents/skills/eco-farm-space-blueprint/SKILL.md).
 
-## Must include
-- north arrow
-- parent-space label and area
-- L1 coordinate limits or control references
-- internal functional subareas
-- entrances/access paths
-- utility/drainage interfaces where relevant
-- neighboring-zone labels on visible edges
-- legend
-- revision/status: **PROVISIONAL L1**
-- approved dimensions only; all new detailed dimensions marked **PROVISIONAL**
+**Blueprint-specific context rule**
+- full target plan
+- north/south/east/west context shown only as light grey/hatched strips
+- label context strips **CONTEXT ONLY**
+- show architecture area schedule, access and relevant systems
+- unapproved internal dimensions = **PROVISIONAL**
 
-## Blueprint prompt
-> Draw a clean technical top-view blueprint of **Internal Access Spines, Biosecurity Buffers, Headlands & Swales** using the accepted L1 parent boundary (distributed west-side strips plus support functions; clean internal spine concept X 16–21 m through internal core). North must be up. Show each internal function, access path, drainage/utility interface and neighboring edge. Use readable symbols and a legend. Mark all unapproved detail dimensions PROVISIONAL. Do not invent new buildings, ponds, roads or land outside the approved parent area.
+**Simple blueprint prompt**
+> Create the official PROVISIONAL L1 blueprint image for **Internal Access Spines, Biosecurity Buffers, Headlands & Swales** using BLUEPRINT.md and ARCHITECTURE.md. Draw the target space in full, include its internal m²/ft² sections, and show only small grey context strips for its four neighboring sides. Do not fully draw neighboring spaces.
 
-# 6. FOUR AERIAL OBLIQUE ANGLES
+# 6. FOUR AERIAL OBLIQUE VIEWS
 
-### North-West aerial oblique
+## North-West aerial — camera NW looking SE
+Show the **north** and **west** edges as small contextual glimpses:
+- north: north strip serving house/admin and north production band
+- west: perimeter fire/service road/internal-core west edge
+The target remains dominant; far east/south context should be minimal.
 
-**Camera**
-- elevated camera above the north-west side/corner of the parent space
-- look south-east
-- approximately 25°–45° downward
-- wide enough to include the whole space or at least 80–90% plus the two relevant neighboring edges
+**Simple prompt**
+> NW aerial oblique of **Internal Access Spines, Biosecurity Buffers, Headlands & Swales**, looking SE. Target space dominates. Show only a small north-edge glimpse of north strip serving house/admin and north production band and a small west-edge glimpse of perimeter fire/service road/internal-core west edge. Keep South access/buffer strip; Middle access/buffer strip; North access/buffer strip; Clean internal spine; Swales; Headlands/turning consistent with the top view.
 
-**Must show**
-- north access/buffer strip beside house/crops/orchard band
-- west internal edge and main clean access side
-- the complete main internal organization of **Internal Access Spines, Biosecurity Buffers, Headlands & Swales**
-- clean internal road/spine
-- vegetated drainage swales
-- biosecurity separation
-- headlands/turning areas
-- visible access/service logic
-- believable height differences, roof/canopy/yard/field depth
-- correct far-side background so the image can be matched to the other angles
+## North-East aerial — camera NE looking SW
+Show small **north** + **east** context:
+- north: north strip serving house/admin and north production band
+- east: adjacent production/service zones served by each strip
 
-**Prompt**
-> Generate a photorealistic **North-West aerial oblique** of **Internal Access Spines, Biosecurity Buffers, Headlands & Swales**, camera above the north-west side looking south-east. Preserve the exact same L1 space arrangement used in all other views. Near edge: north access/buffer strip beside house/crops/orchard band. Adjacent edge: west internal edge and main clean access side. Clearly show clean internal road/spine; vegetated drainage swales; biosecurity separation; headlands/turning areas; utility corridor. Include realistic access, drainage, maintenance and safety details. Do not show vacant waste-land appearance; random buildings consuming the buffer; ornamental park treatment; dirty-heavy traffic dominating clean spine.
+**Simple prompt**
+> NE aerial oblique of **Internal Access Spines, Biosecurity Buffers, Headlands & Swales**, looking SW. Keep the target dominant. Show a small north context of north strip serving house/admin and north production band and small east context of adjacent production/service zones served by each strip. Do not redesign neighboring areas.
 
-### North-East aerial oblique
+## South-East aerial — camera SE looking NW
+Show small **south** + **east** context:
+- south: south strip connected to main clean gate and south band
+- east: adjacent production/service zones served by each strip
 
-**Camera**
-- elevated camera above the north-east side/corner of the parent space
-- look south-west
-- approximately 25°–45° downward
-- wide enough to include the whole space or at least 80–90% plus the two relevant neighboring edges
+**Simple prompt**
+> SE aerial oblique of **Internal Access Spines, Biosecurity Buffers, Headlands & Swales**, looking NW. Preserve the same permanent layout. Show only a small glimpse of south strip connected to main clean gate and south band on the south edge and adjacent production/service zones served by each strip on the east edge.
 
-**Must show**
-- north access/buffer strip beside house/crops/orchard band
-- multiple adjacent farm zones served/separated by the distributed strip system
-- the complete main internal organization of **Internal Access Spines, Biosecurity Buffers, Headlands & Swales**
-- clean internal road/spine
-- vegetated drainage swales
-- biosecurity separation
-- headlands/turning areas
-- visible access/service logic
-- believable height differences, roof/canopy/yard/field depth
-- correct far-side background so the image can be matched to the other angles
+## South-West aerial — camera SW looking NE
+Show small **south** + **west** context:
+- south: south strip connected to main clean gate and south band
+- west: perimeter fire/service road/internal-core west edge
+
+**Simple prompt**
+> SW aerial oblique of **Internal Access Spines, Biosecurity Buffers, Headlands & Swales**, looking NE. Target space remains the main subject. Show only small side clues of south strip connected to main clean gate and south band and perimeter fire/service road/internal-core west edge.
+
+# 7. FOUR CARDINAL SIDE VIEWS
+
+## North-side view — camera north looking south
+- nearest small foreground/context: north strip serving house/admin and north production band
+- then immediately reveal the target-space north edge
+- target fills most of the frame
+- far south neighbor should not be fully rendered
 
 **Prompt**
-> Generate a photorealistic **North-East aerial oblique** of **Internal Access Spines, Biosecurity Buffers, Headlands & Swales**, camera above the north-east side looking south-west. Preserve the exact same L1 space arrangement used in all other views. Near edge: north access/buffer strip beside house/crops/orchard band. Adjacent edge: multiple adjacent farm zones served/separated by the distributed strip system. Clearly show clean internal road/spine; vegetated drainage swales; biosecurity separation; headlands/turning areas; utility corridor. Include realistic access, drainage, maintenance and safety details. Do not show vacant waste-land appearance; random buildings consuming the buffer; ornamental park treatment; dirty-heavy traffic dominating clean spine.
+> Ground-level north-side view of **Internal Access Spines, Biosecurity Buffers, Headlands & Swales**, camera north looking south. Show only a small foreground cue of north strip serving house/admin and north production band, then make Internal Access Spines, Biosecurity Buffers, Headlands & Swales dominate the frame. Preserve all internal parts and L1 orientation.
 
-### South-East aerial oblique
-
-**Camera**
-- elevated camera above the south-east side/corner of the parent space
-- look north-west
-- approximately 25°–45° downward
-- wide enough to include the whole space or at least 80–90% plus the two relevant neighboring edges
-
-**Must show**
-- main clean gate connection and south access/buffer strip
-- multiple adjacent farm zones served/separated by the distributed strip system
-- the complete main internal organization of **Internal Access Spines, Biosecurity Buffers, Headlands & Swales**
-- clean internal road/spine
-- vegetated drainage swales
-- biosecurity separation
-- headlands/turning areas
-- visible access/service logic
-- believable height differences, roof/canopy/yard/field depth
-- correct far-side background so the image can be matched to the other angles
+## South-side view — camera south looking north
+- foreground/context: south strip connected to main clean gate and south band
+- target begins immediately beyond
+- use correct south frontage/access
 
 **Prompt**
-> Generate a photorealistic **South-East aerial oblique** of **Internal Access Spines, Biosecurity Buffers, Headlands & Swales**, camera above the south-east side looking north-west. Preserve the exact same L1 space arrangement used in all other views. Near edge: main clean gate connection and south access/buffer strip. Adjacent edge: multiple adjacent farm zones served/separated by the distributed strip system. Clearly show clean internal road/spine; vegetated drainage swales; biosecurity separation; headlands/turning areas; utility corridor. Include realistic access, drainage, maintenance and safety details. Do not show vacant waste-land appearance; random buildings consuming the buffer; ornamental park treatment; dirty-heavy traffic dominating clean spine.
+> Ground-level south-side view of **Internal Access Spines, Biosecurity Buffers, Headlands & Swales**, camera south looking north. Show a small contextual foreground of south strip connected to main clean gate and south band, then the full working face of the target space. Do not fully render the neighboring zone.
 
-### South-West aerial oblique
-
-**Camera**
-- elevated camera above the south-west side/corner of the parent space
-- look north-east
-- approximately 25°–45° downward
-- wide enough to include the whole space or at least 80–90% plus the two relevant neighboring edges
-
-**Must show**
-- main clean gate connection and south access/buffer strip
-- west internal edge and main clean access side
-- the complete main internal organization of **Internal Access Spines, Biosecurity Buffers, Headlands & Swales**
-- clean internal road/spine
-- vegetated drainage swales
-- biosecurity separation
-- headlands/turning areas
-- visible access/service logic
-- believable height differences, roof/canopy/yard/field depth
-- correct far-side background so the image can be matched to the other angles
+## East-side view — camera east looking west
+- foreground/context: adjacent production/service zones served by each strip
+- target must stay dominant
+- west side context only if naturally visible in distance
 
 **Prompt**
-> Generate a photorealistic **South-West aerial oblique** of **Internal Access Spines, Biosecurity Buffers, Headlands & Swales**, camera above the south-west side looking north-east. Preserve the exact same L1 space arrangement used in all other views. Near edge: main clean gate connection and south access/buffer strip. Adjacent edge: west internal edge and main clean access side. Clearly show clean internal road/spine; vegetated drainage swales; biosecurity separation; headlands/turning areas; utility corridor. Include realistic access, drainage, maintenance and safety details. Do not show vacant waste-land appearance; random buildings consuming the buffer; ornamental park treatment; dirty-heavy traffic dominating clean spine.
+> East-side view of **Internal Access Spines, Biosecurity Buffers, Headlands & Swales**, camera east looking west. Include only a small east-neighbor glimpse of adjacent production/service zones served by each strip; preserve the same target-space architecture and internal arrangement.
 
-# 7. FOUR CARDINAL SIDE / GROUND VIEWS
-
-### North-side view — camera north, looking south
-
-**Camera**
-- place camera just north of the parent space
-- look toward the opposite cardinal direction
-- human eye-level or slightly elevated 2–6 m if needed to read the whole frontage
-- do not rotate/mirror the farm geometry
-
-**This angle must show**
-- north access/buffer strip beside house/crops/orchard band
-- the near-side boundary and access condition
-- at least 3–5 of the space's permanent/functional identity elements
-- believable depth through the space toward the far-side neighbor
-- drainage/utility/service clues where visible
-- scale cues such as people, farm equipment, crop rows, doors, fences or roads appropriate to the space
-
-**Side-view prompt**
-> Create the **north-side view — camera north, looking south** of **Internal Access Spines, Biosecurity Buffers, Headlands & Swales** in the 5.5-hectare Self-Sufficient Eco Farm. Preserve the accepted L1 layout. north access/buffer strip beside house/crops/orchard band. Show the parent space as clean internal road/spine with these core features: vegetated drainage swales; biosecurity separation; headlands/turning areas; utility corridor. Keep neighboring zones and access in their correct positions. Avoid vacant waste-land appearance; random buildings consuming the buffer; ornamental park treatment. Use realistic Bangladesh farm materials, scale, drainage, safety and working conditions.
-
-### South-side view — camera south, looking north
-
-**Camera**
-- place camera just south of the parent space
-- look toward the opposite cardinal direction
-- human eye-level or slightly elevated 2–6 m if needed to read the whole frontage
-- do not rotate/mirror the farm geometry
-
-**This angle must show**
-- main clean gate connection and south access/buffer strip
-- the near-side boundary and access condition
-- at least 3–5 of the space's permanent/functional identity elements
-- believable depth through the space toward the far-side neighbor
-- drainage/utility/service clues where visible
-- scale cues such as people, farm equipment, crop rows, doors, fences or roads appropriate to the space
-
-**Side-view prompt**
-> Create the **south-side view — camera south, looking north** of **Internal Access Spines, Biosecurity Buffers, Headlands & Swales** in the 5.5-hectare Self-Sufficient Eco Farm. Preserve the accepted L1 layout. main clean gate connection and south access/buffer strip. Show the parent space as clean internal road/spine with these core features: vegetated drainage swales; biosecurity separation; headlands/turning areas; utility corridor. Keep neighboring zones and access in their correct positions. Avoid vacant waste-land appearance; random buildings consuming the buffer; ornamental park treatment. Use realistic Bangladesh farm materials, scale, drainage, safety and working conditions.
-
-### East-side view — camera east, looking west
-
-**Camera**
-- place camera just east of the parent space
-- look toward the opposite cardinal direction
-- human eye-level or slightly elevated 2–6 m if needed to read the whole frontage
-- do not rotate/mirror the farm geometry
-
-**This angle must show**
-- multiple adjacent farm zones served/separated by the distributed strip system
-- the near-side boundary and access condition
-- at least 3–5 of the space's permanent/functional identity elements
-- believable depth through the space toward the far-side neighbor
-- drainage/utility/service clues where visible
-- scale cues such as people, farm equipment, crop rows, doors, fences or roads appropriate to the space
-
-**Side-view prompt**
-> Create the **east-side view — camera east, looking west** of **Internal Access Spines, Biosecurity Buffers, Headlands & Swales** in the 5.5-hectare Self-Sufficient Eco Farm. Preserve the accepted L1 layout. multiple adjacent farm zones served/separated by the distributed strip system. Show the parent space as clean internal road/spine with these core features: vegetated drainage swales; biosecurity separation; headlands/turning areas; utility corridor. Keep neighboring zones and access in their correct positions. Avoid vacant waste-land appearance; random buildings consuming the buffer; ornamental park treatment. Use realistic Bangladesh farm materials, scale, drainage, safety and working conditions.
-
-### West-side view — camera west, looking east
-
-**Camera**
-- place camera just west of the parent space
-- look toward the opposite cardinal direction
-- human eye-level or slightly elevated 2–6 m if needed to read the whole frontage
-- do not rotate/mirror the farm geometry
-
-**This angle must show**
-- west internal edge and main clean access side
-- the near-side boundary and access condition
-- at least 3–5 of the space's permanent/functional identity elements
-- believable depth through the space toward the far-side neighbor
-- drainage/utility/service clues where visible
-- scale cues such as people, farm equipment, crop rows, doors, fences or roads appropriate to the space
-
-**Side-view prompt**
-> Create the **west-side view — camera west, looking east** of **Internal Access Spines, Biosecurity Buffers, Headlands & Swales** in the 5.5-hectare Self-Sufficient Eco Farm. Preserve the accepted L1 layout. west internal edge and main clean access side. Show the parent space as clean internal road/spine with these core features: vegetated drainage swales; biosecurity separation; headlands/turning areas; utility corridor. Keep neighboring zones and access in their correct positions. Avoid vacant waste-land appearance; random buildings consuming the buffer; ornamental park treatment. Use realistic Bangladesh farm materials, scale, drainage, safety and working conditions.
-
-# 8. PRIMARY AND SECONDARY HUMAN-EYE VIEWS
-
-## Primary working view
-**Best subject:** clean internal spine from main gate toward north, showing swale and functional separation
-
-**Must show**
-- main operational face
-- entrance/service relationship
-- at least one clear scale reference
-- realistic working surfaces/materials
-- safety and maintenance access
-- enough background context to identify which side of the zone the viewer is standing on
+## West-side view — camera west looking east
+- foreground/context: perimeter fire/service road/internal-core west edge
+- target begins immediately after that context
+- preserve clean/service character of the real west edge
 
 **Prompt**
-> Create a realistic human eye-level primary working view of **Internal Access Spines, Biosecurity Buffers, Headlands & Swales**. Show clean internal spine from main gate toward north, showing swale and functional separation. Preserve all permanent object positions from the L1 layout and previously approved images. Use a practical working-farm atmosphere, not a staged decorative scene.
+> West-side view of **Internal Access Spines, Biosecurity Buffers, Headlands & Swales**, camera west looking east. Show a small contextual foreground of perimeter fire/service road/internal-core west edge, then make the target space the main subject.
 
-## Secondary working view
-**Best subject:** buffer/headland between zones showing turning, drainage and utility-corridor function
+# 8. CLOSE DETAIL / OPERATIONS VIEWS
 
-**Prompt**
-> Create a second eye-level view of **Internal Access Spines, Biosecurity Buffers, Headlands & Swales** from the complementary working side. Show buffer/headland between zones showing turning, drainage and utility-corridor function. Keep the same structures, rows, roads, yards, water edges and materials as the primary view; only move the camera.
+Close views should focus on one internal part:
+- South access/buffer strip
+- Middle access/buffer strip
+- North access/buffer strip
+- Clean internal spine
+- Swales
+- Headlands/turning
+- Utility corridor
 
-# 9. FUNCTIONAL CLOSE-DETAIL IMAGES
+For close-ups, include only enough neighboring/background context to identify location. Do not turn close-detail images into whole-farm scenes.
 
-Generate close-detail images for:
-- clean internal-spine perspective
-- swale/headland/drainage-buffer
-- biosecurity/utility corridor between incompatible zones
+# 9. CONTINUITY ACROSS IMAGES
 
-For every close-detail:
-- keep some local context so it is clearly part of **Internal Access Spines, Biosecurity Buffers, Headlands & Swales**
-- show realistic maintenance clearance
-- show drainage/containment/safety where applicable
-- show working wear/cleanliness appropriate to the system
-- never turn a technical detail into an unrelated generic stock image
+When making another angle:
+1. use the same internal arrangement from the approved top view/blueprint
+2. keep all permanent objects in the same positions
+3. rotate the camera, not the site plan
+4. keep neighbor sides exactly north/south/east/west as defined here
+5. neighbor context remains small and secondary
+6. if a prior image conflicts with the blueprint/L1 plan, correct toward the blueprint/L1 authority
 
-# 10. WALK-THROUGH / MULTIPLE-IMAGE SEQUENCE
+# 10. DAY / NIGHT / MONSOON / SPECIAL CONDITIONS
 
-When the user asks for a full visual tour, generate separate images in this order:
-1. approach/entry side
-2. wide overview from primary working side
-3. central operational view
-4. opposite/service side
-5. one or more technical close details
-6. optional exit/back view
+- **Daylight default:** clear realistic Bangladesh daylight; architecture/rows/equipment easy to read
+- **Night:** only practical safety/security/task lighting
+- **Monsoon:** show drainage/water-management systems working
+- **Cyclone readiness:** show secured roofs/equipment/vegetation and access
+- **Operations:** show real work appropriate to the target space without changing layout
 
-**Important:** every frame is a separate image. Do not put eight angles inside one single image unless explicitly requested.
+# 11. MASTER IMAGE PROMPT
 
-# 11. SPECIAL CONDITION VIEWS
+> Create a **[VIEW TYPE]** image of **Internal Access Spines, Biosecurity Buffers, Headlands & Swales** in the 5.5-hectare Self-Sufficient Eco Farm. Read the target IMAGE.md, ARCHITECTURE.md, BLUEPRINT.md, SPACE.md, engineering-system files, L1 Coordinate Master Plan and relevant skills first. Preserve south strip 1000 m² + middle strip 1000 m² + north strip 1000 m²; west-side distributed system. The target space must dominate the image and include South access/buffer strip; Middle access/buffer strip; North access/buffer strip; Clean internal spine; Swales; Headlands/turning; Utility corridor. Show only small contextual glimpses of neighboring spaces, not full neighboring designs: north = north strip serving house/admin and north production band; south = south strip connected to main clean gate and south band; east = adjacent production/service zones served by each strip; west = perimeter fire/service road/internal-core west edge. Neighbor context should normally be about 5–15% of the visible edge/context. Preserve the same permanent geometry across every angle. Do not show vacant waste-land look; random buildings; ornamental park; dirty traffic dominating clean spine; blocked swales. One image = one angle.
 
-## Night / security
-- practical road/security lighting only
-- visible CCTV/gate/security logic where relevant
-- critical operations illuminated, not entertainment lighting
-- preserve dark areas where lighting is unnecessary for animals/pollinators
+# 12. VALIDATION
 
-## Monsoon / heavy rain
-- show drains/swales/roof runoff/water containment working
-- access should remain functional unless a failure scenario is requested
-- no random floodwater in clean/critical spaces
-
-## Cyclone / high-wind readiness
-- secured roofs/equipment
-- trimmed/managed vegetation
-- clear emergency/service routes
-- no implication that an image alone proves structural certification
-
-## Operations-in-action
-Show real work relevant to this space: feeding, harvesting, loading, washing, checking water, inspecting equipment, packing, maintaining or monitoring.
-
-# 12. "ANOTHER SIDE" BEHAVIOR
-
-If the user asks:
-- **another side** → choose the next cardinal side not yet shown
-- **opposite side** → move camera 180° around the space
-- **back side** → show the operational/rear side opposite the primary frontage
-- **left side/right side** → translate to a cardinal direction from the current approved camera, then state that direction
-- **top view** → true vertical top-down
-- **3D top view** → high aerial oblique, not orthographic
-- **front view** → clean internal spine from main gate toward north, showing swale and functional separation
-- **all angles** → generate separate NW, NE, SE, SW, north, south, east and west images
-
-# 13. MASTER PROMPT TEMPLATE
-
-> Create a **[VIEW TYPE]** image of **Internal Access Spines, Biosecurity Buffers, Headlands & Swales** in the 5.5-hectare Self-Sufficient Eco Farm. Read and follow this space's linked README, ARCHITECTURE, SPACE, DESIGN, DETAILS, UTILITIES and the farm L1 Coordinate Master Plan before generating. The accepted parent space is distributed west-side strips plus support functions; clean internal spine concept X 16–21 m through internal core. North context: north access/buffer strip beside house/crops/orchard band. South context: main clean gate connection and south access/buffer strip. East context: multiple adjacent farm zones served/separated by the distributed strip system. West context: west internal edge and main clean access side. The space must visibly contain clean internal road/spine; vegetated drainage swales; biosecurity separation; headlands/turning areas; utility corridor; functional buffer rather than empty land. The image must not contain vacant waste-land appearance; random buildings consuming the buffer; ornamental park treatment; dirty-heavy traffic dominating clean spine; blocked swales. Preserve identical permanent geometry across every angle. Show realistic Bangladesh farm materials, climate, scale, drainage, service access, biosecurity and maintenance logic. One image = one angle.
-
-# 14. FINAL IMAGE VALIDATION
-
-- [ ] Correct parent space and L1 placement
-- [ ] Correct requested camera direction
-- [ ] All four edge relationships remain believable
-- [ ] Permanent geometry matches previous approved views
-- [ ] Main identity elements are visible
-- [ ] Access/service path is plausible
-- [ ] Drainage/water logic is plausible
-- [ ] Utilities/safety are represented appropriately
-- [ ] No prohibited element was introduced
-- [ ] No extra pond/building/road/land was invented
-- [ ] The image can be matched to the top view and other angles as the same real place
+- [ ] target space dominates
+- [ ] internal architecture matches ARCHITECTURE.md
+- [ ] top/blueprint matches BLUEPRINT.md
+- [ ] north neighbor is correct
+- [ ] south neighbor is correct
+- [ ] east neighbor is correct
+- [ ] west neighbor is correct
+- [ ] neighboring spaces are only small context, not fully rendered
+- [ ] no mirroring/swapping of cardinal sides
+- [ ] all permanent objects remain consistent across angles
+- [ ] prohibited features are absent

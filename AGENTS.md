@@ -62,3 +62,13 @@ For any question about what a space can produce, how many animals/crops it can s
 ## Per-space engineering system rule
 
 Every physical space must maintain dedicated documents for BLUEPRINT, SPACE_MANAGEMENT, DRAINAGE, WATER_SYSTEM, ELECTRICAL, CCTV_SECURITY, LIGHTING, and SAFETY. The content is space-specific; do not copy the house system literally into crops, animals, canal, processing, or utilities.
+
+## Individual-space blueprint rule
+
+For any `spaces/*/BLUEPRINT.md` task:
+1. Load `.agents/skills/eco-farm-space-blueprint/SKILL.md`.
+2. Read the target `ARCHITECTURE.md` area schedule.
+3. Draw the target space fully.
+4. Show neighboring north/south/east/west spaces only as small 5–15% context strips unless a multi-space plan is explicitly requested.
+5. Keep context strips lighter/greyed/hatched and exclude them from target area calculations.
+6. Finish with `eco-farm-quality-gate`.
